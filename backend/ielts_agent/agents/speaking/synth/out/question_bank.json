@@ -1,0 +1,604 @@
+{
+ "schema": "speaking-qbank-1.0",
+ "seed": 20261030,
+ "generated_at": "2026-10-30T14:15:48+00:00",
+ "source": "llm_generated_verified",
+ "license": "CC0-1.0",
+ "author": "synth/speaking",
+ "note": "Sinh bằng LLM, không lấy từ đề thi IELTS chính thức hay sách luyện thi. Mỗi lệnh gọi ghi ở 'calls'. ID và icon do code gán từ tên, không lấy từ đầu ra model.",
+ "calls": [
+  {
+   "prompt_id": "P6q1",
+   "prompt_version": "sp_qbank_part1_v1",
+   "job_id": "f4700c78dd31ba72193ec4e77e657347",
+   "model": "qwen/qwen3.8-27b",
+   "seed": 83059564784756,
+   "produced": [
+    "daily-routines",
+    "local-environment",
+    "reading-habits"
+   ]
+  },
+  {
+   "prompt_id": "P6q1",
+   "prompt_version": "sp_qbank_part1_v1",
+   "job_id": "5741c4fe6ae13372d4a15eaa1ace006d",
+   "model": "qwen/qwen3.8-27b",
+   "seed": 3594480226283,
+   "produced": [
+    "culinary",
+    "leisure-technology",
+    "gift-selection"
+   ]
+  },
+  {
+   "prompt_id": "P6q2",
+   "prompt_version": "sp_qbank_part2_v1",
+   "job_id": "6b428c43e1e792956cd6bd60cafac2fc",
+   "model": "qwen/qwen3.8-27b",
+   "seed": 71708369348687,
+   "produced": [
+    "part2-memorable-gift",
+    "part2-busy-day-out",
+    "part2-useful-app",
+    "part2-quiet-place"
+   ]
+  },
+  {
+   "prompt_id": "P6q2",
+   "prompt_version": "sp_qbank_part2_v1",
+   "job_id": "5b20b23199f01a693746e7da84cfe602",
+   "model": "openai/gpt-oss-120b",
+   "seed": 91277195540385,
+   "produced": [
+    "part2-first-day-at",
+    "part2-memorable-meal",
+    "part2-challenging",
+    "part2-favorite"
+   ]
+  },
+  {
+   "prompt_id": "P6q2",
+   "prompt_version": "sp_qbank_part2_v1",
+   "job_id": "329f9faa2cace59df5c327ae66d19064",
+   "model": "qwen/qwen3.8-27b",
+   "seed": 7248869344091,
+   "produced": [
+    "part2-talented-person",
+    "part2-unusual-travel"
+   ]
+  },
+  {
+   "prompt_id": "P6q3",
+   "prompt_version": "sp_qbank_part3_v1",
+   "job_id": "0dce39daab3f31d98f77f0c54c3bea75",
+   "model": "qwen/qwen3.8-27b",
+   "seed": 173443923804965,
+   "produced": [
+    "part2-memorable-gift"
+   ]
+  },
+  {
+   "prompt_id": "P6q3",
+   "prompt_version": "sp_qbank_part3_v1",
+   "job_id": "54c2053eac02f28fb90046d83e63ba85",
+   "model": "openai/gpt-oss-120b",
+   "seed": 267269775402023,
+   "produced": [
+    "part2-busy-day-out"
+   ]
+  },
+  {
+   "prompt_id": "P6q3",
+   "prompt_version": "sp_qbank_part3_v1",
+   "job_id": "db25e6bd1c79adbd3d58cc655da87ef5",
+   "model": "openai/gpt-oss-120b",
+   "seed": 204184389767612,
+   "produced": [
+    "part2-useful-app"
+   ]
+  },
+  {
+   "prompt_id": "P6q3",
+   "prompt_version": "sp_qbank_part3_v1",
+   "job_id": "8a3c8d2351a5dac0ab4fbdae9cd91e0c",
+   "model": "qwen/qwen3.8-27b",
+   "seed": 142721437720067,
+   "produced": [
+    "part2-quiet-place"
+   ]
+  },
+  {
+   "prompt_id": "P6q3",
+   "prompt_version": "sp_qbank_part3_v1",
+   "job_id": "ca573469a8edd82df6278017a418e40f",
+   "model": "qwen/qwen3.8-27b",
+   "seed": 277694338520468,
+   "produced": [
+    "part2-first-day-at"
+   ]
+  },
+  {
+   "prompt_id": "P6q3",
+   "prompt_version": "sp_qbank_part3_v1",
+   "job_id": "a4761bab09296691bb16a0e14973661c",
+   "model": "qwen/qwen3.8-27b",
+   "seed": 161041611153431,
+   "produced": [
+    "part2-memorable-meal"
+   ]
+  },
+  {
+   "prompt_id": "P6q3",
+   "prompt_version": "sp_qbank_part3_v1",
+   "job_id": "2f94d4690c1e3288a7031b2f019e6a48",
+   "model": "qwen/qwen3.8-27b",
+   "seed": 193326424357760,
+   "produced": [
+    "part2-challenging"
+   ]
+  },
+  {
+   "prompt_id": "P6q3",
+   "prompt_version": "sp_qbank_part3_v1",
+   "job_id": "67a5f4f02c916a4e6d675a35ba001dff",
+   "model": "openai/gpt-oss-120b",
+   "seed": 30439937730281,
+   "produced": [
+    "part2-favorite"
+   ]
+  },
+  {
+   "prompt_id": "P6q3",
+   "prompt_version": "sp_qbank_part3_v1",
+   "job_id": "ef41a4472cd74018269d072f73d611cc",
+   "model": "openai/gpt-oss-120b",
+   "seed": 112084010201896,
+   "produced": [
+    "part2-talented-person"
+   ]
+  },
+  {
+   "prompt_id": "P6q3",
+   "prompt_version": "sp_qbank_part3_v1",
+   "job_id": "52cde426db76c9a376f0c7e6b438a046",
+   "model": "openai/gpt-oss-120b",
+   "seed": 109794987312762,
+   "produced": [
+    "part2-unusual-travel"
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "id": "daily-routines",
+   "name": "Daily Routines",
+   "icon": "graduation-cap",
+   "questions": [
+    "What time do you usually wake up on weekdays?",
+    "Do you prefer starting your day with exercise or a meal?",
+    "How do you typically spend your lunch break at work or school?",
+    "What is the last thing you do before going to bed?",
+    "Do you often change your daily schedule when the weekend arrives?",
+    "Which part of your routine takes the most time each day?"
+   ]
+  },
+  {
+   "id": "local-environment",
+   "name": "Local Environment",
+   "icon": "house",
+   "questions": [
+    "Is the area where you live a busy or quiet place?",
+    "Do you prefer living in a city center or the suburbs?",
+    "What kind of shops are available near your home?",
+    "How do you usually travel to your favorite local spots?",
+    "Do you think your neighborhood has changed much in recent years?",
+    "What is one improvement you would make to your local area?"
+   ]
+  },
+  {
+   "id": "reading-habits",
+   "name": "Reading Habits",
+   "icon": "headphones",
+   "questions": [
+    "Do you prefer reading printed books or digital versions?",
+    "What type of stories or articles do you enjoy reading most?",
+    "When did you last read a book for fun?",
+    "Do you read more during holidays or during the school year?",
+    "Why do you think some people stop reading in their twenties?",
+    "Do you ever recommend books to your friends or family?"
+   ]
+  },
+  {
+   "id": "culinary",
+   "name": "Culinary Preferences",
+   "icon": "utensils",
+   "questions": [
+    "What is the most popular meal you prepare at home?",
+    "Do you prefer eating out with friends or alone?",
+    "Have you tried cooking a dish from a different country recently?",
+    "What food item do you avoid eating and why?",
+    "How often do you shop for groceries in a physical store?",
+    "Which cuisine would you like to learn to cook next?"
+   ]
+  },
+  {
+   "id": "leisure-technology",
+   "name": "Leisure Technology",
+   "icon": "plane",
+   "questions": [
+    "Which social media platform do you check most frequently?",
+    "Do you prefer listening to music or podcasts during your commute?",
+    "How much screen time do you typically have on a weekday?",
+    "What type of video game would you enjoy playing for fun?",
+    "Have you ever stopped using an app you previously loved?",
+    "Do you think technology makes leisure activities more or less enjoyable?"
+   ]
+  },
+  {
+   "id": "gift-selection",
+   "name": "Gift Selection",
+   "icon": "briefcase",
+   "questions": [
+    "What was the best present you received in the past year?",
+    "Do you enjoy the process of choosing gifts for others?",
+    "What kind of item do you think makes a thoughtful gift?",
+    "Have you ever given a gift that someone did not like?",
+    "Would you prefer a cash gift or a physical object?",
+    "When is the best time of year to buy presents for family?"
+   ]
+  }
+ ],
+ "cue_cards": [
+  {
+   "id": "part2-memorable-gift",
+   "part": 2,
+   "title": "Memorable Gift",
+   "text": "Describe a gift that you received which you still treasure.",
+   "points": [
+    "who gave it to you",
+    "what the item looks like",
+    "when you received it"
+   ],
+   "explain": "and explain why it remains so important to you."
+  },
+  {
+   "id": "part2-busy-day-out",
+   "part": 2,
+   "title": "Busy Day Out",
+   "text": "Describe a time you spent a full day away from home.",
+   "points": [
+    "where you went that day",
+    "what activities you did there",
+    "who you were with"
+   ],
+   "explain": "and explain how you felt after the trip."
+  },
+  {
+   "id": "part2-useful-app",
+   "part": 2,
+   "title": "Useful App",
+   "text": "Describe a mobile application that helps you in your daily life.",
+   "points": [
+    "what the app does for you",
+    "how often you use it",
+    "when you first installed it"
+   ],
+   "explain": "and explain why you find it so useful."
+  },
+  {
+   "id": "part2-quiet-place",
+   "part": 2,
+   "title": "Quiet Place",
+   "text": "Describe a place in your city where you can relax.",
+   "points": [
+    "where the place is located",
+    "what it looks like inside",
+    "how you usually get there"
+   ],
+   "explain": "and explain why you enjoy spending time there."
+  },
+  {
+   "id": "part2-first-day-at",
+   "part": 2,
+   "title": "First Day at University",
+   "text": "Describe your first day at university.",
+   "points": [
+    "your expectations",
+    "the people you met",
+    "the activities you did"
+   ],
+   "explain": "and explain how this experience influenced your confidence."
+  },
+  {
+   "id": "part2-memorable-meal",
+   "part": 2,
+   "title": "A Memorable Meal",
+   "text": "Describe a memorable meal you have had.",
+   "points": [
+    "where you ate",
+    "who was with you",
+    "what made it special"
+   ],
+   "explain": "and explain why it left a lasting impression on you."
+  },
+  {
+   "id": "part2-challenging",
+   "part": 2,
+   "title": "A Challenging Project",
+   "text": "Describe a challenging project you worked on.",
+   "points": [
+    "the goal of the project",
+    "the obstacles you faced",
+    "the outcome"
+   ],
+   "explain": "and explain how you felt after completing it."
+  },
+  {
+   "id": "part2-favorite",
+   "part": 2,
+   "title": "A Favorite Seasonal Festival",
+   "text": "Describe a favorite seasonal festival you celebrate.",
+   "points": [
+    "the time of year",
+    "the traditions involved",
+    "the people you celebrate with"
+   ],
+   "explain": "and explain what the festival means to you."
+  },
+  {
+   "id": "part2-talented-person",
+   "part": 2,
+   "title": "A Talented Person",
+   "text": "Describe a person you know who is particularly talented in a specific skill.",
+   "points": [
+    "who the person is",
+    "what their specific talent is",
+    "how they learned this skill"
+   ],
+   "explain": "and explain why you admire this individual."
+  },
+  {
+   "id": "part2-unusual-travel",
+   "part": 2,
+   "title": "Unusual Travel Destination",
+   "text": "Describe a place you visited that was different from what you expected.",
+   "points": [
+    "where the location is",
+    "what you expected to see",
+    "what actually happened there"
+   ],
+   "explain": "and explain why the experience was surprising."
+  }
+ ],
+ "part3_bank": {
+  "part2-memorable-gift": [
+   "Do children today value physical objects more than their parents did?",
+   "How have digital platforms changed the way people choose gifts for others?",
+   "Why might some individuals prefer receiving experiences over material possessions?",
+   "What role do shared memories play in determining the long-term value of a gift?",
+   "Will the concept of material ownership become less significant in the future?"
+  ],
+  "part2-busy-day-out": [
+   "How do short trips away from home influence people's stress levels and overall well‑being?",
+   "In what ways do the types of activities people choose on a day trip reflect cultural values or societal trends?",
+   "Why might people prefer traveling with friends or family rather than alone for a single‑day outing?",
+   "How has the popularity of day‑trips changed compared with longer vacations over the past few decades?",
+   "What future developments could make one‑day excursions more accessible or appealing to a wider population?"
+  ],
+  "part2-useful-app": [
+   "How have mobile applications changed the way people organise their daily schedules compared to a decade ago?",
+   "What impact do location‑based services in apps have on consumers' purchasing decisions?",
+   "In what ways might reliance on health‑tracking apps affect individuals' attitudes towards personal fitness?",
+   "Do you think the growing popularity of multifunctional apps could widen the gap between tech‑savvy and less‑experienced users?",
+   "How might future developments in artificial intelligence reshape the role of mobile apps in everyday life?"
+  ],
+  "part2-quiet-place": [
+   "Do you think urban parks are more effective for mental well-being than indoor recreational facilities?",
+   "How have the types of leisure spaces available to city residents changed over the past few decades?",
+   "In what ways do social media platforms influence the way people select locations for relaxation?",
+   "Is it likely that private relaxation spaces will become less important in the future due to remote work trends?",
+   "What role does access to green spaces play in reducing inequality in urban environments?"
+  ],
+  "part2-first-day-at": [
+   "What kinds of social events do universities typically organize to help new students settle in?",
+   "Do you think first-year students today face more academic pressure than those from previous generations?",
+   "In what ways does moving away from home affect a young person's sense of independence?",
+   "Should universities provide specific mental health support during a student's initial weeks on campus?",
+   "How might virtual learning environments change the traditional experience of starting university?"
+  ],
+  "part2-memorable-meal": [
+   "How do the ingredients used in traditional family feasts differ from those in modern restaurants?",
+   "Do you think people appreciate communal dining more than they did in previous generations?",
+   "In what ways has technology changed the way individuals socialize around food?",
+   "Why might some cultures prioritize the emotional significance of a meal over its nutritional value?",
+   "Do you believe that the importance of shared meals will decline as lifestyles become more individualistic?"
+  ],
+  "part2-challenging": [
+   "What specific skills do people need to overcome unexpected technical problems?",
+   "Are modern teams better at handling complex issues than those from previous generations?",
+   "Why do some individuals struggle more with high-pressure work environments than others?",
+   "How might the nature of workplace challenges change as artificial intelligence becomes common?",
+   "Is it possible to be truly successful in one's career without facing major setbacks?"
+  ],
+  "part2-favorite": [
+   "How do communities typically organize activities during seasonal festivals?",
+   "In what ways do traditional foods influence the celebration of seasonal festivals?",
+   "Why do people tend to gather with family and friends during these festivals?",
+   "How have modern technologies changed the way seasonal festivals are observed compared with the past?",
+   "What impact might the commercialization of seasonal festivals have on cultural identity in the future?"
+  ],
+  "part2-talented-person": [
+   "What factors contribute to a person developing exceptional talent in a particular skill?",
+   "How does the learning environment influence the speed at which someone acquires a specific ability?",
+   "In what ways do cultural attitudes shape the recognition and encouragement of gifted individuals?",
+   "How have opportunities for nurturing talent changed compared with a generation ago?",
+   "What impact might advances in technology have on the future development of specialized skills?"
+  ],
+  "part2-unusual-travel": [
+   "What factors usually cause tourists' expectations to differ from the reality of a destination?",
+   "How do travel guides and media influence people's preconceived ideas about places they have never visited?",
+   "In what ways can unexpected experiences while traveling affect a traveller's attitude towards future trips?",
+   "How might cultural differences between visitors and locals shape the perception of a place’s authenticity?",
+   "Do you think the rise of virtual reality tours will change how people form expectations about real-world locations in the future?"
+  ]
+ },
+ "exam_sets": [
+  {
+   "id": "set-00",
+   "part1_topics": [
+    "reading-habits",
+    "daily-routines"
+   ],
+   "cue_card_id": "part2-memorable-gift",
+   "part3_fallback_questions": [
+    "Do children today value physical objects more than their parents did?",
+    "How have digital platforms changed the way people choose gifts for others?",
+    "Why might some individuals prefer receiving experiences over material possessions?",
+    "What role do shared memories play in determining the long-term value of a gift?",
+    "Will the concept of material ownership become less significant in the future?"
+   ]
+  },
+  {
+   "id": "set-01",
+   "part1_topics": [
+    "culinary",
+    "gift-selection"
+   ],
+   "cue_card_id": "part2-busy-day-out",
+   "part3_fallback_questions": [
+    "How do short trips away from home influence people's stress levels and overall well‑being?",
+    "In what ways do the types of activities people choose on a day trip reflect cultural values or societal trends?",
+    "Why might people prefer traveling with friends or family rather than alone for a single‑day outing?",
+    "How has the popularity of day‑trips changed compared with longer vacations over the past few decades?",
+    "What future developments could make one‑day excursions more accessible or appealing to a wider population?"
+   ]
+  },
+  {
+   "id": "set-02",
+   "part1_topics": [
+    "leisure-technology",
+    "local-environment"
+   ],
+   "cue_card_id": "part2-useful-app",
+   "part3_fallback_questions": [
+    "How have mobile applications changed the way people organise their daily schedules compared to a decade ago?",
+    "What impact do location‑based services in apps have on consumers' purchasing decisions?",
+    "In what ways might reliance on health‑tracking apps affect individuals' attitudes towards personal fitness?",
+    "Do you think the growing popularity of multifunctional apps could widen the gap between tech‑savvy and less‑experienced users?",
+    "How might future developments in artificial intelligence reshape the role of mobile apps in everyday life?"
+   ]
+  },
+  {
+   "id": "set-03",
+   "part1_topics": [
+    "culinary",
+    "local-environment"
+   ],
+   "cue_card_id": "part2-quiet-place",
+   "part3_fallback_questions": [
+    "Do you think urban parks are more effective for mental well-being than indoor recreational facilities?",
+    "How have the types of leisure spaces available to city residents changed over the past few decades?",
+    "In what ways do social media platforms influence the way people select locations for relaxation?",
+    "Is it likely that private relaxation spaces will become less important in the future due to remote work trends?",
+    "What role does access to green spaces play in reducing inequality in urban environments?"
+   ]
+  },
+  {
+   "id": "set-04",
+   "part1_topics": [
+    "gift-selection",
+    "reading-habits"
+   ],
+   "cue_card_id": "part2-first-day-at",
+   "part3_fallback_questions": [
+    "What kinds of social events do universities typically organize to help new students settle in?",
+    "Do you think first-year students today face more academic pressure than those from previous generations?",
+    "In what ways does moving away from home affect a young person's sense of independence?",
+    "Should universities provide specific mental health support during a student's initial weeks on campus?",
+    "How might virtual learning environments change the traditional experience of starting university?"
+   ]
+  },
+  {
+   "id": "set-05",
+   "part1_topics": [
+    "daily-routines",
+    "leisure-technology"
+   ],
+   "cue_card_id": "part2-memorable-meal",
+   "part3_fallback_questions": [
+    "How do the ingredients used in traditional family feasts differ from those in modern restaurants?",
+    "Do you think people appreciate communal dining more than they did in previous generations?",
+    "In what ways has technology changed the way individuals socialize around food?",
+    "Why might some cultures prioritize the emotional significance of a meal over its nutritional value?",
+    "Do you believe that the importance of shared meals will decline as lifestyles become more individualistic?"
+   ]
+  },
+  {
+   "id": "set-06",
+   "part1_topics": [
+    "daily-routines",
+    "gift-selection"
+   ],
+   "cue_card_id": "part2-challenging",
+   "part3_fallback_questions": [
+    "What specific skills do people need to overcome unexpected technical problems?",
+    "Are modern teams better at handling complex issues than those from previous generations?",
+    "Why do some individuals struggle more with high-pressure work environments than others?",
+    "How might the nature of workplace challenges change as artificial intelligence becomes common?",
+    "Is it possible to be truly successful in one's career without facing major setbacks?"
+   ]
+  },
+  {
+   "id": "set-07",
+   "part1_topics": [
+    "local-environment",
+    "reading-habits"
+   ],
+   "cue_card_id": "part2-favorite",
+   "part3_fallback_questions": [
+    "How do communities typically organize activities during seasonal festivals?",
+    "In what ways do traditional foods influence the celebration of seasonal festivals?",
+    "Why do people tend to gather with family and friends during these festivals?",
+    "How have modern technologies changed the way seasonal festivals are observed compared with the past?",
+    "What impact might the commercialization of seasonal festivals have on cultural identity in the future?"
+   ]
+  },
+  {
+   "id": "set-08",
+   "part1_topics": [
+    "culinary",
+    "leisure-technology"
+   ],
+   "cue_card_id": "part2-talented-person",
+   "part3_fallback_questions": [
+    "What factors contribute to a person developing exceptional talent in a particular skill?",
+    "How does the learning environment influence the speed at which someone acquires a specific ability?",
+    "In what ways do cultural attitudes shape the recognition and encouragement of gifted individuals?",
+    "How have opportunities for nurturing talent changed compared with a generation ago?",
+    "What impact might advances in technology have on the future development of specialized skills?"
+   ]
+  },
+  {
+   "id": "set-09",
+   "part1_topics": [
+    "reading-habits",
+    "leisure-technology"
+   ],
+   "cue_card_id": "part2-unusual-travel",
+   "part3_fallback_questions": [
+    "What factors usually cause tourists' expectations to differ from the reality of a destination?",
+    "How do travel guides and media influence people's preconceived ideas about places they have never visited?",
+    "In what ways can unexpected experiences while traveling affect a traveller's attitude towards future trips?",
+    "How might cultural differences between visitors and locals shape the perception of a place’s authenticity?",
+    "Do you think the rise of virtual reality tours will change how people form expectations about real-world locations in the future?"
+   ]
+  }
+ ],
+ "selection_rule": {
+  "part1": "Mỗi bộ đề lấy đúng part1_topics_per_set chủ đề. Loại trước các chủ đề trùng đề tài với cue card của bộ (giao từ nội dung từ 4 ký tự trở lên), rồi ưu tiên chủ đề đang được dùng ít nhất để sáu chủ đề xuất hiện đều nhau, và không lặp lại một cặp chủ đề đã dùng ở bộ khác.",
+  "part2": "Mỗi cue card đúng một bộ đề, theo thứ tự trong bank.",
+  "part3": "Câu Part 3 trong bộ đề là KHO DỰ PHÒNG (UC-05). Khi thi, agent sinh câu Part 3 bám câu trả lời thật của thí sinh (P6a3); kho này chỉ dùng khi không bám được ý nào, và không dùng để đo tiêu chí nghiệm thu UC-04.",
+  "per_session": "Trong một phiên, chọn benchmark.part1_questions_per_topic câu trong số questions_per_topic câu của mỗi chủ đề, theo seed của phiên. Cấu trúc đề cố định ở mức bank, phần đổi giữa các phiên là tập con câu hỏi."
+ }
+}

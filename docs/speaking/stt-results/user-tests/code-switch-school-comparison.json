@@ -1,0 +1,246 @@
+{
+  "source_answer_id": "dc0afd97-330d-46a5-94ce-ab715ac37606",
+  "expected_user_report": "I'm studying at Ngô Gia Tự High School",
+  "results": [
+    {
+      "trial": "turbo-auto",
+      "model": "whisper-large-v3-turbo",
+      "prompt": null,
+      "text": " Tôi đang học hiện tại Ngôi Dê Tự HIGH SCHOOL",
+      "language": "Vietnamese",
+      "words": [
+        {
+          "word": "Tôi",
+          "start": 2.76,
+          "end": 2.9
+        },
+        {
+          "word": "đang",
+          "start": 2.9,
+          "end": 3.16
+        },
+        {
+          "word": "học",
+          "start": 3.16,
+          "end": 3.44
+        },
+        {
+          "word": "hiện",
+          "start": 3.44,
+          "end": 3.58
+        },
+        {
+          "word": "tại",
+          "start": 3.58,
+          "end": 4.76
+        },
+        {
+          "word": "Ngôi",
+          "start": 4.76,
+          "end": 6
+        },
+        {
+          "word": "Dê",
+          "start": 6,
+          "end": 6.14
+        },
+        {
+          "word": "Tự",
+          "start": 6.14,
+          "end": 6.3
+        },
+        {
+          "word": "HIGH",
+          "start": 6.3,
+          "end": 6.64
+        },
+        {
+          "word": "SCHOOL",
+          "start": 6.64,
+          "end": 7.1
+        }
+      ],
+      "seconds": 0.935
+    },
+    {
+      "trial": "v3-auto",
+      "model": "whisper-large-v3",
+      "prompt": null,
+      "text": " I'm currently a student in Ngoi Gia Tuk High School.",
+      "language": "English",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 0,
+          "end": 3.06
+        },
+        {
+          "word": "currently",
+          "start": 3.06,
+          "end": 3.76
+        },
+        {
+          "word": "a",
+          "start": 3.76,
+          "end": 4.1
+        },
+        {
+          "word": "student",
+          "start": 4.1,
+          "end": 4.78
+        },
+        {
+          "word": "in",
+          "start": 4.78,
+          "end": 5.66
+        },
+        {
+          "word": "Ngoi",
+          "start": 5.66,
+          "end": 6.06
+        },
+        {
+          "word": "Gia",
+          "start": 6.06,
+          "end": 6.18
+        },
+        {
+          "word": "Tuk",
+          "start": 6.18,
+          "end": 6.34
+        },
+        {
+          "word": "High",
+          "start": 6.34,
+          "end": 6.62
+        },
+        {
+          "word": "School.",
+          "start": 6.62,
+          "end": 7.14
+        }
+      ],
+      "seconds": 1.805
+    },
+    {
+      "trial": "v3-names",
+      "model": "whisper-large-v3",
+      "prompt": "Ngô Gia Tự",
+      "text": " I'm currently a student in Gô Gia Tự High School.",
+      "language": "English",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 0,
+          "end": 3.06
+        },
+        {
+          "word": "currently",
+          "start": 3.06,
+          "end": 3.74
+        },
+        {
+          "word": "a",
+          "start": 3.74,
+          "end": 4.08
+        },
+        {
+          "word": "student",
+          "start": 4.08,
+          "end": 4.72
+        },
+        {
+          "word": "in",
+          "start": 4.72,
+          "end": 5.6
+        },
+        {
+          "word": "Gô",
+          "start": 5.6,
+          "end": 5.96
+        },
+        {
+          "word": "Gia",
+          "start": 5.96,
+          "end": 6.16
+        },
+        {
+          "word": "Tự",
+          "start": 6.16,
+          "end": 6.32
+        },
+        {
+          "word": "High",
+          "start": 6.32,
+          "end": 6.62
+        },
+        {
+          "word": "School.",
+          "start": 6.62,
+          "end": 7.08
+        }
+      ],
+      "seconds": 0.718
+    },
+    {
+      "trial": "v3-verbatim",
+      "model": "whisper-large-v3",
+      "prompt": "Transcribe verbatim in the original spoken languages. Do not translate. Ngô Gia Tự.",
+      "text": " I'm currently a student in Ngo Gia Tự High School.",
+      "language": "English",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 0,
+          "end": 3.06
+        },
+        {
+          "word": "currently",
+          "start": 3.06,
+          "end": 3.76
+        },
+        {
+          "word": "a",
+          "start": 3.76,
+          "end": 4.08
+        },
+        {
+          "word": "student",
+          "start": 4.08,
+          "end": 4.74
+        },
+        {
+          "word": "in",
+          "start": 4.74,
+          "end": 5.52
+        },
+        {
+          "word": "Ngo",
+          "start": 5.52,
+          "end": 5.96
+        },
+        {
+          "word": "Gia",
+          "start": 5.96,
+          "end": 6.16
+        },
+        {
+          "word": "Tự",
+          "start": 6.16,
+          "end": 6.34
+        },
+        {
+          "word": "High",
+          "start": 6.34,
+          "end": 6.62
+        },
+        {
+          "word": "School.",
+          "start": 6.62,
+          "end": 7.06
+        }
+      ],
+      "seconds": 0.488
+    }
+  ]
+}

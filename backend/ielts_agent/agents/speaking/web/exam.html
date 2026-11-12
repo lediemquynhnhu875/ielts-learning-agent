@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Thi thử Speaking · Speaking Studio</title>
+  <link rel="stylesheet" href="/static/styles.css"><link rel="stylesheet" href="/static/exam.css">
+  <script defer src="/static/feedback.js"></script>
+  <script defer src="/static/exam.js"></script>
+</head>
+<body class="exam-page">
+  <header class="topbar"><a href="/" class="brand">Speaking<span class="brand-light"> Studio</span></a><span class="course">Thi thử Speaking</span><a href="/" class="practice-link">Luyện từng câu ↗</a></header>
+  <main class="exam-main">
+    <div class="eyebrow">IELTS SPEAKING · MOCK EXAM</div><h1>Một phiên thi, ba phần nói.</h1>
+    <p class="exam-intro">Đi lần lượt qua chủ đề quen thuộc, bài nói dài và thảo luận đào sâu từ chính câu trả lời của bạn.</p>
+    <div id="exam-error" class="notice error" role="alert" hidden></div>
+    <section id="setup" class="exam-card">
+      <h2>Bắt đầu phiên thi</h2>
+      <div class="setup-grid"><div><label for="exam-mode">Loại phiên</label><select id="exam-mode"><option value="voice">Thi thử · ghi âm từng câu trả lời</option><option value="text">Luyện gõ chữ · không phải thi thử, dùng khi chưa có Groq API key</option></select></div>
+      <div><label for="exam-topic">Chủ đề Part 2</label><select id="exam-topic"></select></div></div>
+      <p id="setup-mode-note" class="muted">Thi thử Speaking chỉ nhận câu trả lời nói: mỗi lượt bạn ghi âm, Groq chép lại rồi mới chấm. Phiên luyện gõ chữ được ghi là <code>kind=practice</code> và không có điểm Pronunciation, tốc độ hay khoảng ngừng.</p>
+      <p id="setup-stt-warning" class="notice" role="status" hidden></p>
+      <label class="consent"><input id="save-audio" type="checkbox" disabled> Lưu audio trên máy này để nghe lại sau khi tải lại trang</label>
+      <p class="muted">Transcript và tiến độ được lưu local để tiếp tục phiên. Audio chỉ lưu khi bạn chọn; nếu không, hệ thống chỉ giữ transcript sau khi gửi bài.</p>
+      <button id="start-exam" class="button primary">Bắt đầu thi thử →</button>
+    </section>
+    <div id="exam-active" hidden>
+      <div class="exam-toolbar"><nav class="exam-steps" aria-label="Tiến trình"><span data-part="part1">01 · Part 1</span><span data-part="part2">02 · Part 2</span><span data-part="part3">03 · Part 3</span></nav><span id="elapsed" class="muted"></span></div>
+      <div class="exam-grid">
+        <section class="exam-card question-card">
+          <div class="section-heading"><span id="exam-part" class="eyebrow"></span><span id="exam-count" class="tag"></span></div>
+          <h2 id="exam-question"></h2><ul id="exam-cue"></ul><p id="exam-explain"></p>
+          <p id="exam-grounding" class="muted" hidden></p>
+          <p id="exam-notice" class="notice" role="status" hidden></p>
+          <div id="paused-banner" class="notice" role="status" hidden><p>Phiên đang tạm dừng nên các nút ghi âm và gửi câu trả lời bị khóa. Đồng hồ phần thi không chạy trong lúc này.</p><div class="exam-actions"><button id="paused-resume" class="button primary">Tiếp tục làm bài</button></div></div>
+          <div id="stale-mode" class="notice" role="status" hidden><p>Phiên thi thử chỉ nhận câu trả lời ghi âm, còn phiên này được tạo trước khi đổi quy tắc nên đang ở chế độ gõ chữ. Chưa có câu trả lời nào nên chuyển sang ghi âm được ngay.</p><div class="exam-actions"><button id="use-voice" class="button primary">Chuyển sang ghi âm</button><button id="stale-reload" class="button text-button">Tải lại phiên</button></div></div>
+          <div id="exam-preparation" hidden><div class="exam-clock"><span id="phase-label">Part 2</span><strong id="exam-clock">01:00 / 02:00</strong></div><div class="exam-actions"><button id="exam-prepare" class="button secondary">Chuẩn bị 1 phút</button><button id="exam-speak" class="button secondary">Bắt đầu nói</button></div><label for="exam-notes">Ghi chú chuẩn bị · không gửi để chấm</label><textarea id="exam-notes" rows="2" maxlength="2000"></textarea></div>
+          <div id="text-answer"><label for="exam-text">Câu trả lời bằng tiếng Anh</label><textarea id="exam-text" rows="7" maxlength="16000" placeholder="Write your answer here…"></textarea><p class="muted">Phiên luyện gõ chữ không đánh giá Pronunciation, tốc độ hoặc khoảng ngừng, và không được tính là một lần thi thử.</p></div>
+          <div id="voice-answer" hidden><div class="exam-actions"><button id="exam-record" class="button secondary">Bắt đầu ghi âm</button><label class="button secondary" for="exam-file">Chọn audio</label><input id="exam-file" type="file" accept="audio/*,.webm,.m4a,.mp4,.flac" hidden><span id="record-clock">00:00</span></div><audio id="exam-playback" controls hidden></audio><a id="exam-download-draft" class="button secondary" download hidden>Tải bản thu này</a><p id="voice-status" class="muted">Audio gửi đến Groq khi bạn bấm gửi câu trả lời.</p></div>
+          <div id="exam-vocabulary-wrap" class="transcription-options" hidden><label for="exam-vocabulary">Tên riêng cần nhận dạng (tùy chọn)</label><input id="exam-vocabulary" maxlength="400" placeholder="Ví dụ: Ngô Gia Tự"><p>Chỉ gợi ý cách viết tên riêng, không nhập câu trả lời mẫu.</p></div>
+          <div class="transcription-options" id="exam-pronunciation-wrap"><label><input type="checkbox" id="exam-pronunciation-consent" disabled> Gửi bản thu tới Azure để nhận feedback phát âm (có thể tính phí API)</label><p id="exam-pronunciation-config">Đang kiểm tra Azure…</p></div>
+          <div class="exam-actions"><button id="exam-submit" class="button primary">Gửi câu trả lời →</button><button id="exam-pause" class="button text-button">Tạm dừng</button></div>
+          <button id="exam-preview" class="button text-button">Yêu cầu xem trước Part 3</button>
+        </section>
+        <aside class="exam-card progress-card"><h2>Phiên của bạn</h2><p id="session-mode" class="muted"></p><p id="checkpoint-status" role="status">Tiến độ được lưu sau mỗi lượt.</p><div class="exam-actions"><button id="exam-export" class="button secondary">Xuất JSON</button><button id="exam-reload" class="button text-button">Tải lại phiên</button><button id="exam-new" class="button text-button">Bắt đầu phiên mới</button></div><label id="session-audio-option" class="consent"><input id="session-save-audio" type="checkbox"> Lưu audio cho các câu trả lời tiếp theo</label><p id="audio-storage-note" class="muted"></p><a id="exam-download-all" class="button secondary" download hidden>Tải audio cả phiên (WAV)</a><h3>Câu trả lời đã gửi</h3><ol id="exam-history" class="exam-history"></ol></aside>
+      </div>
+      <section id="exam-result" class="exam-card" hidden><div class="section-heading"><h2>Kết quả phiên thi</h2><span id="assessment-status" class="tag"></span></div><p id="overall"></p><p id="assessment-limitations" class="muted"></p><p id="assessment-disclaimer" class="muted"></p><div id="assessment-criteria" class="criterion-grid"></div><div id="assessment-feedback"></div>
+      <section id="teacher-panel" class="review-panel" hidden>
+        <h3>Giáo viên xem lại · UC03</h3>
+        <p class="muted">Hai bản chấm lệch từ 1 band nên chưa công bố điểm. Bản demo chạy loopback và không có tài khoản giáo viên: bất kỳ ai có link phiên đều gửi được quyết định, nên đừng mở endpoint này ra ngoài máy.</p>
+        <div class="setup-grid">
+          <div><label for="teacher-id">ID giáo viên · UUID</label><input id="teacher-id" maxlength="36" placeholder="11111111-1111-1111-1111-111111111111"></div>
+          <div><label for="teacher-action">Quyết định</label><select id="teacher-action"><option value="approve">Chấp nhận khoảng A/B · lấy trung bình</option><option value="edit">Nhập band của giáo viên</option><option value="reject">Từ chối · chưa công bố điểm</option></select></div>
+        </div>
+        <div id="teacher-bands" hidden><label>Band giáo viên công bố · để trống nghĩa là không chấm tiêu chí đó</label><div id="teacher-band-grid" class="band-grid"></div></div>
+        <label for="teacher-note">Ghi chú của giáo viên</label><textarea id="teacher-note" rows="2" maxlength="2000" placeholder="Đã nghe lại audio và đối chiếu dẫn chứng…"></textarea>
+        <button id="teacher-submit" class="button secondary">Gửi quyết định của giáo viên</button>
+      </section>
+      <section id="weakness-panel" class="review-panel" hidden><h3>Hồ sơ điểm yếu · dữ liệu cho Planning Agent</h3><div id="weakness-body"></div></section>
+      <p id="grading-progress" class="notice" role="status" aria-live="polite" hidden></p><p id="grading-run" class="muted"></p><div class="exam-actions"><button id="exam-grade" class="button primary">Chạy hai giám khảo</button><button id="exam-regrade" class="button secondary">Chấm lại bằng loop mới</button><button id="exam-weakness" class="button secondary">Hồ sơ điểm yếu</button></div>
+      <p id="grading-requirements" class="muted"></p><button id="another-exam" class="button text-button">Tạo phiên khác</button></section>
+    </div>
+    <details class="exam-card capability-note"><summary>Phạm vi bản demo</summary><p id="exam-capabilities">Đang đọc trạng thái…</p><p>Đây là prototype local, chưa tích hợp tài khoản hoặc hồ sơ UC06 của nhóm. Điểm chỉ xuất hiện sau khi cấu hình model và kho Speaking descriptors, rồi qua validator. Azure cung cấp feedback phát âm tùy chọn; band IELTS PR đang chờ hiệu chỉnh.</p></details>
+  <section class="exam-card rubric-search"><h2>Tra rubric Speaking</h2><form id="rubric-form"><label for="rubric-criterion">Tiêu chí</label><select id="rubric-criterion"><option>FC</option><option>LR</option><option>GRA</option><option selected>PR</option></select><label for="rubric-query">Đặc điểm cần tra (tiếng Anh)</label><input id="rubric-query" maxlength="2000" required value="word stress rhythm intonation intelligibility"><button class="button secondary" type="submit">Tra cứu rubric</button></form><div id="rubric-results" aria-live="polite"></div></section></main>
+</body>
+</html>

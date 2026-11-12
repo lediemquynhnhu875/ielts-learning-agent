@@ -1,0 +1,134 @@
+{
+  "method": "Silero VAD via faster-whisper",
+  "settings": {
+    "threshold": 0.5,
+    "min_silence_duration_ms": 500,
+    "speech_pad_ms": 0
+  },
+  "audio_seconds": 85.5,
+  "speech_ranges": [
+    {
+      "start": 2.816,
+      "end": 8.48
+    },
+    {
+      "start": 9.024,
+      "end": 16.416
+    },
+    {
+      "start": 17.056,
+      "end": 27.04
+    },
+    {
+      "start": 27.648,
+      "end": 33.856
+    },
+    {
+      "start": 35.136,
+      "end": 39.232
+    },
+    {
+      "start": 40.128,
+      "end": 43.872
+    },
+    {
+      "start": 44.608,
+      "end": 47.424
+    },
+    {
+      "start": 48.256,
+      "end": 53.216
+    },
+    {
+      "start": 54.208,
+      "end": 58.08
+    },
+    {
+      "start": 58.72,
+      "end": 64.448
+    },
+    {
+      "start": 65.728,
+      "end": 71.808
+    },
+    {
+      "start": 72.544,
+      "end": 76.96
+    },
+    {
+      "start": 77.824,
+      "end": 81.76
+    },
+    {
+      "start": 82.88,
+      "end": 84.128
+    }
+  ],
+  "non_speech_gaps": [
+    {
+      "start": 8.48,
+      "end": 9.024,
+      "seconds": 0.544
+    },
+    {
+      "start": 16.416,
+      "end": 17.056,
+      "seconds": 0.64
+    },
+    {
+      "start": 27.04,
+      "end": 27.648,
+      "seconds": 0.608
+    },
+    {
+      "start": 33.856,
+      "end": 35.136,
+      "seconds": 1.28
+    },
+    {
+      "start": 39.232,
+      "end": 40.128,
+      "seconds": 0.896
+    },
+    {
+      "start": 43.872,
+      "end": 44.608,
+      "seconds": 0.736
+    },
+    {
+      "start": 47.424,
+      "end": 48.256,
+      "seconds": 0.832
+    },
+    {
+      "start": 53.216,
+      "end": 54.208,
+      "seconds": 0.992
+    },
+    {
+      "start": 58.08,
+      "end": 58.72,
+      "seconds": 0.64
+    },
+    {
+      "start": 64.448,
+      "end": 65.728,
+      "seconds": 1.28
+    },
+    {
+      "start": 71.808,
+      "end": 72.544,
+      "seconds": 0.736
+    },
+    {
+      "start": 76.96,
+      "end": 77.824,
+      "seconds": 0.864
+    },
+    {
+      "start": 81.76,
+      "end": 82.88,
+      "seconds": 1.12
+    }
+  ]
+}

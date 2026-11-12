@@ -1,0 +1,16 @@
+[
+  {
+    "trial": "verbatim",
+    "prompt": "Transcribe verbatim. Keep words in their original spoken languages. Do not translate.",
+    "text": "I'm currently a student in Ngô Yê Tự High School.",
+    "detected_language": "en",
+    "seconds": 11.348
+  },
+  {
+    "trial": "name_only",
+    "prompt": "Ngô Gia Tự",
+    "text": "I'm currently a student in Ngô Gia Tự High School.",
+    "detected_language": "en",
+    "seconds": 10.576
+  }
+]

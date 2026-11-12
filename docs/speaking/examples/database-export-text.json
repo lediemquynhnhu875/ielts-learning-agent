@@ -1,0 +1,1072 @@
+{
+  "schema_version": "ielts-speaking-db-1.0",
+  "tables": {
+    "LEARNER": [
+      {
+        "id": "26ab769b-7d60-41ed-ba98-71ef1ddbba1d"
+      }
+    ],
+    "SESSION": [
+      {
+        "id": "3e7725d9-4cb6-4d93-bc9f-0e43d45fbbc6",
+        "learner_id": "26ab769b-7d60-41ed-ba98-71ef1ddbba1d",
+        "kind": "mock",
+        "status": "finished",
+        "thread_id": "3a1ad08d-f1e8-470a-a4c6-6b26f27e9628"
+      }
+    ],
+    "CONTENT_ITEM": [
+      {
+        "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+        "skill": "Speaking",
+        "question_type": "speaking_session",
+        "topic": "part2-skill",
+        "target_band": null,
+        "source": "self_written",
+        "license": "unconfirmed",
+        "author": "unconfirmed",
+        "model": null,
+        "prompt_version": null,
+        "status": "spare",
+        "body": {
+          "questions": [
+            {
+              "id": "c3cbd41f-2d93-5d0b-a1be-bc5b56944127",
+              "text": "Do you work or are you a student?",
+              "part": "part1",
+              "asked_question_id": "3b8d3d80-d645-42dd-b90f-445a0e9d4998",
+              "points": [],
+              "explain": null,
+              "bank_question_id": "study-1"
+            },
+            {
+              "id": "4242cc1d-28bd-55bd-8e5d-4aa4a9df9287",
+              "text": "What do you enjoy most about your studies or your work?",
+              "part": "part1",
+              "asked_question_id": "73738a6e-a9b0-4905-a39f-af6a64e95c86",
+              "points": [],
+              "explain": null,
+              "bank_question_id": "study-2"
+            },
+            {
+              "id": "b7c6c9cb-16e4-59a7-acf4-47b00c5bf75d",
+              "text": "Can you tell me about the place where you live?",
+              "part": "part1",
+              "asked_question_id": "80a26ac9-3478-4ead-baf7-10961189f017",
+              "points": [],
+              "explain": null,
+              "bank_question_id": "home-1"
+            },
+            {
+              "id": "c7c64262-19e1-582e-bdbe-dbbbff868b4c",
+              "text": "What do you like most about your hometown?",
+              "part": "part1",
+              "asked_question_id": "761b619e-ac34-4770-b4ef-bd9d0723c45c",
+              "points": [],
+              "explain": null,
+              "bank_question_id": "home-2"
+            },
+            {
+              "id": "099310d5-7157-512c-877f-04dffa30af19",
+              "text": "Describe a skill you learned that is useful to you.",
+              "part": "part2",
+              "asked_question_id": "178ee683-d0ef-49ce-8a2b-4b463e8002e6",
+              "points": [
+                "what the skill is",
+                "when and how you learned it",
+                "how you use it now"
+              ],
+              "explain": "and explain why this skill is important to you.",
+              "bank_question_id": "part2-skill"
+            },
+            {
+              "id": "78d86b5d-c972-5bdf-ae7b-3da799481ea6",
+              "text": "Would you recommend this experience to someone else? Why?",
+              "part": "part2",
+              "asked_question_id": "2d7343ce-7f82-465a-b16c-cbd6416264f6",
+              "points": [],
+              "explain": null,
+              "bank_question_id": "part2-closing"
+            },
+            {
+              "id": "cd2864fd-dbd2-5633-a6ad-1ba4fa70c1ba",
+              "text": "Why is learning useful skills important in society today?",
+              "part": "part3",
+              "asked_question_id": "5a825075-57c6-43db-b221-47a0413dc07f",
+              "points": [],
+              "explain": null,
+              "bank_question_id": "part3-0"
+            },
+            {
+              "id": "8408be44-7618-54bf-b8e1-970eb5a2764d",
+              "text": "You said: “I enjoy learning programming because it helps me solve problems and work with other people.” How might this differ between younger and older generations?",
+              "part": "part3",
+              "asked_question_id": "c8618221-7751-4aa7-bbf6-5eb7ad099598",
+              "points": [],
+              "explain": null,
+              "bank_question_id": "part3-1"
+            },
+            {
+              "id": "6ed86066-1542-54e0-9b49-6e17d7621097",
+              "text": "You said: “I enjoy learning programming because it helps me solve problems and work with other people.” How would society change if the opposite were true?",
+              "part": "part3",
+              "asked_question_id": "2ec0304a-b7f9-4cf0-b038-c3274908147e",
+              "points": [],
+              "explain": null,
+              "bank_question_id": "part3-2"
+            },
+            {
+              "id": "df74b7f4-b924-54b5-b2dc-779225d79ae7",
+              "text": "You said: “I enjoy learning programming because it helps me solve problems and work with other people.” What might someone who disagrees with this view say, and how would you respond?",
+              "part": "part3",
+              "asked_question_id": "c26f6e0e-b719-4e82-b123-9ff4e60433c5",
+              "points": [],
+              "explain": null,
+              "bank_question_id": "part3-3"
+            }
+          ]
+        },
+        "created_at": "2026-10-15T18:08:36.183395Z"
+      }
+    ],
+    "QUESTION": [
+      {
+        "id": "c3cbd41f-2d93-5d0b-a1be-bc5b56944127",
+        "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+        "question_type": "part1",
+        "answer_key": null,
+        "evidence_span": null,
+        "excluded": false
+      },
+      {
+        "id": "4242cc1d-28bd-55bd-8e5d-4aa4a9df9287",
+        "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+        "question_type": "part1",
+        "answer_key": null,
+        "evidence_span": null,
+        "excluded": false
+      },
+      {
+        "id": "b7c6c9cb-16e4-59a7-acf4-47b00c5bf75d",
+        "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+        "question_type": "part1",
+        "answer_key": null,
+        "evidence_span": null,
+        "excluded": false
+      },
+      {
+        "id": "c7c64262-19e1-582e-bdbe-dbbbff868b4c",
+        "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+        "question_type": "part1",
+        "answer_key": null,
+        "evidence_span": null,
+        "excluded": false
+      },
+      {
+        "id": "099310d5-7157-512c-877f-04dffa30af19",
+        "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+        "question_type": "part2",
+        "answer_key": null,
+        "evidence_span": null,
+        "excluded": false
+      },
+      {
+        "id": "78d86b5d-c972-5bdf-ae7b-3da799481ea6",
+        "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+        "question_type": "part2",
+        "answer_key": null,
+        "evidence_span": null,
+        "excluded": false
+      },
+      {
+        "id": "cd2864fd-dbd2-5633-a6ad-1ba4fa70c1ba",
+        "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+        "question_type": "part3",
+        "answer_key": null,
+        "evidence_span": null,
+        "excluded": false
+      },
+      {
+        "id": "8408be44-7618-54bf-b8e1-970eb5a2764d",
+        "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+        "question_type": "part3",
+        "answer_key": null,
+        "evidence_span": null,
+        "excluded": false
+      },
+      {
+        "id": "6ed86066-1542-54e0-9b49-6e17d7621097",
+        "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+        "question_type": "part3",
+        "answer_key": null,
+        "evidence_span": null,
+        "excluded": false
+      },
+      {
+        "id": "df74b7f4-b924-54b5-b2dc-779225d79ae7",
+        "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+        "question_type": "part3",
+        "answer_key": null,
+        "evidence_span": null,
+        "excluded": false
+      }
+    ],
+    "ATTEMPT": [
+      {
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "session_id": "3e7725d9-4cb6-4d93-bc9f-0e43d45fbbc6",
+        "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+        "skill": "Speaking",
+        "mode": "text",
+        "text_or_transcript": "I enjoy learning programming because it helps me solve problems and work with other people.\n\nI enjoy learning programming because it helps me solve problems and work with other people.\n\nI enjoy learning programming because it helps me solve problems and work with other people.\n\nI enjoy learning programming because it helps me solve problems and work with other people.\n\nI enjoy learning programming because it helps me solve problems and work with other people.\n\nI enjoy learning programming because it helps me solve problems and work with other people.\n\nI enjoy learning programming because it helps me solve problems and work with other people.\n\nI enjoy learning programming because it helps me solve problems and work with other people.\n\nI enjoy learning programming because it helps me solve problems and work with other people.\n\nI enjoy learning programming because it helps me solve problems and work with other people.",
+        "audio_uri": null,
+        "audio_deleted_at": null,
+        "submitted_at": "2026-10-15T18:08:36.200389Z",
+        "raw_score": null
+      }
+    ],
+    "ANSWER": [
+      {
+        "id": "a4faa903-58a4-4bbc-9eea-346b7ce399b2",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "question_id": "c3cbd41f-2d93-5d0b-a1be-bc5b56944127",
+        "block_no": 1,
+        "response": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "is_correct": null
+      },
+      {
+        "id": "225a2dbc-9b2c-478a-a3ab-b556c68ae022",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "question_id": "4242cc1d-28bd-55bd-8e5d-4aa4a9df9287",
+        "block_no": 2,
+        "response": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "is_correct": null
+      },
+      {
+        "id": "ad01fd5d-020c-459d-bad0-6377eb891cba",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "question_id": "b7c6c9cb-16e4-59a7-acf4-47b00c5bf75d",
+        "block_no": 3,
+        "response": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "is_correct": null
+      },
+      {
+        "id": "e9cb6197-dc38-46cb-901f-8b8ab59a4c8f",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "question_id": "c7c64262-19e1-582e-bdbe-dbbbff868b4c",
+        "block_no": 4,
+        "response": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "is_correct": null
+      },
+      {
+        "id": "92978f72-4d51-4009-96fe-ce7f04837c01",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "question_id": "099310d5-7157-512c-877f-04dffa30af19",
+        "block_no": 5,
+        "response": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "is_correct": null
+      },
+      {
+        "id": "5428c5ab-b750-4d5b-a32e-de03b42bea64",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "question_id": "78d86b5d-c972-5bdf-ae7b-3da799481ea6",
+        "block_no": 6,
+        "response": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "is_correct": null
+      },
+      {
+        "id": "11c5a974-dd74-402e-b0a7-9129d3096c2e",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "question_id": "cd2864fd-dbd2-5633-a6ad-1ba4fa70c1ba",
+        "block_no": 7,
+        "response": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "is_correct": null
+      },
+      {
+        "id": "8b5d4a51-da8d-4b38-bcbd-663711a6820e",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "question_id": "8408be44-7618-54bf-b8e1-970eb5a2764d",
+        "block_no": 8,
+        "response": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "is_correct": null
+      },
+      {
+        "id": "3d48a6a6-32cb-4bc9-84a8-1a230a3c6d15",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "question_id": "6ed86066-1542-54e0-9b49-6e17d7621097",
+        "block_no": 9,
+        "response": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "is_correct": null
+      },
+      {
+        "id": "82967811-1e65-4087-8f12-57e80c3548c1",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "question_id": "df74b7f4-b924-54b5-b2dc-779225d79ae7",
+        "block_no": 10,
+        "response": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "is_correct": null
+      }
+    ],
+    "SPEAKING_TURN": [
+      {
+        "id": "e1e1e8a6-182b-4a1c-9227-dd31d577b5aa",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "turn_no": 1,
+        "part": "part1",
+        "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "stt_confidence": null,
+        "duration_s": null,
+        "t_start_s": null
+      },
+      {
+        "id": "19d77d08-f0ee-437c-bcae-b9b715e0af83",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "turn_no": 2,
+        "part": "part1",
+        "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "stt_confidence": null,
+        "duration_s": null,
+        "t_start_s": null
+      },
+      {
+        "id": "786fb2c8-6acb-4036-adbd-66ac408a309f",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "turn_no": 3,
+        "part": "part1",
+        "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "stt_confidence": null,
+        "duration_s": null,
+        "t_start_s": null
+      },
+      {
+        "id": "f4e1cfed-1ab7-4906-8cf9-b7ab72fbc368",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "turn_no": 4,
+        "part": "part1",
+        "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "stt_confidence": null,
+        "duration_s": null,
+        "t_start_s": null
+      },
+      {
+        "id": "d0a3459c-47eb-4e1d-8461-c41aae61f210",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "turn_no": 5,
+        "part": "part2",
+        "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "stt_confidence": null,
+        "duration_s": null,
+        "t_start_s": null
+      },
+      {
+        "id": "b341f89a-5ddd-4943-8e4c-cedd163624d4",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "turn_no": 6,
+        "part": "part2",
+        "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "stt_confidence": null,
+        "duration_s": null,
+        "t_start_s": null
+      },
+      {
+        "id": "ddceb6a9-b052-4f51-919d-8a92ef70a203",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "turn_no": 7,
+        "part": "part3",
+        "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "stt_confidence": null,
+        "duration_s": null,
+        "t_start_s": null
+      },
+      {
+        "id": "e852510b-94af-4b16-b094-c7e9fd3ea766",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "turn_no": 8,
+        "part": "part3",
+        "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "stt_confidence": null,
+        "duration_s": null,
+        "t_start_s": null
+      },
+      {
+        "id": "7dacb580-b0fd-46c7-8759-8dc0bbbcf060",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "turn_no": 9,
+        "part": "part3",
+        "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "stt_confidence": null,
+        "duration_s": null,
+        "t_start_s": null
+      },
+      {
+        "id": "9f229d53-ddcd-46e6-a4ba-4d808eae7e00",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "turn_no": 10,
+        "part": "part3",
+        "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+        "stt_confidence": null,
+        "duration_s": null,
+        "t_start_s": null
+      }
+    ],
+    "CANDIDATE_POINT": [
+      {
+        "id": "89b623f6-bd02-573b-b46b-92aa4c623d29",
+        "turn_id": "e1e1e8a6-182b-4a1c-9227-dd31d577b5aa",
+        "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+      },
+      {
+        "id": "f1d675cf-dec5-590d-bc49-e853493c24cc",
+        "turn_id": "19d77d08-f0ee-437c-bcae-b9b715e0af83",
+        "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+      },
+      {
+        "id": "5765ff63-81d4-5f3b-9a36-00aac54ba355",
+        "turn_id": "786fb2c8-6acb-4036-adbd-66ac408a309f",
+        "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+      },
+      {
+        "id": "596d78a8-3efd-5b66-83bd-26ff2aa9bf9d",
+        "turn_id": "f4e1cfed-1ab7-4906-8cf9-b7ab72fbc368",
+        "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+      },
+      {
+        "id": "f4bd90b9-6fa9-5da7-a066-8076d51a26b5",
+        "turn_id": "d0a3459c-47eb-4e1d-8461-c41aae61f210",
+        "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+      },
+      {
+        "id": "cf280cde-26d8-5d8a-b753-6363c991c578",
+        "turn_id": "b341f89a-5ddd-4943-8e4c-cedd163624d4",
+        "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+      },
+      {
+        "id": "62325abc-df6e-5eb2-a43f-b1f89cf11a09",
+        "turn_id": "ddceb6a9-b052-4f51-919d-8a92ef70a203",
+        "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+      },
+      {
+        "id": "349c3284-68a4-5e7b-8af4-20c2efb79d7c",
+        "turn_id": "e852510b-94af-4b16-b094-c7e9fd3ea766",
+        "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+      },
+      {
+        "id": "c07118c9-3b87-5d7a-b606-4366ccbaf2db",
+        "turn_id": "7dacb580-b0fd-46c7-8759-8dc0bbbcf060",
+        "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+      },
+      {
+        "id": "036a6ec4-2261-5bd8-b0c6-6b8a3a43747c",
+        "turn_id": "9f229d53-ddcd-46e6-a4ba-4d808eae7e00",
+        "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+      }
+    ],
+    "ASKED_QUESTION": [
+      {
+        "id": "3b8d3d80-d645-42dd-b90f-445a0e9d4998",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "part": "part1",
+        "text": "Do you work or are you a student?",
+        "refs_point_id": null
+      },
+      {
+        "id": "73738a6e-a9b0-4905-a39f-af6a64e95c86",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "part": "part1",
+        "text": "What do you enjoy most about your studies or your work?",
+        "refs_point_id": null
+      },
+      {
+        "id": "80a26ac9-3478-4ead-baf7-10961189f017",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "part": "part1",
+        "text": "Can you tell me about the place where you live?",
+        "refs_point_id": null
+      },
+      {
+        "id": "761b619e-ac34-4770-b4ef-bd9d0723c45c",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "part": "part1",
+        "text": "What do you like most about your hometown?",
+        "refs_point_id": null
+      },
+      {
+        "id": "178ee683-d0ef-49ce-8a2b-4b463e8002e6",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "part": "part2",
+        "text": "Describe a skill you learned that is useful to you.",
+        "refs_point_id": null
+      },
+      {
+        "id": "2d7343ce-7f82-465a-b16c-cbd6416264f6",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "part": "part2",
+        "text": "Would you recommend this experience to someone else? Why?",
+        "refs_point_id": null
+      },
+      {
+        "id": "5a825075-57c6-43db-b221-47a0413dc07f",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "part": "part3",
+        "text": "Why is learning useful skills important in society today?",
+        "refs_point_id": null
+      },
+      {
+        "id": "c8618221-7751-4aa7-bbf6-5eb7ad099598",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "part": "part3",
+        "text": "You said: “I enjoy learning programming because it helps me solve problems and work with other people.” How might this differ between younger and older generations?",
+        "refs_point_id": "62325abc-df6e-5eb2-a43f-b1f89cf11a09"
+      },
+      {
+        "id": "2ec0304a-b7f9-4cf0-b038-c3274908147e",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "part": "part3",
+        "text": "You said: “I enjoy learning programming because it helps me solve problems and work with other people.” How would society change if the opposite were true?",
+        "refs_point_id": "349c3284-68a4-5e7b-8af4-20c2efb79d7c"
+      },
+      {
+        "id": "c26f6e0e-b719-4e82-b123-9ff4e60433c5",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "part": "part3",
+        "text": "You said: “I enjoy learning programming because it helps me solve problems and work with other people.” What might someone who disagrees with this view say, and how would you respond?",
+        "refs_point_id": "c07118c9-3b87-5d7a-b606-4366ccbaf2db"
+      }
+    ],
+    "ASSESSMENT": [
+      {
+        "run_id": "5bfef608-7574-47d2-99a6-f20d3a871458",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "purpose": "live",
+        "status": "provisional",
+        "overall_band": null,
+        "word_count": 150,
+        "limitations": "Text: không đánh giá tốc độ, khoảng ngừng hoặc Pronunciation; điểm tổng từ 3 tiêu chí là tạm tính. Chưa chạy hai giám khảo; không có điểm được tạo tự động từ metrics.",
+        "descriptors_version": null,
+        "trace_id": null,
+        "cost_usd": null,
+        "latency_ms": null
+      }
+    ],
+    "GRADING": [],
+    "GRADING_CRITERION": [],
+    "EVIDENCE_SPAN": [],
+    "DESCRIPTOR_CHUNK": [],
+    "GRADING_CHUNK": [],
+    "CRITERION_REF": [],
+    "ASSESSMENT_FLAG": [],
+    "RECONCILIATION": [],
+    "RECON_CRITERION": [],
+    "TEACHER_REVIEW": [],
+    "FINAL_SCORE": []
+  },
+  "external_references": {
+    "descriptor_chunk_ids": []
+  },
+  "extensions": {
+    "analysis": [
+      {
+        "answer_id": "a4faa903-58a4-4bbc-9eea-346b7ce399b2",
+        "turn_id": "e1e1e8a6-182b-4a1c-9227-dd31d577b5aa",
+        "analysis": {
+          "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+          "words": [],
+          "stt_confidence": null,
+          "metrics": {
+            "timing": null,
+            "audio_timing": null
+          }
+        },
+        "flags": []
+      },
+      {
+        "answer_id": "225a2dbc-9b2c-478a-a3ab-b556c68ae022",
+        "turn_id": "19d77d08-f0ee-437c-bcae-b9b715e0af83",
+        "analysis": {
+          "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+          "words": [],
+          "stt_confidence": null,
+          "metrics": {
+            "timing": null,
+            "audio_timing": null
+          }
+        },
+        "flags": []
+      },
+      {
+        "answer_id": "ad01fd5d-020c-459d-bad0-6377eb891cba",
+        "turn_id": "786fb2c8-6acb-4036-adbd-66ac408a309f",
+        "analysis": {
+          "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+          "words": [],
+          "stt_confidence": null,
+          "metrics": {
+            "timing": null,
+            "audio_timing": null
+          }
+        },
+        "flags": []
+      },
+      {
+        "answer_id": "e9cb6197-dc38-46cb-901f-8b8ab59a4c8f",
+        "turn_id": "f4e1cfed-1ab7-4906-8cf9-b7ab72fbc368",
+        "analysis": {
+          "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+          "words": [],
+          "stt_confidence": null,
+          "metrics": {
+            "timing": null,
+            "audio_timing": null
+          }
+        },
+        "flags": []
+      },
+      {
+        "answer_id": "92978f72-4d51-4009-96fe-ce7f04837c01",
+        "turn_id": "d0a3459c-47eb-4e1d-8461-c41aae61f210",
+        "analysis": {
+          "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+          "words": [],
+          "stt_confidence": null,
+          "metrics": {
+            "timing": null,
+            "audio_timing": null
+          }
+        },
+        "flags": []
+      },
+      {
+        "answer_id": "5428c5ab-b750-4d5b-a32e-de03b42bea64",
+        "turn_id": "b341f89a-5ddd-4943-8e4c-cedd163624d4",
+        "analysis": {
+          "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+          "words": [],
+          "stt_confidence": null,
+          "metrics": {
+            "timing": null,
+            "audio_timing": null
+          }
+        },
+        "flags": []
+      },
+      {
+        "answer_id": "11c5a974-dd74-402e-b0a7-9129d3096c2e",
+        "turn_id": "ddceb6a9-b052-4f51-919d-8a92ef70a203",
+        "analysis": {
+          "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+          "words": [],
+          "stt_confidence": null,
+          "metrics": {
+            "timing": null,
+            "audio_timing": null
+          }
+        },
+        "flags": []
+      },
+      {
+        "answer_id": "8b5d4a51-da8d-4b38-bcbd-663711a6820e",
+        "turn_id": "e852510b-94af-4b16-b094-c7e9fd3ea766",
+        "analysis": {
+          "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+          "words": [],
+          "stt_confidence": null,
+          "metrics": {
+            "timing": null,
+            "audio_timing": null
+          }
+        },
+        "flags": []
+      },
+      {
+        "answer_id": "3d48a6a6-32cb-4bc9-84a8-1a230a3c6d15",
+        "turn_id": "7dacb580-b0fd-46c7-8759-8dc0bbbcf060",
+        "analysis": {
+          "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+          "words": [],
+          "stt_confidence": null,
+          "metrics": {
+            "timing": null,
+            "audio_timing": null
+          }
+        },
+        "flags": []
+      },
+      {
+        "answer_id": "82967811-1e65-4087-8f12-57e80c3548c1",
+        "turn_id": "9f229d53-ddcd-46e6-a4ba-4d808eae7e00",
+        "analysis": {
+          "transcript": "I enjoy learning programming because it helps me solve problems and work with other people.",
+          "words": [],
+          "stt_confidence": null,
+          "metrics": {
+            "timing": null,
+            "audio_timing": null
+          }
+        },
+        "flags": []
+      }
+    ],
+    "feedback": {
+      "run_id": "5bfef608-7574-47d2-99a6-f20d3a871458",
+      "corrections": [],
+      "disclaimer": "Điểm ước lượng phục vụ luyện tập, không phải kết quả IELTS chính thức.",
+      "grading_errors": [],
+      "criterion_statuses": {
+        "FC": "insufficient_evidence",
+        "LR": "insufficient_evidence",
+        "GRA": "insufficient_evidence",
+        "PR": "not_assessed"
+      }
+    },
+    "unmapped": [],
+    "audio_segments": [],
+    "checkpoint": {
+      "learner_id": "26ab769b-7d60-41ed-ba98-71ef1ddbba1d",
+      "mode": "text",
+      "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+      "item_id": "54721d6c-573c-41f2-ab2f-56130c356e73",
+      "kind": "mock",
+      "thread_id": "3a1ad08d-f1e8-470a-a4c6-6b26f27e9628",
+      "response_mode": "spontaneous",
+      "topic_id": "part2-skill",
+      "part": "finished",
+      "elapsed_seconds": 0,
+      "part_time_left": null,
+      "followup_count": 3,
+      "turn_limit": 20,
+      "status": "finished",
+      "version": 10,
+      "created_at": "2026-10-15T18:08:36.183395+00:00",
+      "save_audio": false,
+      "plan_index": 10,
+      "notice": "",
+      "policy_version": "speaking-mvp-0.2",
+      "assessment": {
+        "contract_version": "ielts-speaking-db-1.0",
+        "run_id": "5bfef608-7574-47d2-99a6-f20d3a871458",
+        "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+        "mode": "text",
+        "purpose": "live",
+        "trace_id": null,
+        "cost_usd": null,
+        "latency_ms": null,
+        "assessment_scope": "full_session",
+        "status": "provisional",
+        "criteria": [
+          {
+            "criterion": "FC",
+            "status": "insufficient_evidence",
+            "band": null,
+            "evidence": [],
+            "descriptor_refs": [],
+            "comment": "Chưa chạy hai giám khảo; không có điểm được tạo tự động từ metrics."
+          },
+          {
+            "criterion": "LR",
+            "status": "insufficient_evidence",
+            "band": null,
+            "evidence": [],
+            "descriptor_refs": [],
+            "comment": "Chưa chạy hai giám khảo; không có điểm được tạo tự động từ metrics."
+          },
+          {
+            "criterion": "GRA",
+            "status": "insufficient_evidence",
+            "band": null,
+            "evidence": [],
+            "descriptor_refs": [],
+            "comment": "Chưa chạy hai giám khảo; không có điểm được tạo tự động từ metrics."
+          },
+          {
+            "criterion": "PR",
+            "status": "not_assessed",
+            "band": null,
+            "evidence": [],
+            "descriptor_refs": [],
+            "comment": "Chưa chạy hai giám khảo; không có điểm được tạo tự động từ metrics."
+          }
+        ],
+        "overall_band": null,
+        "corrections": [],
+        "flags": [],
+        "limitations": "Text: không đánh giá tốc độ, khoảng ngừng hoặc Pronunciation; điểm tổng từ 3 tiêu chí là tạm tính. Chưa chạy hai giám khảo; không có điểm được tạo tự động từ metrics.",
+        "disclaimer": "Điểm ước lượng phục vụ luyện tập, không phải kết quả IELTS chính thức.",
+        "grading_errors": [],
+        "grader_refs": []
+      },
+      "phase": "finished",
+      "phase_deadline": null,
+      "id": "3e7725d9-4cb6-4d93-bc9f-0e43d45fbbc6",
+      "current_question": null,
+      "asked_questions": [
+        {
+          "text": "Do you work or are you a student?",
+          "part": "part1",
+          "kind": "short",
+          "asked_at": "2026-10-15T18:08:36.183751+00:00",
+          "id": "3b8d3d80-d645-42dd-b90f-445a0e9d4998",
+          "question_id": "c3cbd41f-2d93-5d0b-a1be-bc5b56944127",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "bank_question_id": "study-1",
+          "refs_point_id": null
+        },
+        {
+          "text": "What do you enjoy most about your studies or your work?",
+          "part": "part1",
+          "kind": "short",
+          "asked_at": "2026-10-15T18:08:36.186540+00:00",
+          "id": "73738a6e-a9b0-4905-a39f-af6a64e95c86",
+          "question_id": "4242cc1d-28bd-55bd-8e5d-4aa4a9df9287",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "bank_question_id": "study-2",
+          "refs_point_id": null
+        },
+        {
+          "text": "Can you tell me about the place where you live?",
+          "part": "part1",
+          "kind": "short",
+          "asked_at": "2026-10-15T18:08:36.187904+00:00",
+          "id": "80a26ac9-3478-4ead-baf7-10961189f017",
+          "question_id": "b7c6c9cb-16e4-59a7-acf4-47b00c5bf75d",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "bank_question_id": "home-1",
+          "refs_point_id": null
+        },
+        {
+          "text": "What do you like most about your hometown?",
+          "part": "part1",
+          "kind": "short",
+          "asked_at": "2026-10-15T18:08:36.189193+00:00",
+          "id": "761b619e-ac34-4770-b4ef-bd9d0723c45c",
+          "question_id": "c7c64262-19e1-582e-bdbe-dbbbff868b4c",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "bank_question_id": "home-2",
+          "refs_point_id": null
+        },
+        {
+          "part": "part2",
+          "title": "A useful skill",
+          "text": "Describe a skill you learned that is useful to you.",
+          "points": [
+            "what the skill is",
+            "when and how you learned it",
+            "how you use it now"
+          ],
+          "explain": "and explain why this skill is important to you.",
+          "kind": "long_turn",
+          "asked_at": "2026-10-15T18:08:36.190450+00:00",
+          "id": "178ee683-d0ef-49ce-8a2b-4b463e8002e6",
+          "question_id": "099310d5-7157-512c-877f-04dffa30af19",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "bank_question_id": "part2-skill",
+          "refs_point_id": null
+        },
+        {
+          "part": "part2",
+          "kind": "closing",
+          "text": "Would you recommend this experience to someone else? Why?",
+          "asked_at": "2026-10-15T18:08:36.192153+00:00",
+          "id": "2d7343ce-7f82-465a-b16c-cbd6416264f6",
+          "question_id": "78d86b5d-c972-5bdf-ae7b-3da799481ea6",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "bank_question_id": "part2-closing",
+          "refs_point_id": null
+        },
+        {
+          "part": "part3",
+          "kind": "discussion",
+          "intent": "importance",
+          "text": "Why is learning useful skills important in society today?",
+          "asked_at": "2026-10-15T18:08:36.193657+00:00",
+          "id": "5a825075-57c6-43db-b221-47a0413dc07f",
+          "question_id": "cd2864fd-dbd2-5633-a6ad-1ba4fa70c1ba",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "bank_question_id": "part3-0",
+          "refs_point_id": null
+        },
+        {
+          "part": "part3",
+          "kind": "discussion",
+          "intent": "compare",
+          "text": "You said: “I enjoy learning programming because it helps me solve problems and work with other people.” How might this differ between younger and older generations?",
+          "asked_at": "2026-10-15T18:08:36.195139+00:00",
+          "id": "c8618221-7751-4aa7-bbf6-5eb7ad099598",
+          "question_id": "8408be44-7618-54bf-b8e1-970eb5a2764d",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "bank_question_id": "part3-1",
+          "refs_point_id": "62325abc-df6e-5eb2-a43f-b1f89cf11a09"
+        },
+        {
+          "part": "part3",
+          "kind": "discussion",
+          "intent": "hypothesis",
+          "text": "You said: “I enjoy learning programming because it helps me solve problems and work with other people.” How would society change if the opposite were true?",
+          "asked_at": "2026-10-15T18:08:36.196681+00:00",
+          "id": "2ec0304a-b7f9-4cf0-b038-c3274908147e",
+          "question_id": "6ed86066-1542-54e0-9b49-6e17d7621097",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "bank_question_id": "part3-2",
+          "refs_point_id": "349c3284-68a4-5e7b-8af4-20c2efb79d7c"
+        },
+        {
+          "part": "part3",
+          "kind": "discussion",
+          "intent": "challenge",
+          "text": "You said: “I enjoy learning programming because it helps me solve problems and work with other people.” What might someone who disagrees with this view say, and how would you respond?",
+          "asked_at": "2026-10-15T18:08:36.198259+00:00",
+          "id": "c26f6e0e-b719-4e82-b123-9ff4e60433c5",
+          "question_id": "df74b7f4-b924-54b5-b2dc-779225d79ae7",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "bank_question_id": "part3-3",
+          "refs_point_id": "c07118c9-3b87-5d7a-b606-4366ccbaf2db"
+        }
+      ],
+      "candidate_points": [
+        {
+          "id": "89b623f6-bd02-573b-b46b-92aa4c623d29",
+          "turn_id": "e1e1e8a6-182b-4a1c-9227-dd31d577b5aa",
+          "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+        },
+        {
+          "id": "f1d675cf-dec5-590d-bc49-e853493c24cc",
+          "turn_id": "19d77d08-f0ee-437c-bcae-b9b715e0af83",
+          "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+        },
+        {
+          "id": "5765ff63-81d4-5f3b-9a36-00aac54ba355",
+          "turn_id": "786fb2c8-6acb-4036-adbd-66ac408a309f",
+          "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+        },
+        {
+          "id": "596d78a8-3efd-5b66-83bd-26ff2aa9bf9d",
+          "turn_id": "f4e1cfed-1ab7-4906-8cf9-b7ab72fbc368",
+          "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+        },
+        {
+          "id": "f4bd90b9-6fa9-5da7-a066-8076d51a26b5",
+          "turn_id": "d0a3459c-47eb-4e1d-8461-c41aae61f210",
+          "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+        },
+        {
+          "id": "cf280cde-26d8-5d8a-b753-6363c991c578",
+          "turn_id": "b341f89a-5ddd-4943-8e4c-cedd163624d4",
+          "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+        },
+        {
+          "id": "62325abc-df6e-5eb2-a43f-b1f89cf11a09",
+          "turn_id": "ddceb6a9-b052-4f51-919d-8a92ef70a203",
+          "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+        },
+        {
+          "id": "349c3284-68a4-5e7b-8af4-20c2efb79d7c",
+          "turn_id": "e852510b-94af-4b16-b094-c7e9fd3ea766",
+          "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+        },
+        {
+          "id": "c07118c9-3b87-5d7a-b606-4366ccbaf2db",
+          "turn_id": "7dacb580-b0fd-46c7-8759-8dc0bbbcf060",
+          "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+        },
+        {
+          "id": "036a6ec4-2261-5bd8-b0c6-6b8a3a43747c",
+          "turn_id": "9f229d53-ddcd-46e6-a4ba-4d808eae7e00",
+          "point": "I enjoy learning programming because it helps me solve problems and work with other people."
+        }
+      ],
+      "speaking_turns": [
+        {
+          "id": "e1e1e8a6-182b-4a1c-9227-dd31d577b5aa",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "turn_no": 1,
+          "stt_confidence": null,
+          "duration_s": null,
+          "t_start_s": null,
+          "flags": []
+        },
+        {
+          "id": "19d77d08-f0ee-437c-bcae-b9b715e0af83",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "turn_no": 2,
+          "stt_confidence": null,
+          "duration_s": null,
+          "t_start_s": null,
+          "flags": []
+        },
+        {
+          "id": "786fb2c8-6acb-4036-adbd-66ac408a309f",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "turn_no": 3,
+          "stt_confidence": null,
+          "duration_s": null,
+          "t_start_s": null,
+          "flags": []
+        },
+        {
+          "id": "f4e1cfed-1ab7-4906-8cf9-b7ab72fbc368",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "turn_no": 4,
+          "stt_confidence": null,
+          "duration_s": null,
+          "t_start_s": null,
+          "flags": []
+        },
+        {
+          "id": "d0a3459c-47eb-4e1d-8461-c41aae61f210",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "turn_no": 5,
+          "stt_confidence": null,
+          "duration_s": null,
+          "t_start_s": null,
+          "flags": []
+        },
+        {
+          "id": "b341f89a-5ddd-4943-8e4c-cedd163624d4",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "turn_no": 6,
+          "stt_confidence": null,
+          "duration_s": null,
+          "t_start_s": null,
+          "flags": []
+        },
+        {
+          "id": "ddceb6a9-b052-4f51-919d-8a92ef70a203",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "turn_no": 7,
+          "stt_confidence": null,
+          "duration_s": null,
+          "t_start_s": null,
+          "flags": []
+        },
+        {
+          "id": "e852510b-94af-4b16-b094-c7e9fd3ea766",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "turn_no": 8,
+          "stt_confidence": null,
+          "duration_s": null,
+          "t_start_s": null,
+          "flags": []
+        },
+        {
+          "id": "7dacb580-b0fd-46c7-8759-8dc0bbbcf060",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "turn_no": 9,
+          "stt_confidence": null,
+          "duration_s": null,
+          "t_start_s": null,
+          "flags": []
+        },
+        {
+          "id": "9f229d53-ddcd-46e6-a4ba-4d808eae7e00",
+          "attempt_id": "0fa506bf-8978-4747-bea7-574b1b11a8bb",
+          "turn_no": 10,
+          "stt_confidence": null,
+          "duration_s": null,
+          "t_start_s": null,
+          "flags": []
+        }
+      ]
+    },
+    "example_only": true,
+    "example_note": "Synthetic text-mode example. No real learner data, audio, or AI grading."
+  }
+}

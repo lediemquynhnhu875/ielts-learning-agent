@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.env
+data/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+
+# --- UC-04 Speaking ---
+# Checkpoint phiên thi: chứa transcript và audio thật của người học.
+**/agents/speaking/data/*.sqlite3*
+# Corpus band descriptors tải về, có bản quyền IELTS Partners.
+.cache/
+# Ảnh QA do backend/tests/speaking/browser_exam.py sinh ra.
+**/qa/*.png
+# Giọng nói thật dùng để thử STT, không đẩy lên repo chung.
+audio-sample/
+**/*.webm
+# Bộ sinh dữ liệu Speaking: bản gốc nhật ký LLM (audit trail là gen_jobs.jsonl)
+# và các lần chạy cũ dùng bank viết tay, chỉ giữ trên máy.
+**/agents/speaking/synth/out/*.sqlite3*
+**/agents/speaking/synth/out/archive-v*/
+**/agents/speaking/synth/out/gold/blind_map-*.json

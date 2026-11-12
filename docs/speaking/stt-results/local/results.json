@@ -1,0 +1,5576 @@
+{
+  "backend": "local",
+  "model": "large-v3-turbo",
+  "platform": "macOS-26.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.13",
+  "reference_type": "unverified recording script",
+  "packages": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.2",
+    "groq": "1.7.0",
+    "av": "16.0.1"
+  },
+  "results": [
+    {
+      "sample": "sample-01",
+      "backend": "local",
+      "keep_fillers": false,
+      "audio_seconds": 23.36,
+      "status": "ok",
+      "processing_seconds": 5.005,
+      "real_time_factor": 0.214,
+      "transcript": "I am a university student and I study information technology. I usually attend classes in the morning and work on group projects in the afternoon. In my free time, I enjoy listening to music and walking around my neighborhood. These activities help me relax after a busy day.",
+      "words": [
+        {
+          "word": "I",
+          "start": 0.42000000000000004,
+          "end": 0.84
+        },
+        {
+          "word": "am",
+          "start": 0.84,
+          "end": 1.1
+        },
+        {
+          "word": "a",
+          "start": 1.1,
+          "end": 1.32
+        },
+        {
+          "word": "university",
+          "start": 1.32,
+          "end": 1.82
+        },
+        {
+          "word": "student",
+          "start": 1.82,
+          "end": 2.6
+        },
+        {
+          "word": "and",
+          "start": 2.6,
+          "end": 3.08
+        },
+        {
+          "word": "I",
+          "start": 3.08,
+          "end": 3.56
+        },
+        {
+          "word": "study",
+          "start": 3.56,
+          "end": 4.0
+        },
+        {
+          "word": "information",
+          "start": 4.0,
+          "end": 4.48
+        },
+        {
+          "word": "technology.",
+          "start": 4.48,
+          "end": 5.26
+        },
+        {
+          "word": "I",
+          "start": 5.64,
+          "end": 6.22
+        },
+        {
+          "word": "usually",
+          "start": 6.22,
+          "end": 6.64
+        },
+        {
+          "word": "attend",
+          "start": 6.64,
+          "end": 7.0
+        },
+        {
+          "word": "classes",
+          "start": 7.0,
+          "end": 7.64
+        },
+        {
+          "word": "in",
+          "start": 7.64,
+          "end": 8.1
+        },
+        {
+          "word": "the",
+          "start": 8.1,
+          "end": 8.24
+        },
+        {
+          "word": "morning",
+          "start": 8.24,
+          "end": 8.54
+        },
+        {
+          "word": "and",
+          "start": 8.88,
+          "end": 9.3
+        },
+        {
+          "word": "work",
+          "start": 9.3,
+          "end": 9.68
+        },
+        {
+          "word": "on",
+          "start": 9.68,
+          "end": 10.14
+        },
+        {
+          "word": "group",
+          "start": 10.14,
+          "end": 10.6
+        },
+        {
+          "word": "projects",
+          "start": 10.6,
+          "end": 11.22
+        },
+        {
+          "word": "in",
+          "start": 11.22,
+          "end": 11.48
+        },
+        {
+          "word": "the",
+          "start": 11.48,
+          "end": 11.68
+        },
+        {
+          "word": "afternoon.",
+          "start": 11.68,
+          "end": 12.28
+        },
+        {
+          "word": "In",
+          "start": 12.68,
+          "end": 13.2
+        },
+        {
+          "word": "my",
+          "start": 13.2,
+          "end": 13.4
+        },
+        {
+          "word": "free",
+          "start": 13.4,
+          "end": 13.6
+        },
+        {
+          "word": "time,",
+          "start": 13.6,
+          "end": 13.96
+        },
+        {
+          "word": "I",
+          "start": 14.26,
+          "end": 14.4
+        },
+        {
+          "word": "enjoy",
+          "start": 14.4,
+          "end": 14.76
+        },
+        {
+          "word": "listening",
+          "start": 14.76,
+          "end": 15.22
+        },
+        {
+          "word": "to",
+          "start": 15.22,
+          "end": 15.52
+        },
+        {
+          "word": "music",
+          "start": 15.52,
+          "end": 15.94
+        },
+        {
+          "word": "and",
+          "start": 15.94,
+          "end": 16.72
+        },
+        {
+          "word": "walking",
+          "start": 16.72,
+          "end": 17.16
+        },
+        {
+          "word": "around",
+          "start": 17.16,
+          "end": 17.5
+        },
+        {
+          "word": "my",
+          "start": 17.5,
+          "end": 17.8
+        },
+        {
+          "word": "neighborhood.",
+          "start": 17.8,
+          "end": 18.22
+        },
+        {
+          "word": "These",
+          "start": 18.56,
+          "end": 19.18
+        },
+        {
+          "word": "activities",
+          "start": 19.18,
+          "end": 19.8
+        },
+        {
+          "word": "help",
+          "start": 19.8,
+          "end": 20.52
+        },
+        {
+          "word": "me",
+          "start": 20.52,
+          "end": 20.84
+        },
+        {
+          "word": "relax",
+          "start": 20.84,
+          "end": 21.32
+        },
+        {
+          "word": "after",
+          "start": 21.32,
+          "end": 21.96
+        },
+        {
+          "word": "a",
+          "start": 21.96,
+          "end": 22.22
+        },
+        {
+          "word": "busy",
+          "start": 22.22,
+          "end": 22.44
+        },
+        {
+          "word": "day.",
+          "start": 22.44,
+          "end": 22.76
+        }
+      ],
+      "fluency": {
+        "so_tu": 48,
+        "thoi_luong_giay": 22.3,
+        "toc_do_tu_moi_phut": 128.9,
+        "so_lan_ngung": 0,
+        "tong_thoi_gian_ngung": 0,
+        "ngung_dai_nhat": 0,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": []
+      },
+      "script": "I am a university student, and I study information technology. I usually attend classes in the morning and work on group projects in the afternoon. In my free time, I enjoy listening to music and walking around my neighborhood. These activities help me relax after a busy day.",
+      "script_differences": [],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-01",
+      "backend": "local",
+      "keep_fillers": true,
+      "audio_seconds": 23.36,
+      "status": "ok",
+      "processing_seconds": 5.524,
+      "real_time_factor": 0.236,
+      "transcript": "I am a university student and I study information technology. I usually attend classes in the morning and work on group projects in the afternoon. In my free time, I enjoy listening to music and walking around my neighborhood. These activities help me relax after a busy day.",
+      "words": [
+        {
+          "word": "I",
+          "start": 0.0,
+          "end": 0.84
+        },
+        {
+          "word": "am",
+          "start": 0.84,
+          "end": 1.1
+        },
+        {
+          "word": "a",
+          "start": 1.1,
+          "end": 1.32
+        },
+        {
+          "word": "university",
+          "start": 1.32,
+          "end": 1.82
+        },
+        {
+          "word": "student",
+          "start": 1.82,
+          "end": 2.6
+        },
+        {
+          "word": "and",
+          "start": 2.6,
+          "end": 3.08
+        },
+        {
+          "word": "I",
+          "start": 3.08,
+          "end": 3.56
+        },
+        {
+          "word": "study",
+          "start": 3.56,
+          "end": 4.0
+        },
+        {
+          "word": "information",
+          "start": 4.0,
+          "end": 4.48
+        },
+        {
+          "word": "technology.",
+          "start": 4.48,
+          "end": 5.26
+        },
+        {
+          "word": "I",
+          "start": 5.64,
+          "end": 6.22
+        },
+        {
+          "word": "usually",
+          "start": 6.22,
+          "end": 6.64
+        },
+        {
+          "word": "attend",
+          "start": 6.64,
+          "end": 7.0
+        },
+        {
+          "word": "classes",
+          "start": 7.0,
+          "end": 7.64
+        },
+        {
+          "word": "in",
+          "start": 7.64,
+          "end": 8.1
+        },
+        {
+          "word": "the",
+          "start": 8.1,
+          "end": 8.24
+        },
+        {
+          "word": "morning",
+          "start": 8.24,
+          "end": 8.54
+        },
+        {
+          "word": "and",
+          "start": 8.54,
+          "end": 9.3
+        },
+        {
+          "word": "work",
+          "start": 9.3,
+          "end": 9.68
+        },
+        {
+          "word": "on",
+          "start": 9.68,
+          "end": 10.14
+        },
+        {
+          "word": "group",
+          "start": 10.14,
+          "end": 10.6
+        },
+        {
+          "word": "projects",
+          "start": 10.6,
+          "end": 11.22
+        },
+        {
+          "word": "in",
+          "start": 11.22,
+          "end": 11.48
+        },
+        {
+          "word": "the",
+          "start": 11.48,
+          "end": 11.68
+        },
+        {
+          "word": "afternoon.",
+          "start": 11.68,
+          "end": 12.28
+        },
+        {
+          "word": "In",
+          "start": 12.68,
+          "end": 13.2
+        },
+        {
+          "word": "my",
+          "start": 13.2,
+          "end": 13.4
+        },
+        {
+          "word": "free",
+          "start": 13.4,
+          "end": 13.6
+        },
+        {
+          "word": "time,",
+          "start": 13.6,
+          "end": 13.96
+        },
+        {
+          "word": "I",
+          "start": 14.26,
+          "end": 14.4
+        },
+        {
+          "word": "enjoy",
+          "start": 14.4,
+          "end": 14.76
+        },
+        {
+          "word": "listening",
+          "start": 14.76,
+          "end": 15.22
+        },
+        {
+          "word": "to",
+          "start": 15.22,
+          "end": 15.52
+        },
+        {
+          "word": "music",
+          "start": 15.52,
+          "end": 15.94
+        },
+        {
+          "word": "and",
+          "start": 15.94,
+          "end": 16.72
+        },
+        {
+          "word": "walking",
+          "start": 16.72,
+          "end": 17.16
+        },
+        {
+          "word": "around",
+          "start": 17.16,
+          "end": 17.5
+        },
+        {
+          "word": "my",
+          "start": 17.5,
+          "end": 17.8
+        },
+        {
+          "word": "neighborhood.",
+          "start": 17.8,
+          "end": 18.22
+        },
+        {
+          "word": "These",
+          "start": 18.56,
+          "end": 19.18
+        },
+        {
+          "word": "activities",
+          "start": 19.18,
+          "end": 19.8
+        },
+        {
+          "word": "help",
+          "start": 19.8,
+          "end": 20.52
+        },
+        {
+          "word": "me",
+          "start": 20.52,
+          "end": 20.84
+        },
+        {
+          "word": "relax",
+          "start": 20.84,
+          "end": 21.32
+        },
+        {
+          "word": "after",
+          "start": 21.32,
+          "end": 21.96
+        },
+        {
+          "word": "a",
+          "start": 21.96,
+          "end": 22.22
+        },
+        {
+          "word": "busy",
+          "start": 22.22,
+          "end": 22.44
+        },
+        {
+          "word": "day.",
+          "start": 22.44,
+          "end": 22.76
+        }
+      ],
+      "fluency": {
+        "so_tu": 48,
+        "thoi_luong_giay": 22.8,
+        "toc_do_tu_moi_phut": 126.5,
+        "so_lan_ngung": 0,
+        "tong_thoi_gian_ngung": 0,
+        "ngung_dai_nhat": 0,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": []
+      },
+      "script": "I am a university student, and I study information technology. I usually attend classes in the morning and work on group projects in the afternoon. In my free time, I enjoy listening to music and walking around my neighborhood. These activities help me relax after a busy day.",
+      "script_differences": [],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-02",
+      "backend": "local",
+      "keep_fillers": false,
+      "audio_seconds": 17.392,
+      "status": "ok",
+      "processing_seconds": 5.026,
+      "real_time_factor": 0.289,
+      "transcript": "My brother lives near my university. He goes to work by bus every morning, and he usually finishes at 6. He don't like cooking, so we often eat together. Sometimes he asks me about my classes, but he doesn't understand the subjects I study.",
+      "words": [
+        {
+          "word": "My",
+          "start": 0.0,
+          "end": 0.72
+        },
+        {
+          "word": "brother",
+          "start": 0.72,
+          "end": 1.02
+        },
+        {
+          "word": "lives",
+          "start": 1.02,
+          "end": 1.38
+        },
+        {
+          "word": "near",
+          "start": 1.38,
+          "end": 1.64
+        },
+        {
+          "word": "my",
+          "start": 1.64,
+          "end": 1.84
+        },
+        {
+          "word": "university.",
+          "start": 1.84,
+          "end": 2.5
+        },
+        {
+          "word": "He",
+          "start": 2.94,
+          "end": 3.2
+        },
+        {
+          "word": "goes",
+          "start": 3.2,
+          "end": 3.38
+        },
+        {
+          "word": "to",
+          "start": 3.38,
+          "end": 3.56
+        },
+        {
+          "word": "work",
+          "start": 3.56,
+          "end": 3.72
+        },
+        {
+          "word": "by",
+          "start": 3.72,
+          "end": 3.96
+        },
+        {
+          "word": "bus",
+          "start": 3.96,
+          "end": 4.16
+        },
+        {
+          "word": "every",
+          "start": 4.16,
+          "end": 4.44
+        },
+        {
+          "word": "morning,",
+          "start": 4.44,
+          "end": 4.84
+        },
+        {
+          "word": "and",
+          "start": 5.02,
+          "end": 5.48
+        },
+        {
+          "word": "he",
+          "start": 5.48,
+          "end": 5.62
+        },
+        {
+          "word": "usually",
+          "start": 5.62,
+          "end": 6.0
+        },
+        {
+          "word": "finishes",
+          "start": 6.0,
+          "end": 6.56
+        },
+        {
+          "word": "at",
+          "start": 6.56,
+          "end": 6.9
+        },
+        {
+          "word": "6.",
+          "start": 6.9,
+          "end": 7.12
+        },
+        {
+          "word": "He",
+          "start": 7.7,
+          "end": 8.26
+        },
+        {
+          "word": "don't",
+          "start": 8.26,
+          "end": 8.5
+        },
+        {
+          "word": "like",
+          "start": 8.5,
+          "end": 8.66
+        },
+        {
+          "word": "cooking,",
+          "start": 8.66,
+          "end": 9.08
+        },
+        {
+          "word": "so",
+          "start": 9.3,
+          "end": 9.56
+        },
+        {
+          "word": "we",
+          "start": 9.56,
+          "end": 9.66
+        },
+        {
+          "word": "often",
+          "start": 9.66,
+          "end": 9.98
+        },
+        {
+          "word": "eat",
+          "start": 9.98,
+          "end": 10.26
+        },
+        {
+          "word": "together.",
+          "start": 10.26,
+          "end": 10.74
+        },
+        {
+          "word": "Sometimes",
+          "start": 11.38,
+          "end": 11.94
+        },
+        {
+          "word": "he",
+          "start": 11.94,
+          "end": 12.2
+        },
+        {
+          "word": "asks",
+          "start": 12.2,
+          "end": 12.38
+        },
+        {
+          "word": "me",
+          "start": 12.38,
+          "end": 12.62
+        },
+        {
+          "word": "about",
+          "start": 12.62,
+          "end": 12.92
+        },
+        {
+          "word": "my",
+          "start": 12.92,
+          "end": 13.12
+        },
+        {
+          "word": "classes,",
+          "start": 13.12,
+          "end": 13.6
+        },
+        {
+          "word": "but",
+          "start": 13.86,
+          "end": 14.3
+        },
+        {
+          "word": "he",
+          "start": 14.3,
+          "end": 14.38
+        },
+        {
+          "word": "doesn't",
+          "start": 14.38,
+          "end": 14.72
+        },
+        {
+          "word": "understand",
+          "start": 14.72,
+          "end": 15.14
+        },
+        {
+          "word": "the",
+          "start": 15.14,
+          "end": 15.62
+        },
+        {
+          "word": "subjects",
+          "start": 15.62,
+          "end": 16.02
+        },
+        {
+          "word": "I",
+          "start": 16.02,
+          "end": 16.26
+        },
+        {
+          "word": "study.",
+          "start": 16.26,
+          "end": 16.6
+        }
+      ],
+      "fluency": {
+        "so_tu": 44,
+        "thoi_luong_giay": 16.6,
+        "toc_do_tu_moi_phut": 159.0,
+        "so_lan_ngung": 2,
+        "tong_thoi_gian_ngung": 1.2,
+        "ngung_dai_nhat": 0.64,
+        "so_tu_dem": 1,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "6.",
+            "at": 7.12,
+            "length": 0.58
+          },
+          {
+            "after": "together.",
+            "at": 10.74,
+            "length": 0.64
+          }
+        ]
+      },
+      "script": "My brother live near my university. He go to work by bus every morning, and he usually finish at six. He don't like cooking, so we often eat together. Sometimes he ask me about my classes, but he doesn't understands the subjects I study.",
+      "script_differences": [
+        {
+          "type": "replace",
+          "script": "live",
+          "transcript": "lives"
+        },
+        {
+          "type": "replace",
+          "script": "go",
+          "transcript": "goes"
+        },
+        {
+          "type": "replace",
+          "script": "finish",
+          "transcript": "finishes"
+        },
+        {
+          "type": "replace",
+          "script": "six",
+          "transcript": "6"
+        },
+        {
+          "type": "replace",
+          "script": "ask",
+          "transcript": "asks"
+        },
+        {
+          "type": "replace",
+          "script": "understands",
+          "transcript": "understand"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-02",
+      "backend": "local",
+      "keep_fillers": true,
+      "audio_seconds": 17.392,
+      "status": "ok",
+      "processing_seconds": 5.2,
+      "real_time_factor": 0.299,
+      "transcript": "My brother lives near my university. He goes to work by bus every morning, and he usually finishes at 6. He don't like cooking, so we often eat together. Sometimes he asks me about my classes, but he doesn't understand the subjects I study.",
+      "words": [
+        {
+          "word": "My",
+          "start": 0.0,
+          "end": 0.72
+        },
+        {
+          "word": "brother",
+          "start": 0.72,
+          "end": 1.02
+        },
+        {
+          "word": "lives",
+          "start": 1.02,
+          "end": 1.38
+        },
+        {
+          "word": "near",
+          "start": 1.38,
+          "end": 1.64
+        },
+        {
+          "word": "my",
+          "start": 1.64,
+          "end": 1.84
+        },
+        {
+          "word": "university.",
+          "start": 1.84,
+          "end": 2.5
+        },
+        {
+          "word": "He",
+          "start": 2.94,
+          "end": 3.2
+        },
+        {
+          "word": "goes",
+          "start": 3.2,
+          "end": 3.38
+        },
+        {
+          "word": "to",
+          "start": 3.38,
+          "end": 3.56
+        },
+        {
+          "word": "work",
+          "start": 3.56,
+          "end": 3.72
+        },
+        {
+          "word": "by",
+          "start": 3.72,
+          "end": 3.96
+        },
+        {
+          "word": "bus",
+          "start": 3.96,
+          "end": 4.16
+        },
+        {
+          "word": "every",
+          "start": 4.16,
+          "end": 4.44
+        },
+        {
+          "word": "morning,",
+          "start": 4.44,
+          "end": 4.84
+        },
+        {
+          "word": "and",
+          "start": 5.02,
+          "end": 5.48
+        },
+        {
+          "word": "he",
+          "start": 5.48,
+          "end": 5.62
+        },
+        {
+          "word": "usually",
+          "start": 5.62,
+          "end": 6.0
+        },
+        {
+          "word": "finishes",
+          "start": 6.0,
+          "end": 6.56
+        },
+        {
+          "word": "at",
+          "start": 6.56,
+          "end": 6.9
+        },
+        {
+          "word": "6.",
+          "start": 6.9,
+          "end": 7.12
+        },
+        {
+          "word": "He",
+          "start": 7.7,
+          "end": 8.26
+        },
+        {
+          "word": "don't",
+          "start": 8.26,
+          "end": 8.5
+        },
+        {
+          "word": "like",
+          "start": 8.5,
+          "end": 8.66
+        },
+        {
+          "word": "cooking,",
+          "start": 8.66,
+          "end": 9.08
+        },
+        {
+          "word": "so",
+          "start": 9.3,
+          "end": 9.56
+        },
+        {
+          "word": "we",
+          "start": 9.56,
+          "end": 9.66
+        },
+        {
+          "word": "often",
+          "start": 9.66,
+          "end": 9.98
+        },
+        {
+          "word": "eat",
+          "start": 9.98,
+          "end": 10.26
+        },
+        {
+          "word": "together.",
+          "start": 10.26,
+          "end": 10.74
+        },
+        {
+          "word": "Sometimes",
+          "start": 11.38,
+          "end": 11.94
+        },
+        {
+          "word": "he",
+          "start": 11.94,
+          "end": 12.2
+        },
+        {
+          "word": "asks",
+          "start": 12.2,
+          "end": 12.38
+        },
+        {
+          "word": "me",
+          "start": 12.38,
+          "end": 12.62
+        },
+        {
+          "word": "about",
+          "start": 12.62,
+          "end": 12.92
+        },
+        {
+          "word": "my",
+          "start": 12.92,
+          "end": 13.12
+        },
+        {
+          "word": "classes,",
+          "start": 13.12,
+          "end": 13.6
+        },
+        {
+          "word": "but",
+          "start": 13.86,
+          "end": 14.3
+        },
+        {
+          "word": "he",
+          "start": 14.3,
+          "end": 14.38
+        },
+        {
+          "word": "doesn't",
+          "start": 14.38,
+          "end": 14.72
+        },
+        {
+          "word": "understand",
+          "start": 14.72,
+          "end": 15.14
+        },
+        {
+          "word": "the",
+          "start": 15.14,
+          "end": 15.62
+        },
+        {
+          "word": "subjects",
+          "start": 15.62,
+          "end": 16.02
+        },
+        {
+          "word": "I",
+          "start": 16.02,
+          "end": 16.26
+        },
+        {
+          "word": "study.",
+          "start": 16.26,
+          "end": 16.6
+        }
+      ],
+      "fluency": {
+        "so_tu": 44,
+        "thoi_luong_giay": 16.6,
+        "toc_do_tu_moi_phut": 159.0,
+        "so_lan_ngung": 2,
+        "tong_thoi_gian_ngung": 1.2,
+        "ngung_dai_nhat": 0.64,
+        "so_tu_dem": 1,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "6.",
+            "at": 7.12,
+            "length": 0.58
+          },
+          {
+            "after": "together.",
+            "at": 10.74,
+            "length": 0.64
+          }
+        ]
+      },
+      "script": "My brother live near my university. He go to work by bus every morning, and he usually finish at six. He don't like cooking, so we often eat together. Sometimes he ask me about my classes, but he doesn't understands the subjects I study.",
+      "script_differences": [
+        {
+          "type": "replace",
+          "script": "live",
+          "transcript": "lives"
+        },
+        {
+          "type": "replace",
+          "script": "go",
+          "transcript": "goes"
+        },
+        {
+          "type": "replace",
+          "script": "finish",
+          "transcript": "finishes"
+        },
+        {
+          "type": "replace",
+          "script": "six",
+          "transcript": "6"
+        },
+        {
+          "type": "replace",
+          "script": "ask",
+          "transcript": "asks"
+        },
+        {
+          "type": "replace",
+          "script": "understands",
+          "transcript": "understand"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-03",
+      "backend": "local",
+      "keep_fillers": false,
+      "audio_seconds": 28.265,
+      "status": "ok",
+      "processing_seconds": 6.417,
+      "real_time_factor": 0.227,
+      "transcript": "Last weekend, I go to a small restaurant with my friends. We order noodles and talk about our exams. After dinner, we walk to a bookstore and I buy a novel. I didn't go home until 10. Yesterday, I read the first chapter and it was quite interesting.",
+      "words": [
+        {
+          "word": "Last",
+          "start": 1.740000000000002,
+          "end": 2.58
+        },
+        {
+          "word": "weekend,",
+          "start": 2.58,
+          "end": 2.96
+        },
+        {
+          "word": "I",
+          "start": 3.26,
+          "end": 3.32
+        },
+        {
+          "word": "go",
+          "start": 3.32,
+          "end": 3.5
+        },
+        {
+          "word": "to",
+          "start": 3.5,
+          "end": 3.7
+        },
+        {
+          "word": "a",
+          "start": 3.7,
+          "end": 3.84
+        },
+        {
+          "word": "small",
+          "start": 3.84,
+          "end": 4.26
+        },
+        {
+          "word": "restaurant",
+          "start": 4.26,
+          "end": 4.78
+        },
+        {
+          "word": "with",
+          "start": 4.78,
+          "end": 5.12
+        },
+        {
+          "word": "my",
+          "start": 5.12,
+          "end": 5.34
+        },
+        {
+          "word": "friends.",
+          "start": 5.34,
+          "end": 5.8
+        },
+        {
+          "word": "We",
+          "start": 6.1,
+          "end": 6.7
+        },
+        {
+          "word": "order",
+          "start": 6.7,
+          "end": 7.18
+        },
+        {
+          "word": "noodles",
+          "start": 7.18,
+          "end": 7.76
+        },
+        {
+          "word": "and",
+          "start": 7.76,
+          "end": 8.22
+        },
+        {
+          "word": "talk",
+          "start": 8.22,
+          "end": 8.78
+        },
+        {
+          "word": "about",
+          "start": 8.78,
+          "end": 9.16
+        },
+        {
+          "word": "our",
+          "start": 9.16,
+          "end": 9.48
+        },
+        {
+          "word": "exams.",
+          "start": 9.48,
+          "end": 10.02
+        },
+        {
+          "word": "After",
+          "start": 10.44,
+          "end": 11.12
+        },
+        {
+          "word": "dinner,",
+          "start": 11.12,
+          "end": 11.48
+        },
+        {
+          "word": "we",
+          "start": 11.9,
+          "end": 12.3
+        },
+        {
+          "word": "walk",
+          "start": 12.3,
+          "end": 12.72
+        },
+        {
+          "word": "to",
+          "start": 12.72,
+          "end": 12.98
+        },
+        {
+          "word": "a",
+          "start": 12.98,
+          "end": 13.18
+        },
+        {
+          "word": "bookstore",
+          "start": 13.18,
+          "end": 13.74
+        },
+        {
+          "word": "and",
+          "start": 13.74,
+          "end": 14.96
+        },
+        {
+          "word": "I",
+          "start": 14.96,
+          "end": 15.5
+        },
+        {
+          "word": "buy",
+          "start": 15.5,
+          "end": 15.74
+        },
+        {
+          "word": "a",
+          "start": 15.74,
+          "end": 15.92
+        },
+        {
+          "word": "novel.",
+          "start": 15.92,
+          "end": 16.22
+        },
+        {
+          "word": "I",
+          "start": 16.62,
+          "end": 17.06
+        },
+        {
+          "word": "didn't",
+          "start": 17.06,
+          "end": 17.34
+        },
+        {
+          "word": "go",
+          "start": 17.34,
+          "end": 17.54
+        },
+        {
+          "word": "home",
+          "start": 17.54,
+          "end": 18.16
+        },
+        {
+          "word": "until",
+          "start": 18.16,
+          "end": 18.6
+        },
+        {
+          "word": "10.",
+          "start": 18.6,
+          "end": 18.92
+        },
+        {
+          "word": "Yesterday,",
+          "start": 20.340000000000003,
+          "end": 21.18
+        },
+        {
+          "word": "I",
+          "start": 21.56,
+          "end": 21.64
+        },
+        {
+          "word": "read",
+          "start": 21.64,
+          "end": 22.06
+        },
+        {
+          "word": "the",
+          "start": 22.06,
+          "end": 22.58
+        },
+        {
+          "word": "first",
+          "start": 22.58,
+          "end": 23.0
+        },
+        {
+          "word": "chapter",
+          "start": 23.0,
+          "end": 23.66
+        },
+        {
+          "word": "and",
+          "start": 23.66,
+          "end": 24.56
+        },
+        {
+          "word": "it",
+          "start": 24.56,
+          "end": 24.88
+        },
+        {
+          "word": "was",
+          "start": 24.88,
+          "end": 25.2
+        },
+        {
+          "word": "quite",
+          "start": 25.2,
+          "end": 25.82
+        },
+        {
+          "word": "interesting.",
+          "start": 25.82,
+          "end": 26.5
+        }
+      ],
+      "fluency": {
+        "so_tu": 48,
+        "thoi_luong_giay": 24.8,
+        "toc_do_tu_moi_phut": 116.3,
+        "so_lan_ngung": 1,
+        "tong_thoi_gian_ngung": 1.4,
+        "ngung_dai_nhat": 1.42,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "10.",
+            "at": 18.92,
+            "length": 1.42
+          }
+        ]
+      },
+      "script": "Last weekend, I go to a small restaurant with my friends. We order noodles and talk about our exams. After dinner, we walk to a bookstore, and I buy a novel. I didn't went home until ten. Yesterday, I readed the first chapter, and it was quite interesting.",
+      "script_differences": [
+        {
+          "type": "replace",
+          "script": "went",
+          "transcript": "go"
+        },
+        {
+          "type": "replace",
+          "script": "ten",
+          "transcript": "10"
+        },
+        {
+          "type": "replace",
+          "script": "readed",
+          "transcript": "read"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-03",
+      "backend": "local",
+      "keep_fillers": true,
+      "audio_seconds": 28.265,
+      "status": "ok",
+      "processing_seconds": 5.761,
+      "real_time_factor": 0.204,
+      "transcript": "Last weekend, I go to a small restaurant with my friends. We order noodles and talk about our exams. After dinner, we walk to a bookstore and I buy a novel. I didn't go home until 10. Yesterday, I read the first chapter and it was quite interesting.",
+      "words": [
+        {
+          "word": "Last",
+          "start": 1.740000000000002,
+          "end": 2.58
+        },
+        {
+          "word": "weekend,",
+          "start": 2.58,
+          "end": 2.96
+        },
+        {
+          "word": "I",
+          "start": 3.26,
+          "end": 3.32
+        },
+        {
+          "word": "go",
+          "start": 3.32,
+          "end": 3.5
+        },
+        {
+          "word": "to",
+          "start": 3.5,
+          "end": 3.7
+        },
+        {
+          "word": "a",
+          "start": 3.7,
+          "end": 3.84
+        },
+        {
+          "word": "small",
+          "start": 3.84,
+          "end": 4.26
+        },
+        {
+          "word": "restaurant",
+          "start": 4.26,
+          "end": 4.78
+        },
+        {
+          "word": "with",
+          "start": 4.78,
+          "end": 5.12
+        },
+        {
+          "word": "my",
+          "start": 5.12,
+          "end": 5.34
+        },
+        {
+          "word": "friends.",
+          "start": 5.34,
+          "end": 5.8
+        },
+        {
+          "word": "We",
+          "start": 6.1,
+          "end": 6.7
+        },
+        {
+          "word": "order",
+          "start": 6.7,
+          "end": 7.18
+        },
+        {
+          "word": "noodles",
+          "start": 7.18,
+          "end": 7.76
+        },
+        {
+          "word": "and",
+          "start": 7.76,
+          "end": 8.22
+        },
+        {
+          "word": "talk",
+          "start": 8.22,
+          "end": 8.78
+        },
+        {
+          "word": "about",
+          "start": 8.78,
+          "end": 9.16
+        },
+        {
+          "word": "our",
+          "start": 9.16,
+          "end": 9.48
+        },
+        {
+          "word": "exams.",
+          "start": 9.48,
+          "end": 10.02
+        },
+        {
+          "word": "After",
+          "start": 10.44,
+          "end": 11.12
+        },
+        {
+          "word": "dinner,",
+          "start": 11.12,
+          "end": 11.48
+        },
+        {
+          "word": "we",
+          "start": 11.9,
+          "end": 12.3
+        },
+        {
+          "word": "walk",
+          "start": 12.3,
+          "end": 12.72
+        },
+        {
+          "word": "to",
+          "start": 12.72,
+          "end": 12.98
+        },
+        {
+          "word": "a",
+          "start": 12.98,
+          "end": 13.18
+        },
+        {
+          "word": "bookstore",
+          "start": 13.18,
+          "end": 13.74
+        },
+        {
+          "word": "and",
+          "start": 13.74,
+          "end": 14.96
+        },
+        {
+          "word": "I",
+          "start": 14.96,
+          "end": 15.5
+        },
+        {
+          "word": "buy",
+          "start": 15.5,
+          "end": 15.74
+        },
+        {
+          "word": "a",
+          "start": 15.74,
+          "end": 15.92
+        },
+        {
+          "word": "novel.",
+          "start": 15.92,
+          "end": 16.22
+        },
+        {
+          "word": "I",
+          "start": 16.62,
+          "end": 17.06
+        },
+        {
+          "word": "didn't",
+          "start": 17.06,
+          "end": 17.34
+        },
+        {
+          "word": "go",
+          "start": 17.34,
+          "end": 17.54
+        },
+        {
+          "word": "home",
+          "start": 17.54,
+          "end": 18.16
+        },
+        {
+          "word": "until",
+          "start": 18.16,
+          "end": 18.6
+        },
+        {
+          "word": "10.",
+          "start": 18.6,
+          "end": 18.92
+        },
+        {
+          "word": "Yesterday,",
+          "start": 20.34,
+          "end": 21.18
+        },
+        {
+          "word": "I",
+          "start": 21.56,
+          "end": 21.64
+        },
+        {
+          "word": "read",
+          "start": 21.64,
+          "end": 22.06
+        },
+        {
+          "word": "the",
+          "start": 22.06,
+          "end": 22.58
+        },
+        {
+          "word": "first",
+          "start": 22.58,
+          "end": 23.0
+        },
+        {
+          "word": "chapter",
+          "start": 23.0,
+          "end": 23.66
+        },
+        {
+          "word": "and",
+          "start": 23.66,
+          "end": 24.56
+        },
+        {
+          "word": "it",
+          "start": 24.56,
+          "end": 24.88
+        },
+        {
+          "word": "was",
+          "start": 24.88,
+          "end": 25.2
+        },
+        {
+          "word": "quite",
+          "start": 25.2,
+          "end": 25.82
+        },
+        {
+          "word": "interesting.",
+          "start": 25.82,
+          "end": 26.5
+        }
+      ],
+      "fluency": {
+        "so_tu": 48,
+        "thoi_luong_giay": 24.8,
+        "toc_do_tu_moi_phut": 116.3,
+        "so_lan_ngung": 1,
+        "tong_thoi_gian_ngung": 1.4,
+        "ngung_dai_nhat": 1.42,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "10.",
+            "at": 18.92,
+            "length": 1.42
+          }
+        ]
+      },
+      "script": "Last weekend, I go to a small restaurant with my friends. We order noodles and talk about our exams. After dinner, we walk to a bookstore, and I buy a novel. I didn't went home until ten. Yesterday, I readed the first chapter, and it was quite interesting.",
+      "script_differences": [
+        {
+          "type": "replace",
+          "script": "went",
+          "transcript": "go"
+        },
+        {
+          "type": "replace",
+          "script": "ten",
+          "transcript": "10"
+        },
+        {
+          "type": "replace",
+          "script": "readed",
+          "transcript": "read"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-04",
+      "backend": "local",
+      "keep_fillers": false,
+      "audio_seconds": 22.889,
+      "status": "ok",
+      "processing_seconds": 5.488,
+      "real_time_factor": 0.24,
+      "transcript": "There are many students in my class. We have a lot of homework, but our teacher also gives us useful advice. I need more information about the final project. Last week, I bought two new notebooks and a few equipment for recording audio. These things were quite expensive.",
+      "words": [
+        {
+          "word": "There",
+          "start": 0.0,
+          "end": 0.8
+        },
+        {
+          "word": "are",
+          "start": 0.8,
+          "end": 0.98
+        },
+        {
+          "word": "many",
+          "start": 0.98,
+          "end": 1.22
+        },
+        {
+          "word": "students",
+          "start": 1.22,
+          "end": 1.58
+        },
+        {
+          "word": "in",
+          "start": 1.58,
+          "end": 1.82
+        },
+        {
+          "word": "my",
+          "start": 1.82,
+          "end": 1.98
+        },
+        {
+          "word": "class.",
+          "start": 1.98,
+          "end": 2.3
+        },
+        {
+          "word": "We",
+          "start": 2.48,
+          "end": 2.68
+        },
+        {
+          "word": "have",
+          "start": 2.68,
+          "end": 2.92
+        },
+        {
+          "word": "a",
+          "start": 2.92,
+          "end": 3.08
+        },
+        {
+          "word": "lot",
+          "start": 3.08,
+          "end": 3.2
+        },
+        {
+          "word": "of",
+          "start": 3.2,
+          "end": 3.36
+        },
+        {
+          "word": "homework,",
+          "start": 3.36,
+          "end": 3.82
+        },
+        {
+          "word": "but",
+          "start": 4.12,
+          "end": 4.2
+        },
+        {
+          "word": "our",
+          "start": 4.2,
+          "end": 4.48
+        },
+        {
+          "word": "teacher",
+          "start": 4.48,
+          "end": 4.84
+        },
+        {
+          "word": "also",
+          "start": 4.84,
+          "end": 5.34
+        },
+        {
+          "word": "gives",
+          "start": 5.34,
+          "end": 5.68
+        },
+        {
+          "word": "us",
+          "start": 5.68,
+          "end": 6.02
+        },
+        {
+          "word": "useful",
+          "start": 6.02,
+          "end": 7.42
+        },
+        {
+          "word": "advice.",
+          "start": 7.42,
+          "end": 7.98
+        },
+        {
+          "word": "I",
+          "start": 8.46,
+          "end": 9.1
+        },
+        {
+          "word": "need",
+          "start": 9.1,
+          "end": 9.32
+        },
+        {
+          "word": "more",
+          "start": 9.32,
+          "end": 9.58
+        },
+        {
+          "word": "information",
+          "start": 9.58,
+          "end": 10.18
+        },
+        {
+          "word": "about",
+          "start": 10.18,
+          "end": 10.64
+        },
+        {
+          "word": "the",
+          "start": 10.64,
+          "end": 10.9
+        },
+        {
+          "word": "final",
+          "start": 10.9,
+          "end": 11.32
+        },
+        {
+          "word": "project.",
+          "start": 11.32,
+          "end": 11.78
+        },
+        {
+          "word": "Last",
+          "start": 12.1,
+          "end": 12.64
+        },
+        {
+          "word": "week,",
+          "start": 12.64,
+          "end": 12.9
+        },
+        {
+          "word": "I",
+          "start": 13.12,
+          "end": 13.48
+        },
+        {
+          "word": "bought",
+          "start": 13.48,
+          "end": 13.78
+        },
+        {
+          "word": "two",
+          "start": 13.78,
+          "end": 14.06
+        },
+        {
+          "word": "new",
+          "start": 14.06,
+          "end": 14.58
+        },
+        {
+          "word": "notebooks",
+          "start": 14.58,
+          "end": 15.14
+        },
+        {
+          "word": "and",
+          "start": 15.14,
+          "end": 15.64
+        },
+        {
+          "word": "a",
+          "start": 15.64,
+          "end": 15.84
+        },
+        {
+          "word": "few",
+          "start": 15.84,
+          "end": 16.08
+        },
+        {
+          "word": "equipment",
+          "start": 16.08,
+          "end": 16.62
+        },
+        {
+          "word": "for",
+          "start": 16.62,
+          "end": 17.16
+        },
+        {
+          "word": "recording",
+          "start": 17.16,
+          "end": 18.0
+        },
+        {
+          "word": "audio.",
+          "start": 18.0,
+          "end": 18.64
+        },
+        {
+          "word": "These",
+          "start": 19.32,
+          "end": 19.92
+        },
+        {
+          "word": "things",
+          "start": 19.92,
+          "end": 20.12
+        },
+        {
+          "word": "were",
+          "start": 20.12,
+          "end": 20.48
+        },
+        {
+          "word": "quite",
+          "start": 20.48,
+          "end": 20.98
+        },
+        {
+          "word": "expensive.",
+          "start": 20.98,
+          "end": 21.58
+        }
+      ],
+      "fluency": {
+        "so_tu": 48,
+        "thoi_luong_giay": 21.6,
+        "toc_do_tu_moi_phut": 133.5,
+        "so_lan_ngung": 1,
+        "tong_thoi_gian_ngung": 0.7,
+        "ngung_dai_nhat": 0.68,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "audio.",
+            "at": 18.64,
+            "length": 0.68
+          }
+        ]
+      },
+      "script": "There are many student in my class. We have a lot of homework, but our teacher also gives us useful advices. I need more informations about the final project. Last week, I bought two new notebook and a few equipment for recording audio. These thing were quite expensive.",
+      "script_differences": [
+        {
+          "type": "replace",
+          "script": "student",
+          "transcript": "students"
+        },
+        {
+          "type": "replace",
+          "script": "advices",
+          "transcript": "advice"
+        },
+        {
+          "type": "replace",
+          "script": "informations",
+          "transcript": "information"
+        },
+        {
+          "type": "replace",
+          "script": "notebook",
+          "transcript": "notebooks"
+        },
+        {
+          "type": "replace",
+          "script": "thing",
+          "transcript": "things"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-04",
+      "backend": "local",
+      "keep_fillers": true,
+      "audio_seconds": 22.889,
+      "status": "ok",
+      "processing_seconds": 5.656,
+      "real_time_factor": 0.247,
+      "transcript": "There are many students in my class. We have a lot of homework, but our teachers also give us useful advice. I need more information about the final project. Last week, I bought two new notebooks and a few equipment for recording audio. These things were quite expensive.",
+      "words": [
+        {
+          "word": "There",
+          "start": 0.0,
+          "end": 0.8
+        },
+        {
+          "word": "are",
+          "start": 0.8,
+          "end": 0.98
+        },
+        {
+          "word": "many",
+          "start": 0.98,
+          "end": 1.22
+        },
+        {
+          "word": "students",
+          "start": 1.22,
+          "end": 1.58
+        },
+        {
+          "word": "in",
+          "start": 1.58,
+          "end": 1.82
+        },
+        {
+          "word": "my",
+          "start": 1.82,
+          "end": 1.98
+        },
+        {
+          "word": "class.",
+          "start": 1.98,
+          "end": 2.3
+        },
+        {
+          "word": "We",
+          "start": 2.48,
+          "end": 2.68
+        },
+        {
+          "word": "have",
+          "start": 2.68,
+          "end": 2.92
+        },
+        {
+          "word": "a",
+          "start": 2.92,
+          "end": 3.08
+        },
+        {
+          "word": "lot",
+          "start": 3.08,
+          "end": 3.2
+        },
+        {
+          "word": "of",
+          "start": 3.2,
+          "end": 3.36
+        },
+        {
+          "word": "homework,",
+          "start": 3.36,
+          "end": 3.82
+        },
+        {
+          "word": "but",
+          "start": 4.12,
+          "end": 4.2
+        },
+        {
+          "word": "our",
+          "start": 4.2,
+          "end": 4.48
+        },
+        {
+          "word": "teachers",
+          "start": 4.48,
+          "end": 4.86
+        },
+        {
+          "word": "also",
+          "start": 4.86,
+          "end": 5.34
+        },
+        {
+          "word": "give",
+          "start": 5.34,
+          "end": 5.68
+        },
+        {
+          "word": "us",
+          "start": 5.68,
+          "end": 5.98
+        },
+        {
+          "word": "useful",
+          "start": 5.98,
+          "end": 7.4
+        },
+        {
+          "word": "advice.",
+          "start": 7.4,
+          "end": 8.0
+        },
+        {
+          "word": "I",
+          "start": 8.46,
+          "end": 9.1
+        },
+        {
+          "word": "need",
+          "start": 9.1,
+          "end": 9.32
+        },
+        {
+          "word": "more",
+          "start": 9.32,
+          "end": 9.58
+        },
+        {
+          "word": "information",
+          "start": 9.58,
+          "end": 10.18
+        },
+        {
+          "word": "about",
+          "start": 10.18,
+          "end": 10.64
+        },
+        {
+          "word": "the",
+          "start": 10.64,
+          "end": 10.9
+        },
+        {
+          "word": "final",
+          "start": 10.9,
+          "end": 11.32
+        },
+        {
+          "word": "project.",
+          "start": 11.32,
+          "end": 11.78
+        },
+        {
+          "word": "Last",
+          "start": 12.1,
+          "end": 12.64
+        },
+        {
+          "word": "week,",
+          "start": 12.64,
+          "end": 12.9
+        },
+        {
+          "word": "I",
+          "start": 13.12,
+          "end": 13.48
+        },
+        {
+          "word": "bought",
+          "start": 13.48,
+          "end": 13.78
+        },
+        {
+          "word": "two",
+          "start": 13.78,
+          "end": 14.06
+        },
+        {
+          "word": "new",
+          "start": 14.06,
+          "end": 14.58
+        },
+        {
+          "word": "notebooks",
+          "start": 14.58,
+          "end": 15.14
+        },
+        {
+          "word": "and",
+          "start": 15.14,
+          "end": 15.64
+        },
+        {
+          "word": "a",
+          "start": 15.64,
+          "end": 15.84
+        },
+        {
+          "word": "few",
+          "start": 15.84,
+          "end": 16.1
+        },
+        {
+          "word": "equipment",
+          "start": 16.1,
+          "end": 16.62
+        },
+        {
+          "word": "for",
+          "start": 16.62,
+          "end": 17.16
+        },
+        {
+          "word": "recording",
+          "start": 17.16,
+          "end": 18.0
+        },
+        {
+          "word": "audio.",
+          "start": 18.0,
+          "end": 18.64
+        },
+        {
+          "word": "These",
+          "start": 19.32,
+          "end": 19.92
+        },
+        {
+          "word": "things",
+          "start": 19.92,
+          "end": 20.12
+        },
+        {
+          "word": "were",
+          "start": 20.12,
+          "end": 20.48
+        },
+        {
+          "word": "quite",
+          "start": 20.48,
+          "end": 20.98
+        },
+        {
+          "word": "expensive.",
+          "start": 20.98,
+          "end": 21.58
+        }
+      ],
+      "fluency": {
+        "so_tu": 48,
+        "thoi_luong_giay": 21.6,
+        "toc_do_tu_moi_phut": 133.5,
+        "so_lan_ngung": 1,
+        "tong_thoi_gian_ngung": 0.7,
+        "ngung_dai_nhat": 0.68,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "audio.",
+            "at": 18.64,
+            "length": 0.68
+          }
+        ]
+      },
+      "script": "There are many student in my class. We have a lot of homework, but our teacher also gives us useful advices. I need more informations about the final project. Last week, I bought two new notebook and a few equipment for recording audio. These thing were quite expensive.",
+      "script_differences": [
+        {
+          "type": "replace",
+          "script": "student",
+          "transcript": "students"
+        },
+        {
+          "type": "replace",
+          "script": "teacher",
+          "transcript": "teachers"
+        },
+        {
+          "type": "replace",
+          "script": "gives",
+          "transcript": "give"
+        },
+        {
+          "type": "replace",
+          "script": "advices",
+          "transcript": "advice"
+        },
+        {
+          "type": "replace",
+          "script": "informations",
+          "transcript": "information"
+        },
+        {
+          "type": "replace",
+          "script": "notebook",
+          "transcript": "notebooks"
+        },
+        {
+          "type": "replace",
+          "script": "thing",
+          "transcript": "things"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-05",
+      "backend": "local",
+      "keep_fillers": false,
+      "audio_seconds": 30.012,
+      "status": "ok",
+      "processing_seconds": 11.155,
+      "real_time_factor": 0.372,
+      "transcript": "I live in a small apartment near the campus, it takes about 10 minutes to arrive to my classroom. I am interested in learning English because it is useful for my future job. At the evening, I often discuss about my homework with a friend who lives in the same building.",
+      "words": [
+        {
+          "word": "I",
+          "start": 1.6399999999999997,
+          "end": 2.58
+        },
+        {
+          "word": "live",
+          "start": 2.58,
+          "end": 3.04
+        },
+        {
+          "word": "in",
+          "start": 3.04,
+          "end": 3.44
+        },
+        {
+          "word": "a",
+          "start": 3.44,
+          "end": 3.74
+        },
+        {
+          "word": "small",
+          "start": 3.74,
+          "end": 4.1
+        },
+        {
+          "word": "apartment",
+          "start": 4.1,
+          "end": 4.8
+        },
+        {
+          "word": "near",
+          "start": 4.8,
+          "end": 5.26
+        },
+        {
+          "word": "the",
+          "start": 5.26,
+          "end": 5.6
+        },
+        {
+          "word": "campus,",
+          "start": 5.6,
+          "end": 6.1
+        },
+        {
+          "word": "it",
+          "start": 6.44,
+          "end": 6.94
+        },
+        {
+          "word": "takes",
+          "start": 6.94,
+          "end": 7.42
+        },
+        {
+          "word": "about",
+          "start": 7.42,
+          "end": 7.92
+        },
+        {
+          "word": "10",
+          "start": 7.92,
+          "end": 8.26
+        },
+        {
+          "word": "minutes",
+          "start": 8.26,
+          "end": 8.64
+        },
+        {
+          "word": "to",
+          "start": 8.64,
+          "end": 9.0
+        },
+        {
+          "word": "arrive",
+          "start": 9.0,
+          "end": 9.52
+        },
+        {
+          "word": "to",
+          "start": 9.52,
+          "end": 9.8
+        },
+        {
+          "word": "my",
+          "start": 9.8,
+          "end": 10.08
+        },
+        {
+          "word": "classroom.",
+          "start": 10.08,
+          "end": 10.76
+        },
+        {
+          "word": "I",
+          "start": 11.42,
+          "end": 12.2
+        },
+        {
+          "word": "am",
+          "start": 12.2,
+          "end": 12.56
+        },
+        {
+          "word": "interested",
+          "start": 12.56,
+          "end": 13.32
+        },
+        {
+          "word": "in",
+          "start": 13.32,
+          "end": 14.1
+        },
+        {
+          "word": "learning",
+          "start": 14.1,
+          "end": 14.64
+        },
+        {
+          "word": "English",
+          "start": 14.64,
+          "end": 15.24
+        },
+        {
+          "word": "because",
+          "start": 15.24,
+          "end": 16.04
+        },
+        {
+          "word": "it",
+          "start": 16.04,
+          "end": 16.54
+        },
+        {
+          "word": "is",
+          "start": 16.54,
+          "end": 16.86
+        },
+        {
+          "word": "useful",
+          "start": 16.86,
+          "end": 17.54
+        },
+        {
+          "word": "for",
+          "start": 17.54,
+          "end": 17.92
+        },
+        {
+          "word": "my",
+          "start": 17.92,
+          "end": 18.12
+        },
+        {
+          "word": "future",
+          "start": 18.12,
+          "end": 18.54
+        },
+        {
+          "word": "job.",
+          "start": 18.54,
+          "end": 19.36
+        },
+        {
+          "word": "At",
+          "start": 19.88,
+          "end": 20.44
+        },
+        {
+          "word": "the",
+          "start": 20.44,
+          "end": 20.68
+        },
+        {
+          "word": "evening,",
+          "start": 20.68,
+          "end": 21.16
+        },
+        {
+          "word": "I",
+          "start": 21.74,
+          "end": 22.26
+        },
+        {
+          "word": "often",
+          "start": 22.26,
+          "end": 22.8
+        },
+        {
+          "word": "discuss",
+          "start": 22.8,
+          "end": 23.44
+        },
+        {
+          "word": "about",
+          "start": 23.44,
+          "end": 24.06
+        },
+        {
+          "word": "my",
+          "start": 24.06,
+          "end": 24.34
+        },
+        {
+          "word": "homework",
+          "start": 24.34,
+          "end": 24.74
+        },
+        {
+          "word": "with",
+          "start": 24.74,
+          "end": 25.52
+        },
+        {
+          "word": "a",
+          "start": 25.52,
+          "end": 25.78
+        },
+        {
+          "word": "friend",
+          "start": 25.78,
+          "end": 26.22
+        },
+        {
+          "word": "who",
+          "start": 26.22,
+          "end": 26.8
+        },
+        {
+          "word": "lives",
+          "start": 26.8,
+          "end": 27.26
+        },
+        {
+          "word": "in",
+          "start": 27.26,
+          "end": 27.6
+        },
+        {
+          "word": "the",
+          "start": 27.6,
+          "end": 27.8
+        },
+        {
+          "word": "same",
+          "start": 27.8,
+          "end": 28.12
+        },
+        {
+          "word": "building.",
+          "start": 28.12,
+          "end": 28.54
+        }
+      ],
+      "fluency": {
+        "so_tu": 51,
+        "thoi_luong_giay": 26.9,
+        "toc_do_tu_moi_phut": 113.8,
+        "so_lan_ngung": 3,
+        "tong_thoi_gian_ngung": 1.8,
+        "ngung_dai_nhat": 0.66,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "classroom.",
+            "at": 10.76,
+            "length": 0.66
+          },
+          {
+            "after": "job.",
+            "at": 19.36,
+            "length": 0.52
+          },
+          {
+            "after": "evening,",
+            "at": 21.16,
+            "length": 0.58
+          }
+        ]
+      },
+      "script": "I live in small apartment near the campus. It takes about ten minutes to arrive to my classroom. I am interested on learning English because it is useful for my future job. At the evening, I often discuss about my homework with a friend who lives in the same building.",
+      "script_differences": [
+        {
+          "type": "insert",
+          "script": "",
+          "transcript": "a"
+        },
+        {
+          "type": "replace",
+          "script": "ten",
+          "transcript": "10"
+        },
+        {
+          "type": "replace",
+          "script": "on",
+          "transcript": "in"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-05",
+      "backend": "local",
+      "keep_fillers": true,
+      "audio_seconds": 30.012,
+      "timestamp_error": "boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1",
+      "status": "ok",
+      "processing_seconds": 20.644,
+      "timestamps_available": false,
+      "real_time_factor": 0.688,
+      "transcript": "I live in a small apartment near the campus. It takes about 10 minutes to arrive to my classroom. I am interested on learning English because it is useful for my future job. At the evening, I often discuss about my homework with a friend who lives in the same building. I have a friend who lives in the same building. I have a friend who lives in the same building. I have a friend who lives in the same building. I have a friend who lives in the same building. I have a friend who lives in the same building. I have a friend who lives in the same building.",
+      "words": [],
+      "fluency": {},
+      "script": "I live in small apartment near the campus. It takes about ten minutes to arrive to my classroom. I am interested on learning English because it is useful for my future job. At the evening, I often discuss about my homework with a friend who lives in the same building.",
+      "script_differences": [
+        {
+          "type": "insert",
+          "script": "",
+          "transcript": "a"
+        },
+        {
+          "type": "replace",
+          "script": "ten",
+          "transcript": "10"
+        },
+        {
+          "type": "insert",
+          "script": "",
+          "transcript": "i have a friend who lives in the same building i have a friend who lives in the same building i have a friend who lives in the same building i have a friend who lives in the same building i have a friend who lives in the same building i have a friend who lives in the same building"
+        }
+      ],
+      "previous_attempt": {
+        "sample": "sample-05",
+        "backend": "local",
+        "keep_fillers": true,
+        "audio_seconds": 30.012,
+        "status": "error",
+        "error": "boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1",
+        "processing_seconds": 10.991
+      }
+    },
+    {
+      "sample": "sample-06",
+      "backend": "local",
+      "keep_fillers": false,
+      "audio_seconds": 30.524,
+      "status": "ok",
+      "processing_seconds": 10.296,
+      "real_time_factor": 0.337,
+      "transcript": "I think my favorite place is the library. I go there because it is quiet and I can focus better. Sometimes I just sit near the window and read. I usually stay there for about an hour before going home.",
+      "words": [
+        {
+          "word": "I",
+          "start": 2.3,
+          "end": 3.2
+        },
+        {
+          "word": "think",
+          "start": 3.2,
+          "end": 3.6
+        },
+        {
+          "word": "my",
+          "start": 3.6,
+          "end": 4.02
+        },
+        {
+          "word": "favorite",
+          "start": 4.02,
+          "end": 4.46
+        },
+        {
+          "word": "place",
+          "start": 4.46,
+          "end": 5.1
+        },
+        {
+          "word": "is",
+          "start": 5.1,
+          "end": 5.56
+        },
+        {
+          "word": "the",
+          "start": 5.56,
+          "end": 7.0
+        },
+        {
+          "word": "library.",
+          "start": 7.0,
+          "end": 7.52
+        },
+        {
+          "word": "I",
+          "start": 9.190000000000001,
+          "end": 9.64
+        },
+        {
+          "word": "go",
+          "start": 9.64,
+          "end": 9.98
+        },
+        {
+          "word": "there",
+          "start": 9.98,
+          "end": 10.38
+        },
+        {
+          "word": "because",
+          "start": 10.38,
+          "end": 10.86
+        },
+        {
+          "word": "it",
+          "start": 10.86,
+          "end": 12.5
+        },
+        {
+          "word": "is",
+          "start": 12.5,
+          "end": 12.8
+        },
+        {
+          "word": "quiet",
+          "start": 12.8,
+          "end": 13.32
+        },
+        {
+          "word": "and",
+          "start": 13.32,
+          "end": 14.54
+        },
+        {
+          "word": "I",
+          "start": 14.54,
+          "end": 14.84
+        },
+        {
+          "word": "can",
+          "start": 14.84,
+          "end": 14.98
+        },
+        {
+          "word": "focus",
+          "start": 14.98,
+          "end": 15.36
+        },
+        {
+          "word": "better.",
+          "start": 15.36,
+          "end": 15.82
+        },
+        {
+          "word": "Sometimes",
+          "start": 18.830000000000002,
+          "end": 19.28
+        },
+        {
+          "word": "I",
+          "start": 19.28,
+          "end": 20.08
+        },
+        {
+          "word": "just",
+          "start": 20.08,
+          "end": 20.46
+        },
+        {
+          "word": "sit",
+          "start": 20.46,
+          "end": 20.8
+        },
+        {
+          "word": "near",
+          "start": 20.8,
+          "end": 21.18
+        },
+        {
+          "word": "the",
+          "start": 21.18,
+          "end": 21.44
+        },
+        {
+          "word": "window",
+          "start": 21.44,
+          "end": 21.86
+        },
+        {
+          "word": "and",
+          "start": 21.86,
+          "end": 22.18
+        },
+        {
+          "word": "read.",
+          "start": 22.18,
+          "end": 22.5
+        },
+        {
+          "word": "I",
+          "start": 23.54,
+          "end": 24.36
+        },
+        {
+          "word": "usually",
+          "start": 24.36,
+          "end": 24.8
+        },
+        {
+          "word": "stay",
+          "start": 24.8,
+          "end": 25.48
+        },
+        {
+          "word": "there",
+          "start": 25.48,
+          "end": 25.9
+        },
+        {
+          "word": "for",
+          "start": 25.9,
+          "end": 26.28
+        },
+        {
+          "word": "about",
+          "start": 26.28,
+          "end": 26.66
+        },
+        {
+          "word": "an",
+          "start": 26.66,
+          "end": 26.98
+        },
+        {
+          "word": "hour",
+          "start": 26.98,
+          "end": 27.4
+        },
+        {
+          "word": "before",
+          "start": 27.4,
+          "end": 27.96
+        },
+        {
+          "word": "going",
+          "start": 27.96,
+          "end": 28.36
+        },
+        {
+          "word": "home.",
+          "start": 28.36,
+          "end": 28.7
+        }
+      ],
+      "fluency": {
+        "so_tu": 40,
+        "thoi_luong_giay": 26.4,
+        "toc_do_tu_moi_phut": 90.9,
+        "so_lan_ngung": 3,
+        "tong_thoi_gian_ngung": 5.7,
+        "ngung_dai_nhat": 3.01,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "library.",
+            "at": 7.52,
+            "length": 1.67
+          },
+          {
+            "after": "better.",
+            "at": 15.82,
+            "length": 3.01
+          },
+          {
+            "after": "read.",
+            "at": 22.5,
+            "length": 1.04
+          }
+        ]
+      },
+      "script": "Um, I think my favorite place is, uh, the library.  I go there because, um, it is quiet, and I can focus better.  Hmm, sometimes I just sit near the window and read. Uh, I usually stay there for about an hour before going home.",
+      "script_differences": [
+        {
+          "type": "delete",
+          "script": "um",
+          "transcript": ""
+        },
+        {
+          "type": "delete",
+          "script": "uh",
+          "transcript": ""
+        },
+        {
+          "type": "delete",
+          "script": "um",
+          "transcript": ""
+        },
+        {
+          "type": "delete",
+          "script": "hmm",
+          "transcript": ""
+        },
+        {
+          "type": "delete",
+          "script": "uh",
+          "transcript": ""
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-06",
+      "backend": "local",
+      "keep_fillers": true,
+      "audio_seconds": 30.524,
+      "status": "ok",
+      "processing_seconds": 10.11,
+      "real_time_factor": 0.331,
+      "transcript": "I think my favorite place is, um, the library. I go there because, um, it is quiet and I can focus better. And sometimes I just sit near the window and read. Um, I usually stay there for about an hour before going home.",
+      "words": [
+        {
+          "word": "I",
+          "start": 2.360000000000004,
+          "end": 3.2
+        },
+        {
+          "word": "think",
+          "start": 3.2,
+          "end": 3.6
+        },
+        {
+          "word": "my",
+          "start": 3.6,
+          "end": 4.02
+        },
+        {
+          "word": "favorite",
+          "start": 4.02,
+          "end": 4.46
+        },
+        {
+          "word": "place",
+          "start": 4.46,
+          "end": 5.1
+        },
+        {
+          "word": "is,",
+          "start": 5.1,
+          "end": 5.56
+        },
+        {
+          "word": "um,",
+          "start": 5.82,
+          "end": 6.18
+        },
+        {
+          "word": "the",
+          "start": 6.86,
+          "end": 7.0
+        },
+        {
+          "word": "library.",
+          "start": 7.0,
+          "end": 7.52
+        },
+        {
+          "word": "I",
+          "start": 8.8,
+          "end": 9.64
+        },
+        {
+          "word": "go",
+          "start": 9.64,
+          "end": 9.98
+        },
+        {
+          "word": "there",
+          "start": 9.98,
+          "end": 10.38
+        },
+        {
+          "word": "because,",
+          "start": 10.38,
+          "end": 10.86
+        },
+        {
+          "word": "um,",
+          "start": 11.32,
+          "end": 11.64
+        },
+        {
+          "word": "it",
+          "start": 12.28,
+          "end": 12.48
+        },
+        {
+          "word": "is",
+          "start": 12.48,
+          "end": 12.8
+        },
+        {
+          "word": "quiet",
+          "start": 12.8,
+          "end": 13.32
+        },
+        {
+          "word": "and",
+          "start": 13.32,
+          "end": 14.54
+        },
+        {
+          "word": "I",
+          "start": 14.54,
+          "end": 14.84
+        },
+        {
+          "word": "can",
+          "start": 14.84,
+          "end": 14.98
+        },
+        {
+          "word": "focus",
+          "start": 14.98,
+          "end": 15.38
+        },
+        {
+          "word": "better.",
+          "start": 15.38,
+          "end": 15.82
+        },
+        {
+          "word": "And",
+          "start": 17.700000000000006,
+          "end": 18.540000000000003
+        },
+        {
+          "word": "sometimes",
+          "start": 18.540000000000003,
+          "end": 19.38
+        },
+        {
+          "word": "I",
+          "start": 19.38,
+          "end": 20.08
+        },
+        {
+          "word": "just",
+          "start": 20.08,
+          "end": 20.46
+        },
+        {
+          "word": "sit",
+          "start": 20.46,
+          "end": 20.8
+        },
+        {
+          "word": "near",
+          "start": 20.8,
+          "end": 21.18
+        },
+        {
+          "word": "the",
+          "start": 21.18,
+          "end": 21.44
+        },
+        {
+          "word": "window",
+          "start": 21.44,
+          "end": 21.86
+        },
+        {
+          "word": "and",
+          "start": 21.86,
+          "end": 22.2
+        },
+        {
+          "word": "read.",
+          "start": 22.2,
+          "end": 22.5
+        },
+        {
+          "word": "Um,",
+          "start": 23.16,
+          "end": 23.78
+        },
+        {
+          "word": "I",
+          "start": 24.16,
+          "end": 24.38
+        },
+        {
+          "word": "usually",
+          "start": 24.38,
+          "end": 24.92
+        },
+        {
+          "word": "stay",
+          "start": 24.92,
+          "end": 25.46
+        },
+        {
+          "word": "there",
+          "start": 25.46,
+          "end": 25.88
+        },
+        {
+          "word": "for",
+          "start": 25.88,
+          "end": 26.28
+        },
+        {
+          "word": "about",
+          "start": 26.28,
+          "end": 26.64
+        },
+        {
+          "word": "an",
+          "start": 26.64,
+          "end": 26.98
+        },
+        {
+          "word": "hour",
+          "start": 26.98,
+          "end": 27.42
+        },
+        {
+          "word": "before",
+          "start": 27.42,
+          "end": 27.98
+        },
+        {
+          "word": "going",
+          "start": 27.98,
+          "end": 28.36
+        },
+        {
+          "word": "home.",
+          "start": 28.36,
+          "end": 28.7
+        }
+      ],
+      "fluency": {
+        "so_tu": 44,
+        "thoi_luong_giay": 26.3,
+        "toc_do_tu_moi_phut": 100.2,
+        "so_lan_ngung": 5,
+        "tong_thoi_gian_ngung": 5.1,
+        "ngung_dai_nhat": 1.88,
+        "so_tu_dem": 3,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "um,",
+            "at": 6.18,
+            "length": 0.68
+          },
+          {
+            "after": "library.",
+            "at": 7.52,
+            "length": 1.28
+          },
+          {
+            "after": "um,",
+            "at": 11.64,
+            "length": 0.64
+          },
+          {
+            "after": "better.",
+            "at": 15.82,
+            "length": 1.88
+          },
+          {
+            "after": "read.",
+            "at": 22.5,
+            "length": 0.66
+          }
+        ]
+      },
+      "script": "Um, I think my favorite place is, uh, the library.  I go there because, um, it is quiet, and I can focus better.  Hmm, sometimes I just sit near the window and read. Uh, I usually stay there for about an hour before going home.",
+      "script_differences": [
+        {
+          "type": "delete",
+          "script": "um",
+          "transcript": ""
+        },
+        {
+          "type": "replace",
+          "script": "uh",
+          "transcript": "um"
+        },
+        {
+          "type": "replace",
+          "script": "hmm",
+          "transcript": "and"
+        },
+        {
+          "type": "replace",
+          "script": "uh",
+          "transcript": "um"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-07",
+      "backend": "local",
+      "keep_fillers": false,
+      "audio_seconds": 34.495,
+      "status": "ok",
+      "processing_seconds": 10.012,
+      "real_time_factor": 0.29,
+      "transcript": "I usually study at home, at home after dinner. My favorite subject is history. Sorry, I mean computer science. Last month, I went there on Tuesday. I bought a book about programming and I finished it in two weeks.",
+      "words": [
+        {
+          "word": "I",
+          "start": 1.679999999999997,
+          "end": 2.8599999999999985
+        },
+        {
+          "word": "usually",
+          "start": 2.8599999999999985,
+          "end": 4.04
+        },
+        {
+          "word": "study",
+          "start": 4.04,
+          "end": 4.9
+        },
+        {
+          "word": "at",
+          "start": 4.9,
+          "end": 5.2
+        },
+        {
+          "word": "home,",
+          "start": 5.2,
+          "end": 5.56
+        },
+        {
+          "word": "at",
+          "start": 5.78,
+          "end": 6.92
+        },
+        {
+          "word": "home",
+          "start": 6.92,
+          "end": 7.44
+        },
+        {
+          "word": "after",
+          "start": 7.44,
+          "end": 8.58
+        },
+        {
+          "word": "dinner.",
+          "start": 8.58,
+          "end": 8.96
+        },
+        {
+          "word": "My",
+          "start": 9.56,
+          "end": 10.2
+        },
+        {
+          "word": "favorite",
+          "start": 10.2,
+          "end": 10.62
+        },
+        {
+          "word": "subject",
+          "start": 10.62,
+          "end": 11.12
+        },
+        {
+          "word": "is",
+          "start": 11.12,
+          "end": 11.64
+        },
+        {
+          "word": "history.",
+          "start": 11.64,
+          "end": 12.28
+        },
+        {
+          "word": "Sorry,",
+          "start": 13.02,
+          "end": 13.94
+        },
+        {
+          "word": "I",
+          "start": 14.2,
+          "end": 14.3
+        },
+        {
+          "word": "mean",
+          "start": 14.3,
+          "end": 14.68
+        },
+        {
+          "word": "computer",
+          "start": 14.68,
+          "end": 16.54
+        },
+        {
+          "word": "science.",
+          "start": 16.54,
+          "end": 17.12
+        },
+        {
+          "word": "Last",
+          "start": 17.9,
+          "end": 18.66
+        },
+        {
+          "word": "month,",
+          "start": 18.66,
+          "end": 19.0
+        },
+        {
+          "word": "I",
+          "start": 19.42,
+          "end": 19.48
+        },
+        {
+          "word": "went",
+          "start": 19.48,
+          "end": 19.8
+        },
+        {
+          "word": "there",
+          "start": 19.8,
+          "end": 20.16
+        },
+        {
+          "word": "on",
+          "start": 20.16,
+          "end": 20.48
+        },
+        {
+          "word": "Tuesday.",
+          "start": 20.48,
+          "end": 20.96
+        },
+        {
+          "word": "I",
+          "start": 24.36,
+          "end": 25.12
+        },
+        {
+          "word": "bought",
+          "start": 25.12,
+          "end": 25.76
+        },
+        {
+          "word": "a",
+          "start": 25.76,
+          "end": 25.94
+        },
+        {
+          "word": "book",
+          "start": 25.94,
+          "end": 26.28
+        },
+        {
+          "word": "about",
+          "start": 26.28,
+          "end": 27.66
+        },
+        {
+          "word": "programming",
+          "start": 27.66,
+          "end": 28.64
+        },
+        {
+          "word": "and",
+          "start": 28.64,
+          "end": 29.48
+        },
+        {
+          "word": "I",
+          "start": 29.48,
+          "end": 30.12
+        },
+        {
+          "word": "finished",
+          "start": 30.12,
+          "end": 31.46
+        },
+        {
+          "word": "it",
+          "start": 31.46,
+          "end": 31.82
+        },
+        {
+          "word": "in",
+          "start": 31.82,
+          "end": 32.22
+        },
+        {
+          "word": "two",
+          "start": 32.22,
+          "end": 32.54
+        },
+        {
+          "word": "weeks.",
+          "start": 32.54,
+          "end": 32.92
+        }
+      ],
+      "fluency": {
+        "so_tu": 39,
+        "thoi_luong_giay": 31.2,
+        "toc_do_tu_moi_phut": 74.9,
+        "so_lan_ngung": 4,
+        "tong_thoi_gian_ngung": 5.5,
+        "ngung_dai_nhat": 3.4,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "dinner.",
+            "at": 8.96,
+            "length": 0.6
+          },
+          {
+            "after": "history.",
+            "at": 12.28,
+            "length": 0.74
+          },
+          {
+            "after": "science.",
+            "at": 17.12,
+            "length": 0.78
+          },
+          {
+            "after": "Tuesday.",
+            "at": 20.96,
+            "length": 3.4
+          }
+        ]
+      },
+      "script": "I, I usually study at home, at home after dinner. My favorite subject is history... sorry, I mean computer science. Last month, I went there on Monday... no, on Tuesday. I bought a book, a book about programming, and I, I finished it in two weeks.",
+      "script_differences": [
+        {
+          "type": "delete",
+          "script": "i",
+          "transcript": ""
+        },
+        {
+          "type": "delete",
+          "script": "monday no on",
+          "transcript": ""
+        },
+        {
+          "type": "delete",
+          "script": "a book",
+          "transcript": ""
+        },
+        {
+          "type": "delete",
+          "script": "i",
+          "transcript": ""
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-07",
+      "backend": "local",
+      "keep_fillers": true,
+      "audio_seconds": 34.495,
+      "status": "ok",
+      "processing_seconds": 10.204,
+      "real_time_factor": 0.296,
+      "transcript": "Uh, I, I, uh, usually study at home, uh, at home, uh, after dinner. My favorite subject is history. Uh, sorry, I mean computer science. Uh, last month, I went there on Monday. No, on Tuesday, I bought a book, a book about programming, and I, uh, I finished it in two weeks.",
+      "words": [
+        {
+          "word": "Uh,",
+          "start": 1.0800000000000012,
+          "end": 1.8
+        },
+        {
+          "word": "I,",
+          "start": 2.48,
+          "end": 2.78
+        },
+        {
+          "word": "I,",
+          "start": 2.96,
+          "end": 3.46
+        },
+        {
+          "word": "uh,",
+          "start": 3.56,
+          "end": 3.66
+        },
+        {
+          "word": "usually",
+          "start": 4.22,
+          "end": 4.22
+        },
+        {
+          "word": "study",
+          "start": 4.22,
+          "end": 4.9
+        },
+        {
+          "word": "at",
+          "start": 4.9,
+          "end": 5.16
+        },
+        {
+          "word": "home,",
+          "start": 5.16,
+          "end": 5.56
+        },
+        {
+          "word": "uh,",
+          "start": 5.86,
+          "end": 6.54
+        },
+        {
+          "word": "at",
+          "start": 6.72,
+          "end": 6.94
+        },
+        {
+          "word": "home,",
+          "start": 6.94,
+          "end": 7.46
+        },
+        {
+          "word": "uh,",
+          "start": 7.7,
+          "end": 7.88
+        },
+        {
+          "word": "after",
+          "start": 8.16,
+          "end": 8.56
+        },
+        {
+          "word": "dinner.",
+          "start": 8.56,
+          "end": 8.94
+        },
+        {
+          "word": "My",
+          "start": 9.56,
+          "end": 10.18
+        },
+        {
+          "word": "favorite",
+          "start": 10.18,
+          "end": 10.62
+        },
+        {
+          "word": "subject",
+          "start": 10.62,
+          "end": 11.12
+        },
+        {
+          "word": "is",
+          "start": 11.12,
+          "end": 11.64
+        },
+        {
+          "word": "history.",
+          "start": 11.64,
+          "end": 12.24
+        },
+        {
+          "word": "Uh,",
+          "start": 13.0,
+          "end": 13.36
+        },
+        {
+          "word": "sorry,",
+          "start": 13.66,
+          "end": 13.94
+        },
+        {
+          "word": "I",
+          "start": 14.22,
+          "end": 14.3
+        },
+        {
+          "word": "mean",
+          "start": 14.3,
+          "end": 14.68
+        },
+        {
+          "word": "computer",
+          "start": 14.68,
+          "end": 16.52
+        },
+        {
+          "word": "science.",
+          "start": 16.52,
+          "end": 17.1
+        },
+        {
+          "word": "Uh,",
+          "start": 17.88,
+          "end": 18.24
+        },
+        {
+          "word": "last",
+          "start": 18.46,
+          "end": 18.7
+        },
+        {
+          "word": "month,",
+          "start": 18.7,
+          "end": 19.02
+        },
+        {
+          "word": "I",
+          "start": 19.18,
+          "end": 19.48
+        },
+        {
+          "word": "went",
+          "start": 19.48,
+          "end": 19.8
+        },
+        {
+          "word": "there",
+          "start": 19.8,
+          "end": 20.14
+        },
+        {
+          "word": "on",
+          "start": 20.14,
+          "end": 20.48
+        },
+        {
+          "word": "Monday.",
+          "start": 20.48,
+          "end": 20.9
+        },
+        {
+          "word": "No,",
+          "start": 21.84,
+          "end": 22.56
+        },
+        {
+          "word": "on",
+          "start": 22.8,
+          "end": 23.04
+        },
+        {
+          "word": "Tuesday,",
+          "start": 23.04,
+          "end": 23.76
+        },
+        {
+          "word": "I",
+          "start": 24.26,
+          "end": 25.12
+        },
+        {
+          "word": "bought",
+          "start": 25.12,
+          "end": 25.76
+        },
+        {
+          "word": "a",
+          "start": 25.76,
+          "end": 25.92
+        },
+        {
+          "word": "book,",
+          "start": 25.92,
+          "end": 26.24
+        },
+        {
+          "word": "a",
+          "start": 26.54,
+          "end": 27.04
+        },
+        {
+          "word": "book",
+          "start": 27.04,
+          "end": 27.34
+        },
+        {
+          "word": "about",
+          "start": 27.34,
+          "end": 27.9
+        },
+        {
+          "word": "programming,",
+          "start": 27.9,
+          "end": 28.64
+        },
+        {
+          "word": "and",
+          "start": 28.64,
+          "end": 29.46
+        },
+        {
+          "word": "I,",
+          "start": 29.46,
+          "end": 30.12
+        },
+        {
+          "word": "uh,",
+          "start": 30.12,
+          "end": 30.36
+        },
+        {
+          "word": "I",
+          "start": 30.86,
+          "end": 31.0
+        },
+        {
+          "word": "finished",
+          "start": 31.0,
+          "end": 31.46
+        },
+        {
+          "word": "it",
+          "start": 31.46,
+          "end": 31.82
+        },
+        {
+          "word": "in",
+          "start": 31.82,
+          "end": 32.22
+        },
+        {
+          "word": "two",
+          "start": 32.22,
+          "end": 32.54
+        },
+        {
+          "word": "weeks.",
+          "start": 32.54,
+          "end": 32.92
+        }
+      ],
+      "fluency": {
+        "so_tu": 53,
+        "thoi_luong_giay": 31.8,
+        "toc_do_tu_moi_phut": 99.9,
+        "so_lan_ngung": 8,
+        "tong_thoi_gian_ngung": 5.3,
+        "ngung_dai_nhat": 0.94,
+        "so_tu_dem": 7,
+        "lap_tu": [
+          "i"
+        ],
+        "cac_lan_ngung": [
+          {
+            "after": "Uh,",
+            "at": 1.8,
+            "length": 0.68
+          },
+          {
+            "after": "uh,",
+            "at": 3.66,
+            "length": 0.56
+          },
+          {
+            "after": "dinner.",
+            "at": 8.94,
+            "length": 0.62
+          },
+          {
+            "after": "history.",
+            "at": 12.24,
+            "length": 0.76
+          },
+          {
+            "after": "science.",
+            "at": 17.1,
+            "length": 0.78
+          },
+          {
+            "after": "Monday.",
+            "at": 20.9,
+            "length": 0.94
+          },
+          {
+            "after": "Tuesday,",
+            "at": 23.76,
+            "length": 0.5
+          },
+          {
+            "after": "uh,",
+            "at": 30.36,
+            "length": 0.5
+          }
+        ]
+      },
+      "script": "I, I usually study at home, at home after dinner. My favorite subject is history... sorry, I mean computer science. Last month, I went there on Monday... no, on Tuesday. I bought a book, a book about programming, and I, I finished it in two weeks.",
+      "script_differences": [
+        {
+          "type": "insert",
+          "script": "",
+          "transcript": "uh"
+        },
+        {
+          "type": "insert",
+          "script": "",
+          "transcript": "uh"
+        },
+        {
+          "type": "insert",
+          "script": "",
+          "transcript": "uh"
+        },
+        {
+          "type": "insert",
+          "script": "",
+          "transcript": "uh"
+        },
+        {
+          "type": "insert",
+          "script": "",
+          "transcript": "uh"
+        },
+        {
+          "type": "insert",
+          "script": "",
+          "transcript": "uh"
+        },
+        {
+          "type": "insert",
+          "script": "",
+          "transcript": "uh"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-08",
+      "backend": "local",
+      "keep_fillers": false,
+      "audio_seconds": 22.208,
+      "status": "ok",
+      "processing_seconds": 5.563,
+      "real_time_factor": 0.251,
+      "transcript": "Before an exam, I usually make my homework and learn new vocabulary. When I get a good result, I feel very funny and proud. My teacher gives me many knowledge about English. I want to improve my speaking because it can bring me a better world in the future.",
+      "words": [
+        {
+          "word": "Before",
+          "start": 1.1000000000000012,
+          "end": 1.82
+        },
+        {
+          "word": "an",
+          "start": 1.82,
+          "end": 2.06
+        },
+        {
+          "word": "exam,",
+          "start": 2.06,
+          "end": 2.4
+        },
+        {
+          "word": "I",
+          "start": 2.68,
+          "end": 3.0
+        },
+        {
+          "word": "usually",
+          "start": 3.0,
+          "end": 3.46
+        },
+        {
+          "word": "make",
+          "start": 3.46,
+          "end": 3.82
+        },
+        {
+          "word": "my",
+          "start": 3.82,
+          "end": 4.08
+        },
+        {
+          "word": "homework",
+          "start": 4.08,
+          "end": 4.52
+        },
+        {
+          "word": "and",
+          "start": 4.52,
+          "end": 5.14
+        },
+        {
+          "word": "learn",
+          "start": 5.14,
+          "end": 5.48
+        },
+        {
+          "word": "new",
+          "start": 5.48,
+          "end": 5.8
+        },
+        {
+          "word": "vocabulary.",
+          "start": 5.8,
+          "end": 6.5
+        },
+        {
+          "word": "When",
+          "start": 7.04,
+          "end": 7.5
+        },
+        {
+          "word": "I",
+          "start": 7.5,
+          "end": 7.6
+        },
+        {
+          "word": "get",
+          "start": 7.6,
+          "end": 7.84
+        },
+        {
+          "word": "a",
+          "start": 7.84,
+          "end": 8.0
+        },
+        {
+          "word": "good",
+          "start": 8.0,
+          "end": 8.3
+        },
+        {
+          "word": "result,",
+          "start": 8.3,
+          "end": 8.74
+        },
+        {
+          "word": "I",
+          "start": 9.0,
+          "end": 9.24
+        },
+        {
+          "word": "feel",
+          "start": 9.24,
+          "end": 9.48
+        },
+        {
+          "word": "very",
+          "start": 9.48,
+          "end": 9.84
+        },
+        {
+          "word": "funny",
+          "start": 9.84,
+          "end": 10.24
+        },
+        {
+          "word": "and",
+          "start": 10.24,
+          "end": 10.64
+        },
+        {
+          "word": "proud.",
+          "start": 10.64,
+          "end": 11.0
+        },
+        {
+          "word": "My",
+          "start": 11.46,
+          "end": 11.66
+        },
+        {
+          "word": "teacher",
+          "start": 11.66,
+          "end": 12.1
+        },
+        {
+          "word": "gives",
+          "start": 12.1,
+          "end": 12.66
+        },
+        {
+          "word": "me",
+          "start": 12.66,
+          "end": 12.96
+        },
+        {
+          "word": "many",
+          "start": 12.96,
+          "end": 13.36
+        },
+        {
+          "word": "knowledge",
+          "start": 13.36,
+          "end": 13.96
+        },
+        {
+          "word": "about",
+          "start": 13.96,
+          "end": 14.48
+        },
+        {
+          "word": "English.",
+          "start": 14.48,
+          "end": 14.8
+        },
+        {
+          "word": "I",
+          "start": 15.14,
+          "end": 15.44
+        },
+        {
+          "word": "want",
+          "start": 15.44,
+          "end": 15.74
+        },
+        {
+          "word": "to",
+          "start": 15.74,
+          "end": 16.02
+        },
+        {
+          "word": "improve",
+          "start": 16.02,
+          "end": 16.64
+        },
+        {
+          "word": "my",
+          "start": 16.64,
+          "end": 17.0
+        },
+        {
+          "word": "speaking",
+          "start": 17.0,
+          "end": 17.46
+        },
+        {
+          "word": "because",
+          "start": 17.46,
+          "end": 17.84
+        },
+        {
+          "word": "it",
+          "start": 17.84,
+          "end": 18.2
+        },
+        {
+          "word": "can",
+          "start": 18.2,
+          "end": 18.46
+        },
+        {
+          "word": "bring",
+          "start": 18.46,
+          "end": 18.7
+        },
+        {
+          "word": "me",
+          "start": 18.7,
+          "end": 19.0
+        },
+        {
+          "word": "a",
+          "start": 19.0,
+          "end": 19.56
+        },
+        {
+          "word": "better",
+          "start": 19.56,
+          "end": 19.78
+        },
+        {
+          "word": "world",
+          "start": 19.78,
+          "end": 20.2
+        },
+        {
+          "word": "in",
+          "start": 20.2,
+          "end": 20.46
+        },
+        {
+          "word": "the",
+          "start": 20.46,
+          "end": 20.56
+        },
+        {
+          "word": "future.",
+          "start": 20.56,
+          "end": 21.08
+        }
+      ],
+      "fluency": {
+        "so_tu": 49,
+        "thoi_luong_giay": 20.0,
+        "toc_do_tu_moi_phut": 147.1,
+        "so_lan_ngung": 1,
+        "tong_thoi_gian_ngung": 0.5,
+        "ngung_dai_nhat": 0.54,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "vocabulary.",
+            "at": 6.5,
+            "length": 0.54
+          }
+        ]
+      },
+      "script": "Before an exam, I usually make my homework and learn new vocabularies. When I get a good result, I feel very funny and proud. My teacher gives me many knowledge about English. I want to improve my speaking because it can bring me a better work in the future.",
+      "script_differences": [
+        {
+          "type": "replace",
+          "script": "vocabularies",
+          "transcript": "vocabulary"
+        },
+        {
+          "type": "replace",
+          "script": "work",
+          "transcript": "world"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-08",
+      "backend": "local",
+      "keep_fillers": true,
+      "audio_seconds": 22.208,
+      "status": "ok",
+      "processing_seconds": 5.249,
+      "real_time_factor": 0.236,
+      "transcript": "Before an exam, I usually make my homework and learn new vocabularies. When I get a good result, I feel very funny and proud. My teacher gives me many knowledge about English. I want to improve my speaking because it can bring me a better world in the future.",
+      "words": [
+        {
+          "word": "Before",
+          "start": 1.1399999999999986,
+          "end": 1.82
+        },
+        {
+          "word": "an",
+          "start": 1.82,
+          "end": 2.06
+        },
+        {
+          "word": "exam,",
+          "start": 2.06,
+          "end": 2.4
+        },
+        {
+          "word": "I",
+          "start": 2.68,
+          "end": 3.0
+        },
+        {
+          "word": "usually",
+          "start": 3.0,
+          "end": 3.46
+        },
+        {
+          "word": "make",
+          "start": 3.46,
+          "end": 3.82
+        },
+        {
+          "word": "my",
+          "start": 3.82,
+          "end": 4.08
+        },
+        {
+          "word": "homework",
+          "start": 4.08,
+          "end": 4.52
+        },
+        {
+          "word": "and",
+          "start": 4.52,
+          "end": 5.14
+        },
+        {
+          "word": "learn",
+          "start": 5.14,
+          "end": 5.48
+        },
+        {
+          "word": "new",
+          "start": 5.48,
+          "end": 5.78
+        },
+        {
+          "word": "vocabularies.",
+          "start": 5.78,
+          "end": 6.9
+        },
+        {
+          "word": "When",
+          "start": 7.08,
+          "end": 7.5
+        },
+        {
+          "word": "I",
+          "start": 7.5,
+          "end": 7.6
+        },
+        {
+          "word": "get",
+          "start": 7.6,
+          "end": 7.84
+        },
+        {
+          "word": "a",
+          "start": 7.84,
+          "end": 8.0
+        },
+        {
+          "word": "good",
+          "start": 8.0,
+          "end": 8.28
+        },
+        {
+          "word": "result,",
+          "start": 8.28,
+          "end": 8.74
+        },
+        {
+          "word": "I",
+          "start": 9.0,
+          "end": 9.24
+        },
+        {
+          "word": "feel",
+          "start": 9.24,
+          "end": 9.48
+        },
+        {
+          "word": "very",
+          "start": 9.48,
+          "end": 9.84
+        },
+        {
+          "word": "funny",
+          "start": 9.84,
+          "end": 10.24
+        },
+        {
+          "word": "and",
+          "start": 10.24,
+          "end": 10.64
+        },
+        {
+          "word": "proud.",
+          "start": 10.64,
+          "end": 11.0
+        },
+        {
+          "word": "My",
+          "start": 11.46,
+          "end": 11.66
+        },
+        {
+          "word": "teacher",
+          "start": 11.66,
+          "end": 12.1
+        },
+        {
+          "word": "gives",
+          "start": 12.1,
+          "end": 12.66
+        },
+        {
+          "word": "me",
+          "start": 12.66,
+          "end": 12.96
+        },
+        {
+          "word": "many",
+          "start": 12.96,
+          "end": 13.36
+        },
+        {
+          "word": "knowledge",
+          "start": 13.36,
+          "end": 13.94
+        },
+        {
+          "word": "about",
+          "start": 13.94,
+          "end": 14.48
+        },
+        {
+          "word": "English.",
+          "start": 14.48,
+          "end": 14.8
+        },
+        {
+          "word": "I",
+          "start": 15.14,
+          "end": 15.44
+        },
+        {
+          "word": "want",
+          "start": 15.44,
+          "end": 15.74
+        },
+        {
+          "word": "to",
+          "start": 15.74,
+          "end": 16.02
+        },
+        {
+          "word": "improve",
+          "start": 16.02,
+          "end": 16.64
+        },
+        {
+          "word": "my",
+          "start": 16.64,
+          "end": 17.0
+        },
+        {
+          "word": "speaking",
+          "start": 17.0,
+          "end": 17.46
+        },
+        {
+          "word": "because",
+          "start": 17.46,
+          "end": 17.84
+        },
+        {
+          "word": "it",
+          "start": 17.84,
+          "end": 18.2
+        },
+        {
+          "word": "can",
+          "start": 18.2,
+          "end": 18.46
+        },
+        {
+          "word": "bring",
+          "start": 18.46,
+          "end": 18.7
+        },
+        {
+          "word": "me",
+          "start": 18.7,
+          "end": 19.0
+        },
+        {
+          "word": "a",
+          "start": 19.0,
+          "end": 19.56
+        },
+        {
+          "word": "better",
+          "start": 19.56,
+          "end": 19.78
+        },
+        {
+          "word": "world",
+          "start": 19.78,
+          "end": 20.2
+        },
+        {
+          "word": "in",
+          "start": 20.2,
+          "end": 20.46
+        },
+        {
+          "word": "the",
+          "start": 20.46,
+          "end": 20.58
+        },
+        {
+          "word": "future.",
+          "start": 20.58,
+          "end": 21.08
+        }
+      ],
+      "fluency": {
+        "so_tu": 49,
+        "thoi_luong_giay": 19.9,
+        "toc_do_tu_moi_phut": 147.4,
+        "so_lan_ngung": 0,
+        "tong_thoi_gian_ngung": 0,
+        "ngung_dai_nhat": 0,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": []
+      },
+      "script": "Before an exam, I usually make my homework and learn new vocabularies. When I get a good result, I feel very funny and proud. My teacher gives me many knowledge about English. I want to improve my speaking because it can bring me a better work in the future.",
+      "script_differences": [
+        {
+          "type": "replace",
+          "script": "work",
+          "transcript": "world"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-09",
+      "backend": "local",
+      "keep_fillers": false,
+      "audio_seconds": 23.743,
+      "status": "ok",
+      "processing_seconds": 5.056,
+      "real_time_factor": 0.213,
+      "transcript": "When I was a child, I don't like speaking English. My parents were very busy so I studied by myself. I watched videos. But I didn't understood much. Now I am more confident. I can explain my opinion more clear than before.",
+      "words": [
+        {
+          "word": "When",
+          "start": 0.0,
+          "end": 1.46
+        },
+        {
+          "word": "I",
+          "start": 1.46,
+          "end": 1.58
+        },
+        {
+          "word": "was",
+          "start": 1.58,
+          "end": 1.82
+        },
+        {
+          "word": "a",
+          "start": 1.82,
+          "end": 2.0
+        },
+        {
+          "word": "child,",
+          "start": 2.0,
+          "end": 2.42
+        },
+        {
+          "word": "I",
+          "start": 2.66,
+          "end": 2.96
+        },
+        {
+          "word": "don't",
+          "start": 2.96,
+          "end": 3.16
+        },
+        {
+          "word": "like",
+          "start": 3.16,
+          "end": 3.32
+        },
+        {
+          "word": "speaking",
+          "start": 3.32,
+          "end": 3.76
+        },
+        {
+          "word": "English.",
+          "start": 3.76,
+          "end": 4.16
+        },
+        {
+          "word": "My",
+          "start": 4.48,
+          "end": 4.96
+        },
+        {
+          "word": "parents",
+          "start": 4.96,
+          "end": 5.26
+        },
+        {
+          "word": "were",
+          "start": 5.26,
+          "end": 5.52
+        },
+        {
+          "word": "very",
+          "start": 5.52,
+          "end": 6.3
+        },
+        {
+          "word": "busy",
+          "start": 6.3,
+          "end": 6.7
+        },
+        {
+          "word": "so",
+          "start": 6.7,
+          "end": 6.94
+        },
+        {
+          "word": "I",
+          "start": 6.94,
+          "end": 7.12
+        },
+        {
+          "word": "studied",
+          "start": 7.12,
+          "end": 7.5
+        },
+        {
+          "word": "by",
+          "start": 7.5,
+          "end": 7.72
+        },
+        {
+          "word": "myself.",
+          "start": 7.72,
+          "end": 8.22
+        },
+        {
+          "word": "I",
+          "start": 8.94,
+          "end": 9.2
+        },
+        {
+          "word": "watched",
+          "start": 9.2,
+          "end": 10.44
+        },
+        {
+          "word": "videos.",
+          "start": 10.44,
+          "end": 10.94
+        },
+        {
+          "word": "But",
+          "start": 11.68,
+          "end": 12.48
+        },
+        {
+          "word": "I",
+          "start": 12.48,
+          "end": 12.64
+        },
+        {
+          "word": "didn't",
+          "start": 12.64,
+          "end": 13.04
+        },
+        {
+          "word": "understood",
+          "start": 13.04,
+          "end": 13.64
+        },
+        {
+          "word": "much.",
+          "start": 13.64,
+          "end": 14.16
+        },
+        {
+          "word": "Now",
+          "start": 14.62,
+          "end": 15.26
+        },
+        {
+          "word": "I",
+          "start": 15.26,
+          "end": 15.64
+        },
+        {
+          "word": "am",
+          "start": 15.64,
+          "end": 15.78
+        },
+        {
+          "word": "more",
+          "start": 15.78,
+          "end": 16.02
+        },
+        {
+          "word": "confident.",
+          "start": 16.02,
+          "end": 16.56
+        },
+        {
+          "word": "I",
+          "start": 18.26,
+          "end": 19.06
+        },
+        {
+          "word": "can",
+          "start": 19.06,
+          "end": 19.22
+        },
+        {
+          "word": "explain",
+          "start": 19.22,
+          "end": 19.72
+        },
+        {
+          "word": "my",
+          "start": 19.72,
+          "end": 20.0
+        },
+        {
+          "word": "opinion",
+          "start": 20.0,
+          "end": 20.72
+        },
+        {
+          "word": "more",
+          "start": 20.72,
+          "end": 21.08
+        },
+        {
+          "word": "clear",
+          "start": 21.08,
+          "end": 21.56
+        },
+        {
+          "word": "than",
+          "start": 21.56,
+          "end": 22.02
+        },
+        {
+          "word": "before.",
+          "start": 22.02,
+          "end": 22.52
+        }
+      ],
+      "fluency": {
+        "so_tu": 42,
+        "thoi_luong_giay": 22.5,
+        "toc_do_tu_moi_phut": 111.9,
+        "so_lan_ngung": 3,
+        "tong_thoi_gian_ngung": 3.2,
+        "ngung_dai_nhat": 1.7,
+        "so_tu_dem": 1,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "myself.",
+            "at": 8.22,
+            "length": 0.72
+          },
+          {
+            "after": "videos.",
+            "at": 10.94,
+            "length": 0.74
+          },
+          {
+            "after": "confident.",
+            "at": 16.56,
+            "length": 1.7
+          }
+        ]
+      },
+      "script": "Uh, when I was a child, I don't like speaking English.  My parents was very busy, so I study by myself. I, I watched videos, but I didn't understood much.  Now I am more confidence, and, um, I can explain my opinion more clear than before.",
+      "script_differences": [
+        {
+          "type": "delete",
+          "script": "uh",
+          "transcript": ""
+        },
+        {
+          "type": "replace",
+          "script": "was",
+          "transcript": "were"
+        },
+        {
+          "type": "replace",
+          "script": "study",
+          "transcript": "studied"
+        },
+        {
+          "type": "delete",
+          "script": "i",
+          "transcript": ""
+        },
+        {
+          "type": "replace",
+          "script": "confidence and um",
+          "transcript": "confident"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-09",
+      "backend": "local",
+      "keep_fillers": true,
+      "audio_seconds": 23.743,
+      "status": "ok",
+      "processing_seconds": 5.369,
+      "real_time_factor": 0.226,
+      "transcript": "Um, when I was a child, I don't like speaking English. My parents were very busy, so I studied by myself. I, I watched videos. Um, but I didn't understood much. Now, I am more confident. Um, I can explain my opinion more clear than before.",
+      "words": [
+        {
+          "word": "Um,",
+          "start": 0.0,
+          "end": 0.76
+        },
+        {
+          "word": "when",
+          "start": 1.34,
+          "end": 1.46
+        },
+        {
+          "word": "I",
+          "start": 1.46,
+          "end": 1.58
+        },
+        {
+          "word": "was",
+          "start": 1.58,
+          "end": 1.82
+        },
+        {
+          "word": "a",
+          "start": 1.82,
+          "end": 2.0
+        },
+        {
+          "word": "child,",
+          "start": 2.0,
+          "end": 2.42
+        },
+        {
+          "word": "I",
+          "start": 2.66,
+          "end": 2.96
+        },
+        {
+          "word": "don't",
+          "start": 2.96,
+          "end": 3.18
+        },
+        {
+          "word": "like",
+          "start": 3.18,
+          "end": 3.32
+        },
+        {
+          "word": "speaking",
+          "start": 3.32,
+          "end": 3.76
+        },
+        {
+          "word": "English.",
+          "start": 3.76,
+          "end": 4.16
+        },
+        {
+          "word": "My",
+          "start": 4.48,
+          "end": 4.96
+        },
+        {
+          "word": "parents",
+          "start": 4.96,
+          "end": 5.26
+        },
+        {
+          "word": "were",
+          "start": 5.26,
+          "end": 5.52
+        },
+        {
+          "word": "very",
+          "start": 5.52,
+          "end": 6.3
+        },
+        {
+          "word": "busy,",
+          "start": 6.3,
+          "end": 6.7
+        },
+        {
+          "word": "so",
+          "start": 6.86,
+          "end": 6.96
+        },
+        {
+          "word": "I",
+          "start": 6.96,
+          "end": 7.12
+        },
+        {
+          "word": "studied",
+          "start": 7.12,
+          "end": 7.5
+        },
+        {
+          "word": "by",
+          "start": 7.5,
+          "end": 7.72
+        },
+        {
+          "word": "myself.",
+          "start": 7.72,
+          "end": 8.2
+        },
+        {
+          "word": "I,",
+          "start": 8.52,
+          "end": 9.2
+        },
+        {
+          "word": "I",
+          "start": 9.2,
+          "end": 9.74
+        },
+        {
+          "word": "watched",
+          "start": 9.74,
+          "end": 10.44
+        },
+        {
+          "word": "videos.",
+          "start": 10.44,
+          "end": 10.94
+        },
+        {
+          "word": "Um,",
+          "start": 11.54,
+          "end": 12.16
+        },
+        {
+          "word": "but",
+          "start": 12.36,
+          "end": 12.48
+        },
+        {
+          "word": "I",
+          "start": 12.48,
+          "end": 12.64
+        },
+        {
+          "word": "didn't",
+          "start": 12.64,
+          "end": 13.04
+        },
+        {
+          "word": "understood",
+          "start": 13.04,
+          "end": 13.64
+        },
+        {
+          "word": "much.",
+          "start": 13.64,
+          "end": 14.16
+        },
+        {
+          "word": "Now,",
+          "start": 14.62,
+          "end": 15.26
+        },
+        {
+          "word": "I",
+          "start": 15.42,
+          "end": 15.64
+        },
+        {
+          "word": "am",
+          "start": 15.64,
+          "end": 15.78
+        },
+        {
+          "word": "more",
+          "start": 15.78,
+          "end": 16.02
+        },
+        {
+          "word": "confident.",
+          "start": 16.02,
+          "end": 16.56
+        },
+        {
+          "word": "Um,",
+          "start": 17.18,
+          "end": 17.52
+        },
+        {
+          "word": "I",
+          "start": 18.94,
+          "end": 19.06
+        },
+        {
+          "word": "can",
+          "start": 19.06,
+          "end": 19.24
+        },
+        {
+          "word": "explain",
+          "start": 19.24,
+          "end": 19.72
+        },
+        {
+          "word": "my",
+          "start": 19.72,
+          "end": 20.02
+        },
+        {
+          "word": "opinion",
+          "start": 20.02,
+          "end": 20.72
+        },
+        {
+          "word": "more",
+          "start": 20.72,
+          "end": 21.1
+        },
+        {
+          "word": "clear",
+          "start": 21.1,
+          "end": 21.56
+        },
+        {
+          "word": "than",
+          "start": 21.56,
+          "end": 22.02
+        },
+        {
+          "word": "before.",
+          "start": 22.02,
+          "end": 22.52
+        }
+      ],
+      "fluency": {
+        "so_tu": 46,
+        "thoi_luong_giay": 22.5,
+        "toc_do_tu_moi_phut": 122.6,
+        "so_lan_ngung": 4,
+        "tong_thoi_gian_ngung": 3.2,
+        "ngung_dai_nhat": 1.42,
+        "so_tu_dem": 4,
+        "lap_tu": [
+          "i"
+        ],
+        "cac_lan_ngung": [
+          {
+            "after": "Um,",
+            "at": 0.76,
+            "length": 0.58
+          },
+          {
+            "after": "videos.",
+            "at": 10.94,
+            "length": 0.6
+          },
+          {
+            "after": "confident.",
+            "at": 16.56,
+            "length": 0.62
+          },
+          {
+            "after": "Um,",
+            "at": 17.52,
+            "length": 1.42
+          }
+        ]
+      },
+      "script": "Uh, when I was a child, I don't like speaking English.  My parents was very busy, so I study by myself. I, I watched videos, but I didn't understood much.  Now I am more confidence, and, um, I can explain my opinion more clear than before.",
+      "script_differences": [
+        {
+          "type": "replace",
+          "script": "uh",
+          "transcript": "um"
+        },
+        {
+          "type": "replace",
+          "script": "was",
+          "transcript": "were"
+        },
+        {
+          "type": "replace",
+          "script": "study",
+          "transcript": "studied"
+        },
+        {
+          "type": "insert",
+          "script": "",
+          "transcript": "um"
+        },
+        {
+          "type": "replace",
+          "script": "confidence and",
+          "transcript": "confident"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-10",
+      "backend": "local",
+      "keep_fillers": false,
+      "audio_seconds": 28.351,
+      "status": "ok",
+      "processing_seconds": 5.392,
+      "real_time_factor": 0.19,
+      "transcript": "I am comfortable speaking English with my classmates. Although I still make mistakes, I want to develop better study habits and learn how technology affects the environment. Last Thursday, I bought 15 notebooks for $50,000. This Thursday, I will buy 13 pens for $30,000.",
+      "words": [
+        {
+          "word": "I",
+          "start": 0.5600000000000027,
+          "end": 1.02
+        },
+        {
+          "word": "am",
+          "start": 1.02,
+          "end": 1.14
+        },
+        {
+          "word": "comfortable",
+          "start": 1.14,
+          "end": 1.64
+        },
+        {
+          "word": "speaking",
+          "start": 1.64,
+          "end": 2.24
+        },
+        {
+          "word": "English",
+          "start": 2.24,
+          "end": 2.94
+        },
+        {
+          "word": "with",
+          "start": 2.94,
+          "end": 3.32
+        },
+        {
+          "word": "my",
+          "start": 3.32,
+          "end": 3.56
+        },
+        {
+          "word": "classmates.",
+          "start": 3.56,
+          "end": 4.18
+        },
+        {
+          "word": "Although",
+          "start": 4.48,
+          "end": 5.06
+        },
+        {
+          "word": "I",
+          "start": 5.06,
+          "end": 5.26
+        },
+        {
+          "word": "still",
+          "start": 5.26,
+          "end": 5.52
+        },
+        {
+          "word": "make",
+          "start": 5.52,
+          "end": 5.74
+        },
+        {
+          "word": "mistakes,",
+          "start": 5.74,
+          "end": 6.18
+        },
+        {
+          "word": "I",
+          "start": 6.54,
+          "end": 6.94
+        },
+        {
+          "word": "want",
+          "start": 6.94,
+          "end": 7.2
+        },
+        {
+          "word": "to",
+          "start": 7.2,
+          "end": 7.4
+        },
+        {
+          "word": "develop",
+          "start": 7.4,
+          "end": 7.76
+        },
+        {
+          "word": "better",
+          "start": 7.76,
+          "end": 8.22
+        },
+        {
+          "word": "study",
+          "start": 8.22,
+          "end": 8.64
+        },
+        {
+          "word": "habits",
+          "start": 8.64,
+          "end": 9.12
+        },
+        {
+          "word": "and",
+          "start": 9.12,
+          "end": 9.62
+        },
+        {
+          "word": "learn",
+          "start": 9.62,
+          "end": 9.96
+        },
+        {
+          "word": "how",
+          "start": 9.96,
+          "end": 10.3
+        },
+        {
+          "word": "technology",
+          "start": 10.3,
+          "end": 10.8
+        },
+        {
+          "word": "affects",
+          "start": 10.8,
+          "end": 11.28
+        },
+        {
+          "word": "the",
+          "start": 11.28,
+          "end": 11.66
+        },
+        {
+          "word": "environment.",
+          "start": 11.66,
+          "end": 12.32
+        },
+        {
+          "word": "Last",
+          "start": 12.84,
+          "end": 13.6
+        },
+        {
+          "word": "Thursday,",
+          "start": 13.6,
+          "end": 14.28
+        },
+        {
+          "word": "I",
+          "start": 14.68,
+          "end": 14.72
+        },
+        {
+          "word": "bought",
+          "start": 14.72,
+          "end": 15.1
+        },
+        {
+          "word": "15",
+          "start": 15.1,
+          "end": 16.52
+        },
+        {
+          "word": "notebooks",
+          "start": 16.52,
+          "end": 17.72
+        },
+        {
+          "word": "for",
+          "start": 17.72,
+          "end": 18.84
+        },
+        {
+          "word": "$50",
+          "start": 18.84,
+          "end": 19.42
+        },
+        {
+          "word": ",000.",
+          "start": 19.42,
+          "end": 19.92
+        },
+        {
+          "word": "This",
+          "start": 20.38,
+          "end": 20.92
+        },
+        {
+          "word": "Thursday,",
+          "start": 20.92,
+          "end": 21.72
+        },
+        {
+          "word": "I",
+          "start": 22.12,
+          "end": 22.16
+        },
+        {
+          "word": "will",
+          "start": 22.16,
+          "end": 22.36
+        },
+        {
+          "word": "buy",
+          "start": 22.36,
+          "end": 22.7
+        },
+        {
+          "word": "13",
+          "start": 22.7,
+          "end": 24.12
+        },
+        {
+          "word": "pens",
+          "start": 24.12,
+          "end": 24.76
+        },
+        {
+          "word": "for",
+          "start": 24.76,
+          "end": 25.18
+        },
+        {
+          "word": "$30",
+          "start": 25.18,
+          "end": 25.76
+        },
+        {
+          "word": ",000.",
+          "start": 25.76,
+          "end": 26.54
+        }
+      ],
+      "fluency": {
+        "so_tu": 46,
+        "thoi_luong_giay": 26.0,
+        "toc_do_tu_moi_phut": 106.2,
+        "so_lan_ngung": 1,
+        "tong_thoi_gian_ngung": 0.5,
+        "ngung_dai_nhat": 0.52,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "environment.",
+            "at": 12.32,
+            "length": 0.52
+          }
+        ]
+      },
+      "script": "I am comfortable speaking English with my classmates, although I still make mistakes. I want to develop better study habits and learn how technology affects the environment. Last Thursday, I bought fifteen notebooks for fifty thousand dong. This Thursday, I will buy thirteen pens for thirty thousand dong.",
+      "script_differences": [
+        {
+          "type": "replace",
+          "script": "fifteen",
+          "transcript": "15"
+        },
+        {
+          "type": "replace",
+          "script": "fifty thousand dong",
+          "transcript": "50 000"
+        },
+        {
+          "type": "replace",
+          "script": "thirteen",
+          "transcript": "13"
+        },
+        {
+          "type": "replace",
+          "script": "thirty thousand dong",
+          "transcript": "30 000"
+        }
+      ],
+      "timestamps_available": true
+    },
+    {
+      "sample": "sample-10",
+      "backend": "local",
+      "keep_fillers": true,
+      "audio_seconds": 28.351,
+      "status": "ok",
+      "processing_seconds": 5.236,
+      "real_time_factor": 0.185,
+      "transcript": "I am comfortable speaking English with my classmates. Although I still make mistakes, I want to develop better study habits and learn how technology affects the environment. Last Thursday, I bought 15 notebooks for $50,000. This Thursday, I will buy 13 pens for $30,000.",
+      "words": [
+        {
+          "word": "I",
+          "start": 0.0,
+          "end": 1.02
+        },
+        {
+          "word": "am",
+          "start": 1.02,
+          "end": 1.14
+        },
+        {
+          "word": "comfortable",
+          "start": 1.14,
+          "end": 1.64
+        },
+        {
+          "word": "speaking",
+          "start": 1.64,
+          "end": 2.24
+        },
+        {
+          "word": "English",
+          "start": 2.24,
+          "end": 2.94
+        },
+        {
+          "word": "with",
+          "start": 2.94,
+          "end": 3.32
+        },
+        {
+          "word": "my",
+          "start": 3.32,
+          "end": 3.56
+        },
+        {
+          "word": "classmates.",
+          "start": 3.56,
+          "end": 4.18
+        },
+        {
+          "word": "Although",
+          "start": 4.48,
+          "end": 5.06
+        },
+        {
+          "word": "I",
+          "start": 5.06,
+          "end": 5.26
+        },
+        {
+          "word": "still",
+          "start": 5.26,
+          "end": 5.52
+        },
+        {
+          "word": "make",
+          "start": 5.52,
+          "end": 5.74
+        },
+        {
+          "word": "mistakes,",
+          "start": 5.74,
+          "end": 6.18
+        },
+        {
+          "word": "I",
+          "start": 6.54,
+          "end": 6.94
+        },
+        {
+          "word": "want",
+          "start": 6.94,
+          "end": 7.2
+        },
+        {
+          "word": "to",
+          "start": 7.2,
+          "end": 7.4
+        },
+        {
+          "word": "develop",
+          "start": 7.4,
+          "end": 7.76
+        },
+        {
+          "word": "better",
+          "start": 7.76,
+          "end": 8.22
+        },
+        {
+          "word": "study",
+          "start": 8.22,
+          "end": 8.64
+        },
+        {
+          "word": "habits",
+          "start": 8.64,
+          "end": 9.12
+        },
+        {
+          "word": "and",
+          "start": 9.12,
+          "end": 9.62
+        },
+        {
+          "word": "learn",
+          "start": 9.62,
+          "end": 9.96
+        },
+        {
+          "word": "how",
+          "start": 9.96,
+          "end": 10.3
+        },
+        {
+          "word": "technology",
+          "start": 10.3,
+          "end": 10.8
+        },
+        {
+          "word": "affects",
+          "start": 10.8,
+          "end": 11.28
+        },
+        {
+          "word": "the",
+          "start": 11.28,
+          "end": 11.66
+        },
+        {
+          "word": "environment.",
+          "start": 11.66,
+          "end": 12.32
+        },
+        {
+          "word": "Last",
+          "start": 12.84,
+          "end": 13.6
+        },
+        {
+          "word": "Thursday,",
+          "start": 13.6,
+          "end": 14.28
+        },
+        {
+          "word": "I",
+          "start": 14.68,
+          "end": 14.72
+        },
+        {
+          "word": "bought",
+          "start": 14.72,
+          "end": 15.1
+        },
+        {
+          "word": "15",
+          "start": 15.1,
+          "end": 16.52
+        },
+        {
+          "word": "notebooks",
+          "start": 16.52,
+          "end": 17.72
+        },
+        {
+          "word": "for",
+          "start": 17.72,
+          "end": 18.84
+        },
+        {
+          "word": "$50",
+          "start": 18.84,
+          "end": 19.42
+        },
+        {
+          "word": ",000.",
+          "start": 19.42,
+          "end": 19.92
+        },
+        {
+          "word": "This",
+          "start": 20.38,
+          "end": 20.92
+        },
+        {
+          "word": "Thursday,",
+          "start": 20.92,
+          "end": 21.72
+        },
+        {
+          "word": "I",
+          "start": 22.12,
+          "end": 22.16
+        },
+        {
+          "word": "will",
+          "start": 22.16,
+          "end": 22.36
+        },
+        {
+          "word": "buy",
+          "start": 22.36,
+          "end": 22.7
+        },
+        {
+          "word": "13",
+          "start": 22.7,
+          "end": 24.12
+        },
+        {
+          "word": "pens",
+          "start": 24.12,
+          "end": 24.76
+        },
+        {
+          "word": "for",
+          "start": 24.76,
+          "end": 25.18
+        },
+        {
+          "word": "$30",
+          "start": 25.18,
+          "end": 25.76
+        },
+        {
+          "word": ",000.",
+          "start": 25.76,
+          "end": 26.54
+        }
+      ],
+      "fluency": {
+        "so_tu": 46,
+        "thoi_luong_giay": 26.5,
+        "toc_do_tu_moi_phut": 104.0,
+        "so_lan_ngung": 1,
+        "tong_thoi_gian_ngung": 0.5,
+        "ngung_dai_nhat": 0.52,
+        "so_tu_dem": 0,
+        "lap_tu": [],
+        "cac_lan_ngung": [
+          {
+            "after": "environment.",
+            "at": 12.32,
+            "length": 0.52
+          }
+        ]
+      },
+      "script": "I am comfortable speaking English with my classmates, although I still make mistakes. I want to develop better study habits and learn how technology affects the environment. Last Thursday, I bought fifteen notebooks for fifty thousand dong. This Thursday, I will buy thirteen pens for thirty thousand dong.",
+      "script_differences": [
+        {
+          "type": "replace",
+          "script": "fifteen",
+          "transcript": "15"
+        },
+        {
+          "type": "replace",
+          "script": "fifty thousand dong",
+          "transcript": "50 000"
+        },
+        {
+          "type": "replace",
+          "script": "thirteen",
+          "transcript": "13"
+        },
+        {
+          "type": "replace",
+          "script": "thirty thousand dong",
+          "transcript": "30 000"
+        }
+      ],
+      "timestamps_available": true
+    }
+  ],
+  "model_load_seconds": 1.853,
+  "settings": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "cpu_threads": 4,
+    "language": "en",
+    "temperature": 0,
+    "vad_filter": false
+  }
+}

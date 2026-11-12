@@ -1,0 +1,1236 @@
+{
+  "schema_version": "1.2",
+  "session_id": "955540b9-0d44-4bd5-90e7-60757c226bbd",
+  "created_at": "2026-10-12T17:25:44.663Z",
+  "exported_at": "2026-10-12T17:27:39.361Z",
+  "part": 2,
+  "parts": [
+    2
+  ],
+  "answers": [
+    {
+      "schema_version": "1.2",
+      "source": "live",
+      "backend": "groq",
+      "part": 2,
+      "model": "whisper-large-v3-turbo",
+      "question": {
+        "id": "part2-skill",
+        "part": 2,
+        "title": "A useful skill",
+        "text": "Describe a skill you learned that is useful to you.",
+        "points": [
+          "what the skill is",
+          "when and how you learned it",
+          "how you use it now"
+        ],
+        "explain": "and explain why this skill is important to you."
+      },
+      "keep_fillers": true,
+      "audio_seconds": 85.5,
+      "processing_seconds": 1.488,
+      "transcript": "I like to talk about a useful skill I learned, which is programming. I started learning it during my first year at university because it was part of my information technology course. At first, I felt it quite difficult. I could understand the examples in class, but when I tried to write programming by myself, I often made mistakes. To improve, I watch online tutorials and practice with small exercises almost every day. One experience that helped me a lot was working on a group project. My classmates and I used to build a simple website and I was responsible for some dysfunctions. Whenever something went wrong, I had to find a problem and try different solutions. Now I use programming in my assignments and personal projects. It helps me automate repetitive tasks and understand how applications work. This skill is important to me because I want to work in the technology industry. It has also taught me to be more patient and solve problems step by step. I still have a lot to learn, but I feel more confident than I would, than when I first started.",
+      "words": [
+        {
+          "word": "I",
+          "start": 0.02,
+          "end": 2.86
+        },
+        {
+          "word": "like",
+          "start": 2.86,
+          "end": 3.18
+        },
+        {
+          "word": "to",
+          "start": 3.18,
+          "end": 3.42
+        },
+        {
+          "word": "talk",
+          "start": 3.42,
+          "end": 3.72
+        },
+        {
+          "word": "about",
+          "start": 3.72,
+          "end": 4.18
+        },
+        {
+          "word": "a",
+          "start": 4.18,
+          "end": 4.54
+        },
+        {
+          "word": "useful",
+          "start": 4.54,
+          "end": 5.24
+        },
+        {
+          "word": "skill",
+          "start": 5.24,
+          "end": 5.88
+        },
+        {
+          "word": "I",
+          "start": 5.88,
+          "end": 6.32
+        },
+        {
+          "word": "learned,",
+          "start": 6.32,
+          "end": 7.02
+        },
+        {
+          "word": "which",
+          "start": 7.02,
+          "end": 7.54
+        },
+        {
+          "word": "is",
+          "start": 7.54,
+          "end": 7.68
+        },
+        {
+          "word": "programming.",
+          "start": 7.68,
+          "end": 8.52
+        },
+        {
+          "word": "I",
+          "start": 8.52,
+          "end": 9.06
+        },
+        {
+          "word": "started",
+          "start": 9.06,
+          "end": 9.38
+        },
+        {
+          "word": "learning",
+          "start": 9.38,
+          "end": 9.76
+        },
+        {
+          "word": "it",
+          "start": 9.76,
+          "end": 10.06
+        },
+        {
+          "word": "during",
+          "start": 10.06,
+          "end": 10.42
+        },
+        {
+          "word": "my",
+          "start": 10.42,
+          "end": 10.64
+        },
+        {
+          "word": "first",
+          "start": 10.64,
+          "end": 10.94
+        },
+        {
+          "word": "year",
+          "start": 10.94,
+          "end": 11.24
+        },
+        {
+          "word": "at",
+          "start": 11.24,
+          "end": 11.44
+        },
+        {
+          "word": "university",
+          "start": 11.44,
+          "end": 11.92
+        },
+        {
+          "word": "because",
+          "start": 11.92,
+          "end": 12.52
+        },
+        {
+          "word": "it",
+          "start": 12.52,
+          "end": 13.38
+        },
+        {
+          "word": "was",
+          "start": 13.38,
+          "end": 13.66
+        },
+        {
+          "word": "part",
+          "start": 13.66,
+          "end": 14.16
+        },
+        {
+          "word": "of",
+          "start": 14.16,
+          "end": 14.38
+        },
+        {
+          "word": "my",
+          "start": 14.38,
+          "end": 14.5
+        },
+        {
+          "word": "information",
+          "start": 14.5,
+          "end": 15.04
+        },
+        {
+          "word": "technology",
+          "start": 15.04,
+          "end": 15.72
+        },
+        {
+          "word": "course.",
+          "start": 15.72,
+          "end": 16.42
+        },
+        {
+          "word": "At",
+          "start": 16.42,
+          "end": 17.14
+        },
+        {
+          "word": "first,",
+          "start": 17.14,
+          "end": 17.66
+        },
+        {
+          "word": "I",
+          "start": 17.66,
+          "end": 17.74
+        },
+        {
+          "word": "felt",
+          "start": 17.74,
+          "end": 18.04
+        },
+        {
+          "word": "it",
+          "start": 18.04,
+          "end": 18.18
+        },
+        {
+          "word": "quite",
+          "start": 18.18,
+          "end": 18.6
+        },
+        {
+          "word": "difficult.",
+          "start": 18.6,
+          "end": 19.44
+        },
+        {
+          "word": "I",
+          "start": 19.44,
+          "end": 19.78
+        },
+        {
+          "word": "could",
+          "start": 19.78,
+          "end": 20
+        },
+        {
+          "word": "understand",
+          "start": 20,
+          "end": 20.48
+        },
+        {
+          "word": "the",
+          "start": 20.48,
+          "end": 20.68
+        },
+        {
+          "word": "examples",
+          "start": 20.68,
+          "end": 21.18
+        },
+        {
+          "word": "in",
+          "start": 21.18,
+          "end": 21.5
+        },
+        {
+          "word": "class,",
+          "start": 21.5,
+          "end": 22.04
+        },
+        {
+          "word": "but",
+          "start": 22.04,
+          "end": 22.18
+        },
+        {
+          "word": "when",
+          "start": 22.18,
+          "end": 22.78
+        },
+        {
+          "word": "I",
+          "start": 22.78,
+          "end": 22.86
+        },
+        {
+          "word": "tried",
+          "start": 22.86,
+          "end": 23.28
+        },
+        {
+          "word": "to",
+          "start": 23.28,
+          "end": 23.68
+        },
+        {
+          "word": "write",
+          "start": 23.68,
+          "end": 24.08
+        },
+        {
+          "word": "programming",
+          "start": 24.08,
+          "end": 24.6
+        },
+        {
+          "word": "by",
+          "start": 24.6,
+          "end": 24.88
+        },
+        {
+          "word": "myself,",
+          "start": 24.88,
+          "end": 25.54
+        },
+        {
+          "word": "I",
+          "start": 25.54,
+          "end": 25.84
+        },
+        {
+          "word": "often",
+          "start": 25.84,
+          "end": 26.1
+        },
+        {
+          "word": "made",
+          "start": 26.1,
+          "end": 26.3
+        },
+        {
+          "word": "mistakes.",
+          "start": 26.3,
+          "end": 27.06
+        },
+        {
+          "word": "To",
+          "start": 27.56,
+          "end": 27.76
+        },
+        {
+          "word": "improve,",
+          "start": 27.76,
+          "end": 28.44
+        },
+        {
+          "word": "I",
+          "start": 28.44,
+          "end": 28.78
+        },
+        {
+          "word": "watch",
+          "start": 28.78,
+          "end": 29.2
+        },
+        {
+          "word": "online",
+          "start": 29.2,
+          "end": 29.8
+        },
+        {
+          "word": "tutorials",
+          "start": 29.8,
+          "end": 30.5
+        },
+        {
+          "word": "and",
+          "start": 30.5,
+          "end": 30.82
+        },
+        {
+          "word": "practice",
+          "start": 30.82,
+          "end": 31.32
+        },
+        {
+          "word": "with",
+          "start": 31.32,
+          "end": 31.64
+        },
+        {
+          "word": "small",
+          "start": 31.64,
+          "end": 31.82
+        },
+        {
+          "word": "exercises",
+          "start": 31.82,
+          "end": 32.44
+        },
+        {
+          "word": "almost",
+          "start": 32.44,
+          "end": 33.06
+        },
+        {
+          "word": "every",
+          "start": 33.06,
+          "end": 33.38
+        },
+        {
+          "word": "day.",
+          "start": 33.38,
+          "end": 33.86
+        },
+        {
+          "word": "One",
+          "start": 35.02,
+          "end": 35.26
+        },
+        {
+          "word": "experience",
+          "start": 35.26,
+          "end": 35.82
+        },
+        {
+          "word": "that",
+          "start": 35.82,
+          "end": 36.14
+        },
+        {
+          "word": "helped",
+          "start": 36.14,
+          "end": 36.54
+        },
+        {
+          "word": "me",
+          "start": 36.54,
+          "end": 36.74
+        },
+        {
+          "word": "a",
+          "start": 36.74,
+          "end": 36.92
+        },
+        {
+          "word": "lot",
+          "start": 36.92,
+          "end": 37.14
+        },
+        {
+          "word": "was",
+          "start": 37.14,
+          "end": 37.46
+        },
+        {
+          "word": "working",
+          "start": 37.46,
+          "end": 37.86
+        },
+        {
+          "word": "on",
+          "start": 37.86,
+          "end": 38.16
+        },
+        {
+          "word": "a",
+          "start": 38.16,
+          "end": 38.26
+        },
+        {
+          "word": "group",
+          "start": 38.26,
+          "end": 38.48
+        },
+        {
+          "word": "project.",
+          "start": 38.48,
+          "end": 39.28
+        },
+        {
+          "word": "My",
+          "start": 40.02,
+          "end": 40.24
+        },
+        {
+          "word": "classmates",
+          "start": 40.24,
+          "end": 40.98
+        },
+        {
+          "word": "and",
+          "start": 40.98,
+          "end": 41.26
+        },
+        {
+          "word": "I",
+          "start": 41.26,
+          "end": 41.44
+        },
+        {
+          "word": "used",
+          "start": 41.44,
+          "end": 42.14
+        },
+        {
+          "word": "to",
+          "start": 42.14,
+          "end": 42.16
+        },
+        {
+          "word": "build",
+          "start": 42.16,
+          "end": 42.3
+        },
+        {
+          "word": "a",
+          "start": 42.3,
+          "end": 42.54
+        },
+        {
+          "word": "simple",
+          "start": 42.54,
+          "end": 42.74
+        },
+        {
+          "word": "website",
+          "start": 42.74,
+          "end": 43.26
+        },
+        {
+          "word": "and",
+          "start": 43.26,
+          "end": 43.78
+        },
+        {
+          "word": "I",
+          "start": 43.78,
+          "end": 44.68
+        },
+        {
+          "word": "was",
+          "start": 44.68,
+          "end": 44.9
+        },
+        {
+          "word": "responsible",
+          "start": 44.9,
+          "end": 45.58
+        },
+        {
+          "word": "for",
+          "start": 45.58,
+          "end": 46.04
+        },
+        {
+          "word": "some",
+          "start": 46.04,
+          "end": 46.4
+        },
+        {
+          "word": "dysfunctions.",
+          "start": 46.4,
+          "end": 47.42
+        },
+        {
+          "word": "Whenever",
+          "start": 48.16,
+          "end": 48.46
+        },
+        {
+          "word": "something",
+          "start": 48.46,
+          "end": 48.9
+        },
+        {
+          "word": "went",
+          "start": 48.9,
+          "end": 49.14
+        },
+        {
+          "word": "wrong,",
+          "start": 49.14,
+          "end": 49.56
+        },
+        {
+          "word": "I",
+          "start": 49.56,
+          "end": 49.94
+        },
+        {
+          "word": "had",
+          "start": 49.94,
+          "end": 50.2
+        },
+        {
+          "word": "to",
+          "start": 50.2,
+          "end": 50.38
+        },
+        {
+          "word": "find",
+          "start": 50.38,
+          "end": 50.7
+        },
+        {
+          "word": "a",
+          "start": 50.7,
+          "end": 50.82
+        },
+        {
+          "word": "problem",
+          "start": 50.82,
+          "end": 51.26
+        },
+        {
+          "word": "and",
+          "start": 51.26,
+          "end": 51.74
+        },
+        {
+          "word": "try",
+          "start": 51.74,
+          "end": 51.96
+        },
+        {
+          "word": "different",
+          "start": 51.96,
+          "end": 52.32
+        },
+        {
+          "word": "solutions.",
+          "start": 52.32,
+          "end": 53.18
+        },
+        {
+          "word": "Now",
+          "start": 54.16,
+          "end": 54.28
+        },
+        {
+          "word": "I",
+          "start": 54.28,
+          "end": 54.54
+        },
+        {
+          "word": "use",
+          "start": 54.54,
+          "end": 54.84
+        },
+        {
+          "word": "programming",
+          "start": 54.84,
+          "end": 55.44
+        },
+        {
+          "word": "in",
+          "start": 55.44,
+          "end": 55.8
+        },
+        {
+          "word": "my",
+          "start": 55.8,
+          "end": 55.96
+        },
+        {
+          "word": "assignments",
+          "start": 55.96,
+          "end": 56.44
+        },
+        {
+          "word": "and",
+          "start": 56.44,
+          "end": 56.8
+        },
+        {
+          "word": "personal",
+          "start": 56.8,
+          "end": 57.3
+        },
+        {
+          "word": "projects.",
+          "start": 57.3,
+          "end": 58.12
+        },
+        {
+          "word": "It",
+          "start": 58.12,
+          "end": 58.78
+        },
+        {
+          "word": "helps",
+          "start": 58.78,
+          "end": 59.06
+        },
+        {
+          "word": "me",
+          "start": 59.06,
+          "end": 59.28
+        },
+        {
+          "word": "automate",
+          "start": 59.28,
+          "end": 59.92
+        },
+        {
+          "word": "repetitive",
+          "start": 59.92,
+          "end": 60.96
+        },
+        {
+          "word": "tasks",
+          "start": 60.96,
+          "end": 61.66
+        },
+        {
+          "word": "and",
+          "start": 61.66,
+          "end": 61.94
+        },
+        {
+          "word": "understand",
+          "start": 61.94,
+          "end": 62.72
+        },
+        {
+          "word": "how",
+          "start": 62.72,
+          "end": 63.04
+        },
+        {
+          "word": "applications",
+          "start": 63.04,
+          "end": 63.7
+        },
+        {
+          "word": "work.",
+          "start": 63.7,
+          "end": 64.44
+        },
+        {
+          "word": "This",
+          "start": 65.58,
+          "end": 65.92
+        },
+        {
+          "word": "skill",
+          "start": 65.92,
+          "end": 66.36
+        },
+        {
+          "word": "is",
+          "start": 66.36,
+          "end": 66.6
+        },
+        {
+          "word": "important",
+          "start": 66.6,
+          "end": 67.14
+        },
+        {
+          "word": "to",
+          "start": 67.14,
+          "end": 67.38
+        },
+        {
+          "word": "me",
+          "start": 67.38,
+          "end": 67.64
+        },
+        {
+          "word": "because",
+          "start": 67.64,
+          "end": 68.04
+        },
+        {
+          "word": "I",
+          "start": 68.04,
+          "end": 68.36
+        },
+        {
+          "word": "want",
+          "start": 68.36,
+          "end": 68.76
+        },
+        {
+          "word": "to",
+          "start": 68.76,
+          "end": 69.08
+        },
+        {
+          "word": "work",
+          "start": 69.08,
+          "end": 69.78
+        },
+        {
+          "word": "in",
+          "start": 69.78,
+          "end": 70.06
+        },
+        {
+          "word": "the",
+          "start": 70.06,
+          "end": 70.2
+        },
+        {
+          "word": "technology",
+          "start": 70.2,
+          "end": 70.76
+        },
+        {
+          "word": "industry.",
+          "start": 70.76,
+          "end": 71.8
+        },
+        {
+          "word": "It",
+          "start": 71.8,
+          "end": 72.62
+        },
+        {
+          "word": "has",
+          "start": 72.62,
+          "end": 72.72
+        },
+        {
+          "word": "also",
+          "start": 72.72,
+          "end": 73.02
+        },
+        {
+          "word": "taught",
+          "start": 73.02,
+          "end": 73.52
+        },
+        {
+          "word": "me",
+          "start": 73.52,
+          "end": 73.82
+        },
+        {
+          "word": "to",
+          "start": 73.82,
+          "end": 74.12
+        },
+        {
+          "word": "be",
+          "start": 74.12,
+          "end": 74.36
+        },
+        {
+          "word": "more",
+          "start": 74.36,
+          "end": 74.64
+        },
+        {
+          "word": "patient",
+          "start": 74.64,
+          "end": 75.02
+        },
+        {
+          "word": "and",
+          "start": 75.02,
+          "end": 75.34
+        },
+        {
+          "word": "solve",
+          "start": 75.34,
+          "end": 75.52
+        },
+        {
+          "word": "problems",
+          "start": 75.52,
+          "end": 76.1
+        },
+        {
+          "word": "step",
+          "start": 76.1,
+          "end": 76.44
+        },
+        {
+          "word": "by",
+          "start": 76.44,
+          "end": 76.56
+        },
+        {
+          "word": "step.",
+          "start": 76.56,
+          "end": 77.1
+        },
+        {
+          "word": "I",
+          "start": 77.72,
+          "end": 77.84
+        },
+        {
+          "word": "still",
+          "start": 77.84,
+          "end": 78.08
+        },
+        {
+          "word": "have",
+          "start": 78.08,
+          "end": 78.36
+        },
+        {
+          "word": "a",
+          "start": 78.36,
+          "end": 78.7
+        },
+        {
+          "word": "lot",
+          "start": 78.7,
+          "end": 78.78
+        },
+        {
+          "word": "to",
+          "start": 78.78,
+          "end": 79.04
+        },
+        {
+          "word": "learn,",
+          "start": 79.04,
+          "end": 79.88
+        },
+        {
+          "word": "but",
+          "start": 79.88,
+          "end": 80
+        },
+        {
+          "word": "I",
+          "start": 80,
+          "end": 80.08
+        },
+        {
+          "word": "feel",
+          "start": 80.08,
+          "end": 80.26
+        },
+        {
+          "word": "more",
+          "start": 80.26,
+          "end": 80.42
+        },
+        {
+          "word": "confident",
+          "start": 80.42,
+          "end": 80.92
+        },
+        {
+          "word": "than",
+          "start": 80.92,
+          "end": 81.34
+        },
+        {
+          "word": "I",
+          "start": 81.34,
+          "end": 81.44
+        },
+        {
+          "word": "would,",
+          "start": 81.44,
+          "end": 81.88
+        },
+        {
+          "word": "than",
+          "start": 81.88,
+          "end": 82.98
+        },
+        {
+          "word": "when",
+          "start": 82.98,
+          "end": 83.24
+        },
+        {
+          "word": "I",
+          "start": 83.24,
+          "end": 83.36
+        },
+        {
+          "word": "first",
+          "start": 83.36,
+          "end": 83.54
+        },
+        {
+          "word": "started.",
+          "start": 83.54,
+          "end": 84.14
+        }
+      ],
+      "quality": {
+        "status": "needs_review",
+        "timing_valid": true,
+        "issues": [
+          {
+            "code": "long_word_duration",
+            "severity": "warning",
+            "message": "Một số từ được gán thời lượng từ 1,5 giây. Cần kiểm tra căn chỉnh audio.",
+            "word_indices": [
+              0
+            ]
+          },
+          {
+            "code": "word_overlaps_non_speech",
+            "severity": "warning",
+            "message": "Một số từ bao gồm khoảng audio không được VAD nhận là giọng nói. Timestamps cần kiểm tra.",
+            "word_indices": [
+              0,
+              13,
+              32,
+              97,
+              127,
+              153,
+              183
+            ]
+          }
+        ],
+        "text_checks_passed": true,
+        "evidence_review_word_indices": [
+          0,
+          13,
+          32,
+          97,
+          127,
+          153,
+          183
+        ],
+        "repeated_sentences": []
+      },
+      "metrics": {
+        "word_count": 188,
+        "filler_count": 0,
+        "adjacent_repetitions": [],
+        "timing": {
+          "speech_seconds": 84.1,
+          "words_per_minute": 134.1,
+          "pause_count": 7,
+          "pause_seconds": 5.9,
+          "longest_pause_seconds": 1.16,
+          "pauses": [
+            {
+              "after": "mistakes.",
+              "at": 27.06,
+              "length": 0.5
+            },
+            {
+              "after": "day.",
+              "at": 33.86,
+              "length": 1.16
+            },
+            {
+              "after": "project.",
+              "at": 39.28,
+              "length": 0.74
+            },
+            {
+              "after": "dysfunctions.",
+              "at": 47.42,
+              "length": 0.74
+            },
+            {
+              "after": "solutions.",
+              "at": 53.18,
+              "length": 0.98
+            },
+            {
+              "after": "work.",
+              "at": 64.44,
+              "length": 1.14
+            },
+            {
+              "after": "step.",
+              "at": 77.1,
+              "length": 0.62
+            }
+          ]
+        },
+        "audio_timing": {
+          "status": "ok",
+          "source": "silero_vad_v6",
+          "settings": {
+            "threshold": 0.5,
+            "min_silence_duration_ms": 500,
+            "speech_pad_ms": 0
+          },
+          "pause_threshold_seconds": 0.5,
+          "audio_seconds": 85.5,
+          "speech_segments": [
+            {
+              "start": 2.816,
+              "end": 8.48
+            },
+            {
+              "start": 9.024,
+              "end": 16.416
+            },
+            {
+              "start": 17.056,
+              "end": 27.04
+            },
+            {
+              "start": 27.648,
+              "end": 33.856
+            },
+            {
+              "start": 35.136,
+              "end": 39.232
+            },
+            {
+              "start": 40.128,
+              "end": 43.872
+            },
+            {
+              "start": 44.608,
+              "end": 47.424
+            },
+            {
+              "start": 48.256,
+              "end": 53.216
+            },
+            {
+              "start": 54.208,
+              "end": 58.08
+            },
+            {
+              "start": 58.72,
+              "end": 64.448
+            },
+            {
+              "start": 65.728,
+              "end": 71.808
+            },
+            {
+              "start": 72.544,
+              "end": 76.96
+            },
+            {
+              "start": 77.824,
+              "end": 81.76
+            },
+            {
+              "start": 82.88,
+              "end": 84.128
+            }
+          ],
+          "speech_start_seconds": 2.816,
+          "speech_end_seconds": 84.128,
+          "speech_window_seconds": 81.312,
+          "voiced_seconds": 70.144,
+          "leading_non_speech_seconds": 2.816,
+          "trailing_non_speech_seconds": 1.372,
+          "internal_pause_count": 13,
+          "pause_seconds": 11.168,
+          "longest_pause_seconds": 1.28,
+          "pauses": [
+            {
+              "start": 8.48,
+              "end": 9.024,
+              "seconds": 0.544
+            },
+            {
+              "start": 16.416,
+              "end": 17.056,
+              "seconds": 0.64
+            },
+            {
+              "start": 27.04,
+              "end": 27.648,
+              "seconds": 0.608
+            },
+            {
+              "start": 33.856,
+              "end": 35.136,
+              "seconds": 1.28
+            },
+            {
+              "start": 39.232,
+              "end": 40.128,
+              "seconds": 0.896
+            },
+            {
+              "start": 43.872,
+              "end": 44.608,
+              "seconds": 0.736
+            },
+            {
+              "start": 47.424,
+              "end": 48.256,
+              "seconds": 0.832
+            },
+            {
+              "start": 53.216,
+              "end": 54.208,
+              "seconds": 0.992
+            },
+            {
+              "start": 58.08,
+              "end": 58.72,
+              "seconds": 0.64
+            },
+            {
+              "start": 64.448,
+              "end": 65.728,
+              "seconds": 1.28
+            },
+            {
+              "start": 71.808,
+              "end": 72.544,
+              "seconds": 0.736
+            },
+            {
+              "start": 76.96,
+              "end": 77.824,
+              "seconds": 0.864
+            },
+            {
+              "start": 81.76,
+              "end": 82.88,
+              "seconds": 1.12
+            }
+          ],
+          "words_per_minute": 138.7,
+          "processing_seconds": 0.2
+        },
+        "disfluency_candidates": {
+          "repeated_phrases": [],
+          "repair_candidates": [
+            {
+              "type": "restarted_connector",
+              "marker": "than",
+              "token_start": 180,
+              "token_end": 184
+            }
+          ]
+        }
+      },
+      "preparation": {
+        "seconds": 0,
+        "notes": "",
+        "limit_seconds": 60
+      },
+      "speaking_limit_seconds": 120,
+      "id": "8ef79541-5aa4-47a6-99e1-091f8758d3df",
+      "submittedAt": "2026-10-12T17:27:34.609Z"
+    }
+  ],
+  "reanalysis": {
+    "method": "saved_audio_and_transcript",
+    "groq_called": false,
+    "original_file": "part2-skill-test-01.json"
+  }
+}

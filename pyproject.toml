@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ielts-learning-agent"
+version = "0.1.0"
+description = "UC-04: independently verified IELTS practice generation"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.34,<1", "openai>=1.68,<3", "pydantic>=2.10,<3", "psycopg[binary]>=3.2,<4", "python-dotenv>=1,<2", "httpx>=0.28,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "httpx>=0.28,<1"]
+listening-stt = ["azure-cognitiveservices-speech>=1.52,<2"]
+# UC-04 Speaking: thi thử ba phần, STT và chấm hai giám khảo.
+speaking = [
+    "fastapi>=0.143,<1",
+    "uvicorn>=0.54,<1",
+    "python-multipart>=0.0.32,<0.1",
+    "groq>=1.7,<2",
+    "faster-whisper>=1.2,<2",
+    # PyAV 19 bỏ metadata_errors mà faster-whisper 1.2 còn dùng.
+    "av==16.0.1",
+    "pdfplumber>=0.11,<1",
+    "azure-cognitiveservices-speech>=1.52,<2",
+    # Bộ sinh dữ liệu giả lập (agents/speaking/synth) đọc spec.yaml.
+    "pyyaml>=6,<7",
+]
+speaking-dev = ["playwright>=1.63,<2"]
+
+[tool.setuptools.packages.find]
+where = ["backend"]
+include = ["ielts_agent*"]
+
+[tool.setuptools.package-data]
+ielts_agent = ["agents/*/skills/*/SKILL.md", "infrastructure/db/sql/*.sql", "agents/*/web/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["backend/tests"]
+pythonpath = ["backend"]

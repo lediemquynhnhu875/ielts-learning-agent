@@ -1,0 +1,22 @@
+[
+  {"id":"fc2","criterion":"FC","query":"Long silence before nearly every word and isolated words cannot connect into continuous speech","bands":[2]},
+  {"id":"fc4","criterion":"FC","query":"Cannot sustain speaking without noticeable pauses; frequent repetitions and basic linking connectives","bands":[4]},
+  {"id":"fc6","criterion":"FC","query":"Willing to produce a long turn but loses coherence through repetition and hesitation; linking is sometimes inappropriate","bands":[6]},
+  {"id":"fc8","criterion":"FC","query":"Fluent coherent relevant development; occasional hesitation to find language and rare self correction","bands":[8]},
+  {"id":"lr2","criterion":"LR","query":"Very limited vocabulary only isolated words or memorised utterances with little communication","bands":[2]},
+  {"id":"lr4","criterion":"LR","query":"Basic vocabulary handles familiar topics but unfamiliar topics cause frequent word choice errors and little paraphrase","bands":[4]},
+  {"id":"lr6","criterion":"LR","query":"Enough vocabulary for extended topics despite inappropriate words; generally manages to paraphrase","bands":[6]},
+  {"id":"lr8","criterion":"LR","query":"Wide flexible vocabulary for precise meaning with skilful idiomatic language and occasional collocation errors","bands":[8]},
+  {"id":"gra2","criterion":"GRA","query":"No evidence of basic sentence forms","bands":[2]},
+  {"id":"gra4","criterion":"GRA","query":"Basic sentences sometimes correct, rare subordinate clauses; frequent errors can cause misunderstanding","bands":[4]},
+  {"id":"gra6","criterion":"GRA","query":"Mix of short and complex forms with limited flexibility; frequent complex grammar errors rarely impede understanding","bands":[6]},
+  {"id":"gra8","criterion":"GRA","query":"Wide flexible range of structures; most sentences error free with occasional nonsystematic errors","bands":[8]},
+  {"id":"pr2","criterion":"PR","query":"Few acceptable phonological features, generally unintelligible speech with isolated recognisable words","bands":[2]},
+  {"id":"pr4","criterion":"PR","query":"Limited phonological features; rhythm and chunking not sustained, frequent mispronunciations cause difficulty for listeners","bands":[4]},
+  {"id":"pr6","criterion":"PR","query":"Variable control of pronunciation; appropriate chunking but inconsistent rhythm stress and intonation, generally understood","bands":[6]},
+  {"id":"pr8","criterion":"PR","query":"Wide phonological range and flexible stress rhythm across long utterances; easily understood and accent minimally affects intelligibility","bands":[8]},
+  {"id":"none1","criterion":"FC","query":"How much is the IELTS test fee in Hanoi?","bands":[]},
+  {"id":"none2","criterion":"GRA","query":"Give me the scoring rubric for Writing Task 2","bands":[]},
+  {"id":"none3","criterion":"PR","query":"What visa documents are required for registration?","bands":[]},
+  {"id":"none4","criterion":"GRA","query":"How does grammatical accuracy influence admission to a university?","bands":[]}
+]

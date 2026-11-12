@@ -1,0 +1,485 @@
+{
+ "sessions": 18,
+ "bands_covered": [
+  4.0,
+  4.5,
+  5.0,
+  5.5,
+  6.0,
+  6.5,
+  7.0,
+  7.5,
+  8.0
+ ],
+ "W2_monotonic_by_band": {
+  "mtld": {
+   "rho": 0.776,
+   "ci95": [
+    0.497,
+    0.921
+   ],
+   "pass": true,
+   "undecided": true
+  },
+  "sentence_len": {
+   "rho": 0.659,
+   "ci95": [
+    0.265,
+    0.85
+   ],
+   "pass": false,
+   "undecided": true
+  },
+  "long_word_ratio": {
+   "rho": 0.807,
+   "ci95": [
+    0.577,
+    0.92
+   ],
+   "pass": true,
+   "undecided": true
+  },
+  "errors_per_100": {
+   "rho": 0.492,
+   "ci95": [
+    0.075,
+    0.782
+   ],
+   "pass": false,
+   "undecided": true
+  },
+  "words": {
+   "rho": 0.962,
+   "ci95": [
+    0.832,
+    0.994
+   ],
+   "pass": true,
+   "undecided": false
+  }
+ },
+ "W4_diversity": {
+  "pairs_compared": 9,
+  "max_overlap": 0.0044,
+  "pass": true,
+  "worst": [
+   {
+    "band": 5.5,
+    "pair": [
+     "sp-bench-06",
+     "sp-bench-07"
+    ],
+    "overlap_4gram": 0.0044
+   },
+   {
+    "band": 8.0,
+    "pair": [
+     "sp-bench-16",
+     "sp-bench-17"
+    ],
+    "overlap_4gram": 0.0029
+   },
+   {
+    "band": 7.5,
+    "pair": [
+     "sp-bench-14",
+     "sp-bench-15"
+    ],
+    "overlap_4gram": 0.0025
+   }
+  ]
+ },
+ "W5_meta_leak": {
+  "leaks": 0,
+  "pass": true,
+  "sample": []
+ },
+ "W6_lengths": {
+  "checked": 54,
+  "in_range": 54,
+  "share": 1.0,
+  "pass": true,
+  "outliers": []
+ },
+ "judge_P10": {
+  "judged": 18,
+  "judge_model": "openai/gpt-oss-20b",
+  "kept": 16,
+  "dropped": 2,
+  "mae_intended_vs_judge": 0.694,
+  "qwk_intended_vs_judge": 0.679,
+  "qwk_ci95": [
+   0.471,
+   0.795
+  ],
+  "spearman": 0.814,
+  "mean_realism": 4.0,
+  "rows": [
+   {
+    "key": "sp-bench-00",
+    "intended": 4.0,
+    "judge_overall": 5,
+    "gap": 1.0,
+    "realism": 5,
+    "criteria": {
+     "FC": 5,
+     "LR": 5,
+     "GRA": 5
+    },
+    "signals": [
+     "natural hesitation",
+     "coherent topic development"
+    ]
+   },
+   {
+    "key": "sp-bench-01",
+    "intended": 4.0,
+    "judge_overall": 5,
+    "gap": 1.0,
+    "realism": 4,
+    "criteria": {
+     "FC": 5,
+     "LR": 5,
+     "GRA": 5
+    },
+    "signals": [
+     "informal phrasing",
+     "repetition of simple structures"
+    ]
+   },
+   {
+    "key": "sp-bench-03",
+    "intended": 4.5,
+    "judge_overall": 5,
+    "gap": 0.5,
+    "realism": 4,
+    "criteria": {
+     "FC": 5,
+     "LR": 5,
+     "GRA": 5
+    },
+    "signals": [
+     "natural hesitation",
+     "consistent topic development"
+    ]
+   },
+   {
+    "key": "sp-bench-02",
+    "intended": 4.5,
+    "judge_overall": 6,
+    "gap": 1.5,
+    "realism": 4,
+    "criteria": {
+     "FC": 6,
+     "LR": 6,
+     "GRA": 5
+    },
+    "signals": [
+     "repetitive phrasing",
+     "simple sentence structures"
+    ]
+   },
+   {
+    "key": "sp-bench-04",
+    "intended": 5.0,
+    "judge_overall": 6.0,
+    "gap": 1.0,
+    "realism": 4,
+    "criteria": {
+     "FC": 6.5,
+     "LR": 6.0,
+     "GRA": 6.0
+    },
+    "signals": [
+     "repetitive phrasing and simple connectors",
+     "occasional grammatical errors like missing articles and verb forms"
+    ]
+   },
+   {
+    "key": "sp-bench-05",
+    "intended": 5.0,
+    "judge_overall": 6.0,
+    "gap": 1.0,
+    "realism": 4,
+    "criteria": {
+     "FC": 6.5,
+     "LR": 6.0,
+     "GRA": 5.5
+    },
+    "signals": [
+     "repeated grammatical mistakes (e.g., \"I not listen\",\"My self use it\"),",
+     "use of filler phrases and self‑corrections typical of learners"
+    ]
+   },
+   {
+    "key": "sp-bench-06",
+    "intended": 5.5,
+    "judge_overall": 6,
+    "gap": 0.5,
+    "realism": 4,
+    "criteria": {
+     "FC": 6.5,
+     "LR": 6,
+     "GRA": 5.5
+    },
+    "signals": [
+     "repeated grammatical errors like subject‑verb agreement",
+     "unnatural phrasing and literal translations"
+    ]
+   },
+   {
+    "key": "sp-bench-07",
+    "intended": 5.5,
+    "judge_overall": 5,
+    "gap": 0.5,
+    "realism": 3,
+    "criteria": {
+     "FC": 5,
+     "LR": 5,
+     "GRA": 5
+    },
+    "signals": [
+     "repetitive phrasing",
+     "simple sentence structures"
+    ]
+   },
+   {
+    "key": "sp-bench-08",
+    "intended": 6.0,
+    "judge_overall": 6,
+    "gap": 0.0,
+    "realism": 4,
+    "criteria": {
+     "FC": 6,
+     "LR": 6,
+     "GRA": 5
+    },
+    "signals": [
+     "repetitive phrasing",
+     "overuse of simple connectors"
+    ]
+   },
+   {
+    "key": "sp-bench-09",
+    "intended": 6.0,
+    "judge_overall": 6,
+    "gap": 0.0,
+    "realism": 4,
+    "criteria": {
+     "FC": 6,
+     "LR": 6,
+     "GRA": 5
+    },
+    "signals": [
+     "repetitive phrasing",
+     "overly simple sentence structures"
+    ]
+   },
+   {
+    "key": "sp-bench-10",
+    "intended": 6.5,
+    "judge_overall": 6,
+    "gap": 0.5,
+    "realism": 4,
+    "criteria": {
+     "FC": 6,
+     "LR": 6,
+     "GRA": 5
+    },
+    "signals": [
+     "repetitive phrasing",
+     "overly formal vocabulary"
+    ]
+   },
+   {
+    "key": "sp-bench-11",
+    "intended": 6.5,
+    "judge_overall": 6.5,
+    "gap": 0.0,
+    "realism": 4,
+    "criteria": {
+     "FC": 7,
+     "LR": 6.5,
+     "GRA": 6
+    },
+    "signals": [
+     "occasional repetition and filler phrases",
+     "minor grammatical errors such as subject‑verb agreement and article misuse"
+    ]
+   },
+   {
+    "key": "sp-bench-12",
+    "intended": 7.0,
+    "judge_overall": 7.5,
+    "gap": 0.5,
+    "realism": 4,
+    "criteria": {
+     "FC": 7.5,
+     "LR": 7,
+     "GRA": 7
+    },
+    "signals": [
+     "occasional repetition of ideas",
+     "minor informal phrasing"
+    ]
+   },
+   {
+    "key": "sp-bench-13",
+    "intended": 7.0,
+    "judge_overall": 7,
+    "gap": 0.0,
+    "realism": 4,
+    "criteria": {
+     "FC": 7,
+     "LR": 7,
+     "GRA": 6
+    },
+    "signals": [
+     "repetitive phrasing",
+     "overly formal tone"
+    ]
+   },
+   {
+    "key": "sp-bench-14",
+    "intended": 7.5,
+    "judge_overall": 6.5,
+    "gap": 1.0,
+    "realism": 4,
+    "criteria": {
+     "FC": 7,
+     "LR": 7,
+     "GRA": 6
+    },
+    "signals": [
+     "repetitive phrasing",
+     "overly formal tone"
+    ]
+   },
+   {
+    "key": "sp-bench-15",
+    "intended": 7.5,
+    "judge_overall": 6,
+    "gap": 1.5,
+    "realism": 4,
+    "criteria": {
+     "FC": 6,
+     "LR": 6,
+     "GRA": 6
+    },
+    "signals": [
+     "repetitive phrasing",
+     "overly formal tone"
+    ]
+   },
+   {
+    "key": "sp-bench-16",
+    "intended": 8.0,
+    "judge_overall": 7,
+    "gap": 1.0,
+    "realism": 4,
+    "criteria": {
+     "FC": 7,
+     "LR": 7,
+     "GRA": 7
+    },
+    "signals": [
+     "use of informal connectors like \"well\" and \"actually\"",
+     "occasional repetition of phrases such as \"tight deadline\" and \"lack of reliable data\""
+    ]
+   },
+   {
+    "key": "sp-bench-17",
+    "intended": 8.0,
+    "judge_overall": 7,
+    "gap": 1.0,
+    "realism": 4,
+    "criteria": {
+     "FC": 7,
+     "LR": 7,
+     "GRA": 6
+    },
+    "signals": [
+     "use of informal filler phrases like \"honestly\" and \"I think\"",
+     "occasional minor grammatical slips such as missing articles or verb tense inconsistencies"
+    ]
+   }
+  ],
+  "dropped_keys": [
+   "sp-bench-02",
+   "sp-bench-15"
+  ]
+ },
+ "declared_gaps": [
+  "Benchmark chỉ 2 phiên mỗi band (n = 18). Khoảng tin cậy bootstrap của mọi rho W2 đều chứa ngưỡng 0.7, nên W2 ở quy mô này KHÔNG quyết định được đạt hay không đạt. Cần tăng số phiên mỗi band.",
+  "Chủ đề Part 1 và cue card do LLM sinh; chưa có người đã thi IELTS duyệt lại là đề có đúng độ khó Part 1/Part 2 hay không.",
+  "Mật độ lỗi là proxy bằng rule, không phải ERRANT/LanguageTool, nên ngưỡng W3 của kịch bản chưa kiểm được.",
+  "Thiếu danh sách tần suất từ nên dùng tỉ lệ từ dài thay cho chỉ số 'ngoài top 2.000'.",
+  "Pronunciation không benchmark được: chỉ có transcript (mục 2.8).",
+  "Chưa có gold_label: mọi kết luận về chất lượng AI chấm còn bỏ trống."
+ ],
+ "W7_edge_flags": {
+  "too_short": {
+   "labelled": 4,
+   "detected": 4,
+   "recall": 1.0,
+   "false_positive_on_control": 0,
+   "pass": true
+  },
+  "injection": {
+   "labelled": 2,
+   "detected": 2,
+   "recall": 1.0,
+   "false_positive_on_control": 0,
+   "pass": true
+  },
+  "low_stt_confidence": {
+   "labelled": 4,
+   "detected": 4,
+   "recall": 1.0,
+   "false_positive_on_control": 0,
+   "pass": true
+  }
+ },
+ "P_series": {
+  "P1_orphan_rows": {
+   "count": 0,
+   "pass": true,
+   "sample": []
+  },
+  "P2_time_order": {
+   "problems": 0,
+   "pass": true,
+   "sample": []
+  },
+  "refs_point_id_null_share": 0.414,
+  "turn_count": 617,
+  "point_count": 707
+ },
+ "UC04_part3_grounding": {
+  "part3_followups": 72,
+  "grounded": 71,
+  "share": 0.986,
+  "pass": true,
+  "misses": [
+   "What could happen if people stopped visiting these relaxing places?"
+  ]
+ },
+ "R9_provenance": {
+  "content_items": 28,
+  "fields_filled": true,
+  "missing_fields": [],
+  "questions_from_the_handwritten_bank": 0,
+  "bank_calls_with_model_and_job_id": 15,
+  "bank_calls": 15,
+  "pass": true
+ },
+ "table_counts": {
+  "LEARNER": 200,
+  "SESSION": 28,
+  "CONTENT_ITEM": 28,
+  "ATTEMPT": 28,
+  "SPEAKING_TURN": 617,
+  "CANDIDATE_POINT": 707,
+  "ASKED_QUESTION": 392
+ }
+}

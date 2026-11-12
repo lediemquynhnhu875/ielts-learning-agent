@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+/* Hệ thiết kế IELTS Agent: token dùng chung cho mọi màn hình. */
+@theme {
+  --font-sans: "Be Vietnam Pro", system-ui, sans-serif;
+
+  --color-cream: #fff8ec;
+  --color-sand: #f3dbb6;
+  --color-orange: #eba45e;
+  --color-orange-light: #f7b873;
+  --color-navy: #213d68;
+  --color-navy-deep: #17233c;
+  --color-muted: #52627f;
+  --color-sky: #7fa3e0;
+
+  /* Màu nhận diện kỹ năng */
+  --color-skill-reading: #213d68;
+  --color-skill-listening: #eba45e;
+  --color-skill-writing: #4f7bc4;
+  --color-skill-speaking: #a8571a;
+
+  /* Trạng thái: luôn đi kèm hình (tròn, vuông, tam giác) và chữ */
+  --color-status-verified: #213d68;
+  --color-status-spare: #eba45e;
+  --color-status-spare-text: #7a4308;
+  --color-status-rejected: #b5432f;
+  --color-status-rejected-text: #8e2f1f;
+  /* Kết quả từng câu Reading/Listening: đúng (xanh lá), sai dùng status-rejected, bỏ trống dùng muted */
+  --color-status-correct: #2f7d4f;
+  --color-status-correct-text: #1f5c38;
+
+  --radius-card: 28px;
+  --radius-panel: 32px;
+}
+
+@layer base {
+  html {
+    font-variant-numeric: tabular-nums;
+  }
+
+  body {
+    min-height: 100vh;
+    color: var(--color-navy-deep);
+    background: linear-gradient(120deg, #fff8ec 0%, #f6e1be 42%, #cfddf2 100%);
+  }
+}
+
+/* Kính sáng cho thẻ và khối nội dung */
+@utility glass {
+  background: linear-gradient(140deg, rgb(255 255 255 / 0.62), rgb(255 255 255 / 0.26));
+  backdrop-filter: blur(26px) saturate(1.7);
+  border: 1px solid rgb(255 255 255 / 0.75);
+  box-shadow:
+    var(--glass-drop, 0 18px 50px rgb(33 61 104 / 0.14)),
+    inset 0 1px 0 rgb(255 255 255 / 0.95),
+    inset 0 -1px 0 rgb(255 255 255 / 0.25);
+}
+
+/* Kính đặc hơn cho card trong danh sách, dễ đọc hơn */
+@utility glass-card {
+  /* Không dùng backdrop-filter: card lặp nhiều lần, làm mờ nền mỗi khung hình rất nặng khi cuộn/thu thanh bên. */
+  background: linear-gradient(140deg, rgb(255 255 255 / 0.84), rgb(255 255 255 / 0.6));
+  border: 1px solid rgb(255 255 255 / 0.75);
+  box-shadow:
+    var(--glass-drop, 0 6px 16px rgb(33 61 104 / 0.08)),
+    inset 0 1px 0 rgb(255 255 255 / 0.95);
+}
+
+/* Kính navy đậm của thanh bên */
+@utility glass-navy {
+  background: linear-gradient(
+    165deg,
+    rgb(33 61 104 / 0.94) 0%,
+    rgb(28 48 84 / 0.95) 50%,
+    rgb(23 35 60 / 0.97) 100%
+  );
+  /* Nền gần như đặc nên không cần làm mờ phía sau; bỏ đi để thu/mở và cuộn mượt hơn. */
+  border: 1px solid rgb(255 255 255 / 0.35);
+  box-shadow:
+    0 24px 60px rgb(23 35 60 / 0.35),
+    inset 0 1px 0 rgb(255 255 255 / 0.45);
+}
+
+/* Danh sách hiện dần khi đổi tab */
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@utility animate-rise-in {
+  animation: rise-in 0.42s cubic-bezier(0.25, 0.8, 0.25, 1) both;
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+/* Kính gần đặc cho vùng đọc/viết chữ dài, để nền màu không loang vào chữ (ui-rules: trắng ~86%) */
+@utility glass-paper {
+  background: rgb(255 255 255 / 0.86);
+  backdrop-filter: blur(30px);
+  border: 1px solid rgb(255 255 255 / 0.75);
+  box-shadow:
+    var(--glass-drop, 0 18px 50px rgb(33 61 104 / 0.12)),
+    inset 0 1px 0 rgb(255 255 255 / 0.95);
+}
+
+/*
+ * Vùng cuộn chứa card (overflow-y-auto cắt bóng ở mép, trông như khung nền xám): card bên trong dùng bóng nhỏ.
+ * Bóng 0 4px 12px lan 8px lên trên, 12px hai bên, 16px xuống dưới; chỗ dùng chừa đệm đúng chừng đó
+ * rồi bù bằng margin âm để mép card vẫn thẳng hàng.
+ */
+@utility scroll-cards {
+  --glass-drop: 0 4px 12px rgb(33 61 104 / 0.1);
+}
+
+/* Vạch chạy cho thanh "đang chấm"; tắt khi người dùng bật giảm chuyển động */
+@keyframes slide-bar {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(300%);
+  }
+}
+
+@utility animate-slide-bar {
+  animation: slide-bar 1.6s ease-in-out infinite;
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+/*
+ * Thanh cuộn mảnh dùng chung cho mọi vùng cuộn: không nút mũi tên, rãnh trong suốt, thanh trượt 6px bo tròn.
+ * Chromium bỏ qua ::-webkit-scrollbar nếu phần tử có scrollbar-width/scrollbar-color,
+ * nên hai thuộc tính chuẩn chỉ đặt cho trình duyệt không hỗ trợ ::-webkit-scrollbar (Firefox).
+ */
+@utility scroll-thin {
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+  &::-webkit-scrollbar-track,
+  &::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background: color-mix(in srgb, var(--color-navy) 22%, transparent);
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in srgb, var(--color-navy) 45%, transparent);
+  }
+  @supports not selector(::-webkit-scrollbar) {
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--color-navy) 22%, transparent) transparent;
+  }
+}

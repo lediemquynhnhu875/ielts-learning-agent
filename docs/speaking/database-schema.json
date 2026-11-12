@@ -1,0 +1,1282 @@
+{
+  "schema_version": "ielts-speaking-db-1.0",
+  "source_document": "database-design.docx",
+  "tables": {
+    "LEARNER": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "title": "Learner",
+      "type": "object"
+    },
+    "SESSION": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "learner_id": {
+          "format": "uuid",
+          "title": "Learner Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "placement",
+            "practice",
+            "mock"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "in_progress",
+            "paused",
+            "finished"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "thread_id": {
+          "title": "Thread Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "learner_id",
+        "kind",
+        "status",
+        "thread_id"
+      ],
+      "title": "Session",
+      "type": "object"
+    },
+    "CONTENT_ITEM": {
+      "additionalProperties": false,
+      "properties": {
+        "item_id": {
+          "format": "uuid",
+          "title": "Item Id",
+          "type": "string"
+        },
+        "skill": {
+          "const": "Speaking",
+          "default": "Speaking",
+          "title": "Skill",
+          "type": "string"
+        },
+        "question_type": {
+          "title": "Question Type",
+          "type": "string"
+        },
+        "topic": {
+          "title": "Topic",
+          "type": "string"
+        },
+        "target_band": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Target Band"
+        },
+        "source": {
+          "enum": [
+            "self_written",
+            "llm_generated_verified",
+            "open_license"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "license": {
+          "title": "License",
+          "type": "string"
+        },
+        "author": {
+          "title": "Author",
+          "type": "string"
+        },
+        "model": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Model"
+        },
+        "prompt_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Prompt Version"
+        },
+        "status": {
+          "enum": [
+            "verified",
+            "rejected",
+            "spare"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "body": {
+          "additionalProperties": true,
+          "title": "Body",
+          "type": "object"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_id",
+        "question_type",
+        "topic",
+        "target_band",
+        "source",
+        "license",
+        "author",
+        "model",
+        "prompt_version",
+        "status",
+        "body",
+        "created_at"
+      ],
+      "title": "ContentItem",
+      "type": "object"
+    },
+    "QUESTION": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "item_id": {
+          "format": "uuid",
+          "title": "Item Id",
+          "type": "string"
+        },
+        "question_type": {
+          "title": "Question Type",
+          "type": "string"
+        },
+        "answer_key": {
+          "anyOf": [
+            {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Answer Key"
+        },
+        "evidence_span": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Evidence Span"
+        },
+        "excluded": {
+          "title": "Excluded",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "item_id",
+        "question_type",
+        "answer_key",
+        "evidence_span",
+        "excluded"
+      ],
+      "title": "Question",
+      "type": "object"
+    },
+    "ATTEMPT": {
+      "additionalProperties": false,
+      "properties": {
+        "attempt_id": {
+          "format": "uuid",
+          "title": "Attempt Id",
+          "type": "string"
+        },
+        "session_id": {
+          "format": "uuid",
+          "title": "Session Id",
+          "type": "string"
+        },
+        "item_id": {
+          "format": "uuid",
+          "title": "Item Id",
+          "type": "string"
+        },
+        "skill": {
+          "const": "Speaking",
+          "default": "Speaking",
+          "title": "Skill",
+          "type": "string"
+        },
+        "mode": {
+          "enum": [
+            "text",
+            "voice"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "text_or_transcript": {
+          "title": "Text Or Transcript",
+          "type": "string"
+        },
+        "audio_uri": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Audio Uri"
+        },
+        "audio_deleted_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Audio Deleted At"
+        },
+        "submitted_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Submitted At"
+        },
+        "raw_score": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Raw Score"
+        }
+      },
+      "required": [
+        "attempt_id",
+        "session_id",
+        "item_id",
+        "mode",
+        "text_or_transcript",
+        "audio_uri",
+        "audio_deleted_at",
+        "submitted_at",
+        "raw_score"
+      ],
+      "title": "Attempt",
+      "type": "object"
+    },
+    "ANSWER": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "attempt_id": {
+          "format": "uuid",
+          "title": "Attempt Id",
+          "type": "string"
+        },
+        "question_id": {
+          "format": "uuid",
+          "title": "Question Id",
+          "type": "string"
+        },
+        "block_no": {
+          "title": "Block No",
+          "type": "integer"
+        },
+        "response": {
+          "title": "Response",
+          "type": "string"
+        },
+        "is_correct": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Is Correct"
+        }
+      },
+      "required": [
+        "id",
+        "attempt_id",
+        "question_id",
+        "block_no",
+        "response",
+        "is_correct"
+      ],
+      "title": "Answer",
+      "type": "object"
+    },
+    "SPEAKING_TURN": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "attempt_id": {
+          "format": "uuid",
+          "title": "Attempt Id",
+          "type": "string"
+        },
+        "turn_no": {
+          "title": "Turn No",
+          "type": "integer"
+        },
+        "part": {
+          "enum": [
+            "part1",
+            "part2",
+            "part3"
+          ],
+          "title": "Part",
+          "type": "string"
+        },
+        "transcript": {
+          "title": "Transcript",
+          "type": "string"
+        },
+        "stt_confidence": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Stt Confidence"
+        },
+        "duration_s": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Duration S"
+        },
+        "t_start_s": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "T Start S"
+        }
+      },
+      "required": [
+        "id",
+        "attempt_id",
+        "turn_no",
+        "part",
+        "transcript",
+        "stt_confidence",
+        "duration_s",
+        "t_start_s"
+      ],
+      "title": "SpeakingTurn",
+      "type": "object"
+    },
+    "CANDIDATE_POINT": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "turn_id": {
+          "format": "uuid",
+          "title": "Turn Id",
+          "type": "string"
+        },
+        "point": {
+          "title": "Point",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "turn_id",
+        "point"
+      ],
+      "title": "CandidatePoint",
+      "type": "object"
+    },
+    "ASKED_QUESTION": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "attempt_id": {
+          "format": "uuid",
+          "title": "Attempt Id",
+          "type": "string"
+        },
+        "part": {
+          "enum": [
+            "part1",
+            "part2",
+            "part3"
+          ],
+          "title": "Part",
+          "type": "string"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "refs_point_id": {
+          "anyOf": [
+            {
+              "format": "uuid",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Refs Point Id"
+        }
+      },
+      "required": [
+        "id",
+        "attempt_id",
+        "part",
+        "text",
+        "refs_point_id"
+      ],
+      "title": "AskedQuestion",
+      "type": "object"
+    },
+    "ASSESSMENT": {
+      "additionalProperties": false,
+      "properties": {
+        "run_id": {
+          "format": "uuid",
+          "title": "Run Id",
+          "type": "string"
+        },
+        "attempt_id": {
+          "format": "uuid",
+          "title": "Attempt Id",
+          "type": "string"
+        },
+        "purpose": {
+          "enum": [
+            "live",
+            "eval"
+          ],
+          "title": "Purpose",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "final",
+            "provisional",
+            "pending_teacher",
+            "failed"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "overall_band": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Overall Band"
+        },
+        "word_count": {
+          "title": "Word Count",
+          "type": "integer"
+        },
+        "limitations": {
+          "title": "Limitations",
+          "type": "string"
+        },
+        "descriptors_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Descriptors Version"
+        },
+        "trace_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Trace Id"
+        },
+        "cost_usd": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Cost Usd"
+        },
+        "latency_ms": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Latency Ms"
+        }
+      },
+      "required": [
+        "run_id",
+        "attempt_id",
+        "purpose",
+        "status",
+        "overall_band",
+        "word_count",
+        "limitations",
+        "descriptors_version",
+        "trace_id",
+        "cost_usd",
+        "latency_ms"
+      ],
+      "title": "Assessment",
+      "type": "object"
+    },
+    "GRADING": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "run_id": {
+          "format": "uuid",
+          "title": "Run Id",
+          "type": "string"
+        },
+        "grader_role": {
+          "enum": [
+            "A",
+            "B"
+          ],
+          "title": "Grader Role",
+          "type": "string"
+        },
+        "model": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Model"
+        },
+        "prompt_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Prompt Version"
+        },
+        "trace_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Trace Id"
+        }
+      },
+      "required": [
+        "id",
+        "run_id",
+        "grader_role",
+        "model",
+        "prompt_version",
+        "trace_id"
+      ],
+      "title": "Grading",
+      "type": "object"
+    },
+    "GRADING_CRITERION": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "grading_id": {
+          "format": "uuid",
+          "title": "Grading Id",
+          "type": "string"
+        },
+        "criterion": {
+          "enum": [
+            "FC",
+            "LR",
+            "GRA",
+            "PR"
+          ],
+          "title": "Criterion",
+          "type": "string"
+        },
+        "band": {
+          "anyOf": [
+            {
+              "maximum": 9,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Band"
+        },
+        "band_raw": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Band Raw"
+        },
+        "cap_reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Cap Reason"
+        },
+        "comment": {
+          "title": "Comment",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "grading_id",
+        "criterion",
+        "band",
+        "band_raw",
+        "cap_reason",
+        "comment"
+      ],
+      "title": "GradingCriterion",
+      "type": "object"
+    },
+    "EVIDENCE_SPAN": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "criterion_id": {
+          "format": "uuid",
+          "title": "Criterion Id",
+          "type": "string"
+        },
+        "start_char": {
+          "title": "Start Char",
+          "type": "integer"
+        },
+        "end_char": {
+          "title": "End Char",
+          "type": "integer"
+        },
+        "t_start_s": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "T Start S"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        },
+        "verified": {
+          "title": "Verified",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "criterion_id",
+        "start_char",
+        "end_char",
+        "t_start_s",
+        "quote",
+        "verified"
+      ],
+      "title": "EvidenceSpan",
+      "type": "object"
+    },
+    "DESCRIPTOR_CHUNK": {
+      "additionalProperties": false,
+      "properties": {
+        "chunk_id": {
+          "title": "Chunk Id",
+          "type": "string"
+        },
+        "test_part": {
+          "title": "Test Part",
+          "type": "string"
+        },
+        "criterion": {
+          "enum": [
+            "FC",
+            "LR",
+            "GRA",
+            "PR"
+          ],
+          "title": "Criterion",
+          "type": "string"
+        },
+        "band": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Band"
+        },
+        "version": {
+          "title": "Version",
+          "type": "string"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Source Url"
+        }
+      },
+      "required": [
+        "chunk_id",
+        "test_part",
+        "criterion",
+        "band",
+        "version",
+        "source_url"
+      ],
+      "title": "DescriptorChunk",
+      "type": "object"
+    },
+    "GRADING_CHUNK": {
+      "additionalProperties": false,
+      "properties": {
+        "grading_id": {
+          "format": "uuid",
+          "title": "Grading Id",
+          "type": "string"
+        },
+        "chunk_id": {
+          "title": "Chunk Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "grading_id",
+        "chunk_id"
+      ],
+      "title": "GradingChunk",
+      "type": "object"
+    },
+    "CRITERION_REF": {
+      "additionalProperties": false,
+      "properties": {
+        "criterion_id": {
+          "format": "uuid",
+          "title": "Criterion Id",
+          "type": "string"
+        },
+        "chunk_id": {
+          "title": "Chunk Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "criterion_id",
+        "chunk_id"
+      ],
+      "title": "CriterionRef",
+      "type": "object"
+    },
+    "ASSESSMENT_FLAG": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "run_id": {
+          "format": "uuid",
+          "title": "Run Id",
+          "type": "string"
+        },
+        "flag": {
+          "enum": [
+            "under_length",
+            "off_topic",
+            "possible_plagiarism",
+            "injection_detected",
+            "too_short",
+            "language_switch",
+            "low_stt_confidence"
+          ],
+          "title": "Flag",
+          "type": "string"
+        },
+        "set_by": {
+          "enum": [
+            "code",
+            "judge"
+          ],
+          "title": "Set By",
+          "type": "string"
+        },
+        "details": {
+          "additionalProperties": true,
+          "title": "Details",
+          "type": "object"
+        }
+      },
+      "required": [
+        "id",
+        "run_id",
+        "flag",
+        "set_by",
+        "details"
+      ],
+      "title": "AssessmentFlag",
+      "type": "object"
+    },
+    "RECONCILIATION": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "run_id": {
+          "format": "uuid",
+          "title": "Run Id",
+          "type": "string"
+        },
+        "model": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Model"
+        },
+        "prompt_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Prompt Version"
+        },
+        "trace_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Trace Id"
+        },
+        "self_confidence": {
+          "anyOf": [
+            {
+              "enum": [
+                "low",
+                "medium",
+                "high"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Self Confidence"
+        },
+        "escalated": {
+          "title": "Escalated",
+          "type": "boolean"
+        },
+        "escalate_reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Escalate Reason"
+        }
+      },
+      "required": [
+        "id",
+        "run_id",
+        "model",
+        "prompt_version",
+        "trace_id",
+        "self_confidence",
+        "escalated",
+        "escalate_reason"
+      ],
+      "title": "Reconciliation",
+      "type": "object"
+    },
+    "RECON_CRITERION": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "reconciliation_id": {
+          "format": "uuid",
+          "title": "Reconciliation Id",
+          "type": "string"
+        },
+        "criterion": {
+          "enum": [
+            "FC",
+            "LR",
+            "GRA",
+            "PR"
+          ],
+          "title": "Criterion",
+          "type": "string"
+        },
+        "final_band": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Final Band"
+        },
+        "chosen": {
+          "enum": [
+            "A",
+            "B",
+            "middle"
+          ],
+          "title": "Chosen",
+          "type": "string"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "reconciliation_id",
+        "criterion",
+        "final_band",
+        "chosen",
+        "reason"
+      ],
+      "title": "ReconCriterion",
+      "type": "object"
+    },
+    "TEACHER_REVIEW": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "run_id": {
+          "format": "uuid",
+          "title": "Run Id",
+          "type": "string"
+        },
+        "teacher_id": {
+          "format": "uuid",
+          "title": "Teacher Id",
+          "type": "string"
+        },
+        "action": {
+          "enum": [
+            "approve",
+            "edit",
+            "reject"
+          ],
+          "title": "Action",
+          "type": "string"
+        },
+        "note": {
+          "title": "Note",
+          "type": "string"
+        },
+        "at": {
+          "format": "date-time",
+          "title": "At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "run_id",
+        "teacher_id",
+        "action",
+        "note",
+        "at"
+      ],
+      "title": "TeacherReview",
+      "type": "object"
+    },
+    "FINAL_SCORE": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "run_id": {
+          "format": "uuid",
+          "title": "Run Id",
+          "type": "string"
+        },
+        "reconciliation_id": {
+          "anyOf": [
+            {
+              "format": "uuid",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Reconciliation Id"
+        },
+        "review_id": {
+          "anyOf": [
+            {
+              "format": "uuid",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Review Id"
+        },
+        "criterion": {
+          "enum": [
+            "FC",
+            "LR",
+            "GRA",
+            "PR",
+            "overall"
+          ],
+          "title": "Criterion",
+          "type": "string"
+        },
+        "band": {
+          "maximum": 9,
+          "minimum": 0,
+          "title": "Band",
+          "type": "number"
+        },
+        "status": {
+          "enum": [
+            "final",
+            "provisional",
+            "pending_teacher"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "source": {
+          "enum": [
+            "average",
+            "moderator",
+            "teacher"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "visible_to_learner": {
+          "title": "Visible To Learner",
+          "type": "boolean"
+        },
+        "version": {
+          "title": "Version",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "run_id",
+        "reconciliation_id",
+        "review_id",
+        "criterion",
+        "band",
+        "status",
+        "source",
+        "visible_to_learner",
+        "version"
+      ],
+      "title": "FinalScore",
+      "type": "object"
+    }
+  }
+}

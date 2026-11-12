@@ -1,0 +1,59 @@
+{
+  "backend": "local",
+  "model": "large-v3-turbo",
+  "policy": "original_language_auto_v1",
+  "transcript": "I'm currently a student in Ngô Gia Tự High School.",
+  "words": [
+    {
+      "word": "I'm",
+      "start": 2.180000000000001,
+      "end": 3.06
+    },
+    {
+      "word": "currently",
+      "start": 3.06,
+      "end": 3.66
+    },
+    {
+      "word": "a",
+      "start": 3.66,
+      "end": 4.12
+    },
+    {
+      "word": "student",
+      "start": 4.12,
+      "end": 4.56
+    },
+    {
+      "word": "in",
+      "start": 4.56,
+      "end": 5.26
+    },
+    {
+      "word": "Ngô",
+      "start": 5.26,
+      "end": 6.0
+    },
+    {
+      "word": "Gia",
+      "start": 6.0,
+      "end": 6.14
+    },
+    {
+      "word": "Tự",
+      "start": 6.14,
+      "end": 6.34
+    },
+    {
+      "word": "High",
+      "start": 6.34,
+      "end": 6.6
+    },
+    {
+      "word": "School.",
+      "start": 6.6,
+      "end": 7.0
+    }
+  ],
+  "seconds": 9.891
+}

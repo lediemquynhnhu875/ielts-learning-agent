@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#124f43">
+  <title>Speaking Studio | IELTS Academic</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script defer src="/static/lucide.min.js"></script>
+  <script defer src="/static/feedback.js"></script>
+  <script defer src="/static/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Speaking Studio"><i data-lucide="audio-lines"></i><span>Speaking<span class="brand-light"> Studio</span></span></a>
+    <span class="course">IELTS Academic <span class="separator">/</span> <span id="header-part">Part 1</span></span>
+    <a href="/exam" class="button secondary">Thi thử 3 phần →</a>
+    <span id="connection" class="connection"><span class="status-dot"></span><span>Đang kết nối</span></span>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <div id="topic-label" class="section-label">CHỦ ĐỀ</div>
+      <nav id="topics" aria-label="Chủ đề Speaking"></nav>
+      <div id="cue-selector" hidden><label for="cue-select" class="section-label">CUE CARD</label><select id="cue-select" aria-label="Chọn cue card"></select></div>
+      <div class="sidebar-bottom">
+        <div class="section-label">PHIÊN HIỆN TẠI</div>
+        <div class="session-total"><strong id="session-count">0</strong><span>câu trả lời</span></div>
+        <button id="export" class="button secondary" disabled><i data-lucide="download"></i>Xuất kết quả</button>
+        <button id="reset" class="button text-button" disabled><i data-lucide="rotate-ccw"></i>Phiên mới</button>
+      </div>
+    </aside>
+    <main>
+      <div class="page-heading"><div><div id="part-eyebrow" class="eyebrow">IELTS SPEAKING · PART 1</div><h1>Speaking Practice</h1></div><div class="part-tabs" role="tablist" aria-label="Phần Speaking"><button id="part-1" role="tab" aria-selected="true" aria-controls="practice-workspace">Part 1</button><button id="part-2" role="tab" aria-selected="false" aria-controls="practice-workspace">Part 2</button></div></div>
+      <div id="config-warning" class="notice" hidden></div>
+      <div id="practice-workspace" class="workspace">
+        <section class="answer-section" aria-label="Câu hỏi và ghi âm">
+          <div class="section-heading"><h2 id="topic-name">Study & work</h2><span id="question-counter">01 / 05</span></div>
+          <div class="question-row"><span class="question-label"><span id="question-kind">QUESTION</span> <span id="question-number">01</span></span><div class="question-nav"><button id="shuffle-cue" class="icon-button" title="Đổi đề ngẫu nhiên" aria-label="Đổi đề ngẫu nhiên" hidden><i data-lucide="shuffle"></i></button><button id="prev" class="icon-button" title="Câu trước" aria-label="Câu trước"><i data-lucide="chevron-left"></i></button><button id="next" class="icon-button" title="Câu tiếp theo" aria-label="Câu tiếp theo"><i data-lucide="chevron-right"></i></button></div></div>
+          <h3 id="question">Do you work or are you a student?</h3>
+          <div id="cue-content" hidden><p class="cue-prompt">You should say:</p><ul id="cue-points"></ul><p id="cue-explain"></p></div>
+          <div id="part2-preparation" hidden>
+            <div class="phase-timers"><div id="prep-phase" class="phase"><span><i data-lucide="notebook-pen"></i>Chuẩn bị</span><strong id="prep-timer">01:00</strong></div><div id="speaking-phase" class="phase"><span><i data-lucide="mic"></i>Nói</span><strong id="speaking-timer">02:00</strong></div></div>
+            <progress id="phase-progress" max="60" value="0" aria-label="Tiến trình Part 2"></progress>
+            <label class="notes-label" for="prep-notes">Ghi chú chuẩn bị</label><textarea id="prep-notes" rows="3" maxlength="2000"></textarea>
+            <div class="preparation-actions"><button id="prepare" class="button secondary"><i data-lucide="timer"></i><span>Chuẩn bị 1 phút</span></button><span id="part2-status" role="status">Sẵn sàng</span></div>
+          </div>
+          <div class="recorder">
+            <div class="record-top"><span id="record-status">Sẵn sàng ghi âm</span><span id="timer">00:00</span></div>
+            <canvas id="waveform" aria-label="Dạng sóng audio"></canvas>
+            <div class="record-actions"><button id="record" class="button primary"><i data-lucide="mic"></i><span>Bắt đầu ghi âm</span></button><button id="upload" class="icon-button" title="Chọn file audio" aria-label="Chọn file audio"><i data-lucide="upload"></i></button><input id="audio-file" type="file" accept="audio/*,.m4a,.mp4,.webm,.flac" hidden></div>
+          </div>
+          <div id="recording-preview" class="recording-preview" hidden><div class="preview-heading"><span id="audio-name">Bản thu của bạn</span><div class="preview-actions"><button id="download-audio" class="icon-button" title="Tải audio" aria-label="Tải audio" disabled><i data-lucide="download"></i></button><button id="discard" class="icon-button" title="Bỏ bản thu" aria-label="Bỏ bản thu"><i data-lucide="trash-2"></i></button></div></div><audio id="playback" controls preload="metadata"></audio></div>
+          <div class="transcription-options"><label for="stt-vocabulary">Tên riêng cần nhận dạng (tùy chọn)</label><input id="stt-vocabulary" maxlength="400" placeholder="Ví dụ: Ngô Gia Tự"><p>Chỉ nhập tên riêng để gợi ý cách viết, không nhập câu trả lời mẫu.</p></div>
+          <div class="transcription-options" id="pronunciation-wrap"><label><input type="checkbox" id="pronunciation-consent" disabled> Gửi bản thu tới Azure để nhận feedback phát âm (có thể tính phí API)</label><p id="pronunciation-config">Đang kiểm tra Azure…</p></div>
+          <div class="submission"><label class="toggle-label"><input id="keep-fillers" type="checkbox" role="switch"><span>Giữ filler <span class="experimental">Thử nghiệm</span></span></label><button id="submit" class="button primary" disabled><i data-lucide="send"></i><span>Gửi câu trả lời</span></button></div>
+          <div id="error" class="notice error" role="alert" hidden></div>
+          <details class="sample-library"><summary>Mẫu đối chiếu đã lưu</summary><div class="sample-controls"><select id="sample-select" aria-label="Chọn mẫu audio"></select><label class="sample-prompt"><input id="sample-fillers" type="checkbox">Có prompt</label><button id="load-sample" class="icon-button" title="Mở kết quả mẫu" aria-label="Mở kết quả mẫu"><i data-lucide="folder-open"></i></button></div></details>
+        </section>
+        <section class="result-section" aria-label="Kết quả nhận dạng">
+          <div class="section-heading"><h2>Kết quả</h2><span id="result-tag" class="tag">Chưa có bản thu</span></div>
+          <div id="result-empty" class="empty-state"><i data-lucide="speech"></i><h3>Chưa có kết quả</h3><span>Transcript và chỉ số lời nói</span></div>
+          <div id="result-content" hidden>
+            <div class="result-metadata"><span id="result-source"></span><span id="latency"></span></div>
+            <div id="quality-warnings"></div>
+            <div class="transcript-heading"><span class="section-label">TRANSCRIPT</span><button id="copy" class="icon-button" title="Sao chép transcript" aria-label="Sao chép transcript"><i data-lucide="copy"></i></button></div>
+            <p id="transcript" class="transcript"></p>
+            <div id="pronunciation-result"></div>
+            <div class="metrics" id="metrics"></div>
+            <div class="metric-note">VAD: khoảng không nói trên audio · Dấu hiệu tự sửa cần xác nhận · Chưa có điểm IELTS</div>
+            <details id="metrics-comparison"><summary>Đối chiếu VAD / timestamps STT</summary><div class="table-scroll"><table class="comparison-table"><thead><tr><th>Nguồn</th><th>Từ/phút</th><th>Pause ≥ 0,5 s</th><th>Tổng pause</th><th>Cửa sổ nói</th></tr></thead><tbody id="comparison"></tbody></table></div></details>
+            <details id="vad-details"><summary>Khoảng không nói trên audio</summary><div class="table-scroll"><table><thead><tr><th>Bắt đầu</th><th>Kết thúc</th><th>Độ dài</th></tr></thead><tbody id="vad-pauses"></tbody></table></div></details>
+            <details id="disfluency-details"><summary>Dấu hiệu lặp cụm / tự sửa</summary><ul id="disfluency-list"></ul></details>
+            <details id="timestamps-details"><summary>Timestamps từng từ</summary><div class="table-scroll"><table class="words-table"><thead><tr><th>Từ</th><th>Bắt đầu</th><th>Kết thúc</th></tr></thead><tbody id="words"></tbody></table></div></details>
+          </div>
+        </section>
+      </div>
+      <section class="history-section"><div class="section-heading"><h2>Câu trả lời trong phiên</h2><span id="history-count">0 câu</span></div><div id="history-empty" class="history-empty">Chưa có câu trả lời đã gửi.</div><div id="history-table-wrap" class="table-scroll" hidden><table class="history-table"><thead><tr><th>Câu hỏi</th><th>Audio</th><th>Trạng thái</th><th></th></tr></thead><tbody id="history"></tbody></table></div></section>
+      <footer><span>SE373 · Speaking Agent</span><span><span id="footer-part">Part 1</span> <span class="separator">/</span> <span id="footer-model">Groq STT</span></span></footer>
+    <section class="exam-card rubric-search"><h2>Tra rubric Speaking</h2><form id="rubric-form"><label for="rubric-criterion">Tiêu chí</label><select id="rubric-criterion"><option>FC</option><option>LR</option><option>GRA</option><option selected>PR</option></select><label for="rubric-query">Đặc điểm cần tra (tiếng Anh)</label><input id="rubric-query" maxlength="2000" required value="word stress rhythm intonation intelligibility"><button class="button secondary" type="submit">Tra cứu rubric</button></form><div id="rubric-results" aria-live="polite"></div></section></main>
+  </div>
+  <dialog id="reset-dialog"><h2>Bắt đầu phiên mới?</h2><p>Các câu trả lời trong phiên hiện tại sẽ được bỏ khỏi trình duyệt.</p><div class="dialog-actions"><button id="reset-cancel" class="button secondary">Hủy</button><button id="reset-confirm" class="button primary">Bắt đầu phiên mới</button></div></dialog>
+</body>
+</html>

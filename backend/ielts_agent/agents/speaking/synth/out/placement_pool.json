@@ -1,0 +1,2180 @@
+{
+ "sp-place-00": {
+  "key": "sp-place-00",
+  "intended_band": 4.0,
+  "topic": "Daily Routines",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What do you usually do in the morning?"
+   },
+   {
+    "role": "candidate",
+    "text": "I... I get up... then I... I wash my face... and I... I eat... breakfast... sometimes coffee..."
+   },
+   {
+    "role": "examiner",
+    "text": "How long does it take you to get ready?"
+   },
+   {
+    "role": "candidate",
+    "text": "It... it take... about... half hour... maybe more... if... if I... sleep late..."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you have any routine after work?"
+   },
+   {
+    "role": "candidate",
+    "text": "After... after work... I go... home... I watch TV... or I... I read... book... sometimes... I walk..."
+   },
+   {
+    "role": "examiner",
+    "text": "What do you do on weekends?"
+   },
+   {
+    "role": "candidate",
+    "text": "Weekend... I... I sleep late... I go... market... buy food... and... I see friends... maybe..."
+   }
+  ]
+ },
+ "sp-place-01": {
+  "key": "sp-place-01",
+  "intended_band": 4.0,
+  "topic": "Local Environment",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How would you describe the area where you live?"
+   },
+   {
+    "role": "candidate",
+    "text": "My... my area... it is... small... it has... many trees... and... some houses..."
+   },
+   {
+    "role": "examiner",
+    "text": "Is the environment clean?"
+   },
+   {
+    "role": "candidate",
+    "text": "Clean... sometimes... there is... trash... on street... but... people... clean it..."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of transport do you use?"
+   },
+   {
+    "role": "candidate",
+    "text": "I... I use... motorbike... also bus... sometimes... walk..."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think the area will change in future?"
+   },
+   {
+    "role": "candidate",
+    "text": "Maybe... more... buildings... more people... maybe more... noise..."
+   }
+  ]
+ },
+ "sp-place-02": {
+  "key": "sp-place-02",
+  "intended_band": 4.0,
+  "topic": "Reading Habits",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you enjoy reading?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes... I... I like... reading... but... not many... time..."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of books do you read?"
+   },
+   {
+    "role": "candidate",
+    "text": "I read... story... novel... also... news..."
+   },
+   {
+    "role": "examiner",
+    "text": "How often do you read?"
+   },
+   {
+    "role": "candidate",
+    "text": "I read... maybe... twice... a week... sometimes... more..."
+   },
+   {
+    "role": "examiner",
+    "text": "Where do you usually read?"
+   },
+   {
+    "role": "candidate",
+    "text": "I read... at home... on couch... sometimes... at park..."
+   }
+  ]
+ },
+ "sp-place-03": {
+  "key": "sp-place-03",
+  "intended_band": 4.0,
+  "topic": "Culinary Preferences",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you like cooking at home?"
+   },
+   {
+    "role": "candidate",
+    "text": "Um... I... like... cooking... I think... I cook... sometimes... but... sometimes I... no, I... not... good..."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of food do you prefer to make?"
+   },
+   {
+    "role": "candidate",
+    "text": "I... make... rice... and... vegetables... maybe... chicken... but... I... repeat... rice..."
+   },
+   {
+    "role": "examiner",
+    "text": "Is there any dish you find difficult?"
+   },
+   {
+    "role": "candidate",
+    "text": "Difficult... soup... because... water... and... salt... I... not... know..."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you enjoy trying new recipes?"
+   },
+   {
+    "role": "candidate",
+    "text": "New... recipes... I try... sometimes... but... I... stop... because... hard..."
+   }
+  ]
+ },
+ "sp-place-04": {
+  "key": "sp-place-04",
+  "intended_band": 4.0,
+  "topic": "Leisure Technology",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you use technology for leisure?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes... I... use... phone... for... games... and... video..."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of games do you like?"
+   },
+   {
+    "role": "candidate",
+    "text": "I... like... puzzle... game... and... racing... game... but... I... play... short..."
+   },
+   {
+    "role": "examiner",
+    "text": "How often do you watch videos online?"
+   },
+   {
+    "role": "candidate",
+    "text": "Often... I... watch... video... on... phone... maybe... many... times... a day..."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think technology changes how people relax?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes... it... change... relax... because... people... use... phone... not... TV..."
+   }
+  ]
+ },
+ "sp-place-05": {
+  "key": "sp-place-05",
+  "intended_band": 4.0,
+  "topic": "Gift Selection",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How do you choose a gift for someone?"
+   },
+   {
+    "role": "candidate",
+    "text": "I... think... about... person... and... I... choose... something... simple... like... tea... or... book..."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you prefer giving something useful or something decorative?"
+   },
+   {
+    "role": "candidate",
+    "text": "Useful... because... they... need... it... I... give... mug... or... pen..."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of gifts are popular in your country?"
+   },
+   {
+    "role": "candidate",
+    "text": "Popular... are... food... sweets... and... small... items... like... key... chain..."
+   },
+   {
+    "role": "examiner",
+    "text": "Is there a special occasion when you give gifts?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes... birthday... and... holiday... I... give... gift... then..."
+   }
+  ]
+ },
+ "sp-place-06": {
+  "key": "sp-place-06",
+  "intended_band": 4.5,
+  "topic": "Daily Routines",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What time do you usually get up?"
+   },
+   {
+    "role": "candidate",
+    "text": "Umm... I, I get up at... six o’clock, I think... maybe six thirty? I need to check."
+   },
+   {
+    "role": "examiner",
+    "text": "Can you tell me about your morning routine?"
+   },
+   {
+    "role": "candidate",
+    "text": "I... I wash face, then I brush my teeth, and I... I have coffee. Sometimes I eat bread."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you exercise in the morning?"
+   },
+   {
+    "role": "candidate",
+    "text": "No, I... I not exercise. I maybe walk a little."
+   },
+   {
+    "role": "examiner",
+    "text": "How do you travel to work or school?"
+   },
+   {
+    "role": "candidate",
+    "text": "I take bus. The bus is... it is crowded but okay."
+   }
+  ]
+ },
+ "sp-place-07": {
+  "key": "sp-place-07",
+  "intended_band": 4.5,
+  "topic": "Local Environment",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How would you describe the environment in your neighbourhood?"
+   },
+   {
+    "role": "candidate",
+    "text": "It is... it is good? There are trees, but also many cars, very noisy."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of green spaces are there?"
+   },
+   {
+    "role": "candidate",
+    "text": "There is a park, small park, with... with some benches and... kids play."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think the area is clean?"
+   },
+   {
+    "role": "candidate",
+    "text": "Sometimes clean, sometimes not. There is trash on streets."
+   },
+   {
+    "role": "examiner",
+    "text": "What would you like to change?"
+   },
+   {
+    "role": "candidate",
+    "text": "I want more trees, less traffic, more... more clean."
+   }
+  ]
+ },
+ "sp-place-08": {
+  "key": "sp-place-08",
+  "intended_band": 4.5,
+  "topic": "Reading Habits",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you enjoy reading books?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I... I like reading, but I not read a lot."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of books do you prefer?"
+   },
+   {
+    "role": "candidate",
+    "text": "I like story books, like romance, also some... history books."
+   },
+   {
+    "role": "examiner",
+    "text": "How often do you read?"
+   },
+   {
+    "role": "candidate",
+    "text": "Maybe two times a week, sometimes less."
+   },
+   {
+    "role": "examiner",
+    "text": "Where do you usually read?"
+   },
+   {
+    "role": "candidate",
+    "text": "At home, on my bed, sometimes at coffee shop."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you use e‑books or paper books?"
+   },
+   {
+    "role": "candidate",
+    "text": "I use paper more, e‑books... I not like them much."
+   }
+  ]
+ },
+ "sp-place-09": {
+  "key": "sp-place-09",
+  "intended_band": 4.5,
+  "topic": "Culinary Preferences",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What kind of food do you like to eat?"
+   },
+   {
+    "role": "candidate",
+    "text": "I... I like... uh, I like pho, but I also… I like rice… sometimes… I need the question again?"
+   },
+   {
+    "role": "examiner",
+    "text": "Can you tell me about your favourite dish?"
+   },
+   {
+    "role": "candidate",
+    "text": "My favourite dish is bun… bun bo… it’s a beef noodle, I think… very tasty… I like it a lot."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you often cook at home?"
+   },
+   {
+    "role": "candidate",
+    "text": "I… I cook sometimes… I try to cook rice, but I… I forget the steps."
+   },
+   {
+    "role": "examiner",
+    "text": "What do you think about trying new foods?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think it is… it is interesting, but sometimes… I am not sure…"
+   }
+  ]
+ },
+ "sp-place-10": {
+  "key": "sp-place-10",
+  "intended_band": 4.5,
+  "topic": "Leisure Technology",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How do you usually spend your free time?"
+   },
+   {
+    "role": "candidate",
+    "text": "I… I watch… I watch TV… and also I use phone… I need the question again?"
+   },
+   {
+    "role": "examiner",
+    "text": "Do you use any technology for leisure?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I use smartphone… I play game… I also watch video on YouTube… sometimes I watch…"
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of games do you prefer?"
+   },
+   {
+    "role": "candidate",
+    "text": "I like… I like simple game… like puzzle… but I not good at… complex game."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think technology changes the way people relax?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I think… it changes… people stay at home more… using phone…"
+   }
+  ]
+ },
+ "sp-place-11": {
+  "key": "sp-place-11",
+  "intended_band": 4.5,
+  "topic": "Gift Selection",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What kind of gifts do you like to give?"
+   },
+   {
+    "role": "candidate",
+    "text": "I… I like give… I give small thing… like a book, but I not sure… I need the question again?"
+   },
+   {
+    "role": "examiner",
+    "text": "Can you describe a gift you gave recently?"
+   },
+   {
+    "role": "candidate",
+    "text": "I gave my friend a… a shirt… it was blue… I think she liked it…"
+   },
+   {
+    "role": "examiner",
+    "text": "How do you choose a gift for someone?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think about… what they like… I ask my friend… but sometimes I not know."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you prefer to buy gifts or make them yourself?"
+   },
+   {
+    "role": "candidate",
+    "text": "I prefer buy… because I not good at make… I think it is easier…"
+   }
+  ]
+ },
+ "sp-place-12": {
+  "key": "sp-place-12",
+  "intended_band": 5.0,
+  "topic": "Daily Routines",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What do you usually do in the morning?"
+   },
+   {
+    "role": "candidate",
+    "text": "I... I wake up early, I think, at six o’clock, then I brush my teeth and... and I have a coffee. I sometimes also read the news on my phone."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you have a regular breakfast?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I usually eat bread with jam, or sometimes rice porridge. I like rice porridge, it is warm."
+   },
+   {
+    "role": "examiner",
+    "text": "How do you get to work or school?"
+   },
+   {
+    "role": "candidate",
+    "text": "I take the bus. The bus is... is usually late, but I... I try to leave home early."
+   },
+   {
+    "role": "examiner",
+    "text": "What do you do in the evening?"
+   },
+   {
+    "role": "candidate",
+    "text": "In the evening I come home, I cook dinner, I watch TV, and then I study or... I read a book before sleep."
+   }
+  ]
+ },
+ "sp-place-13": {
+  "key": "sp-place-13",
+  "intended_band": 5.0,
+  "topic": "Local Environment",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How would you describe the environment in your neighbourhood?"
+   },
+   {
+    "role": "candidate",
+    "text": "My neighbourhood is... it is quiet, but there are many trees. The air is fresh, sometimes a bit dusty because of traffic."
+   },
+   {
+    "role": "examiner",
+    "text": "Are there many parks nearby?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, there is a big park near my house. I go there to walk, to walk with my family. It is nice."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think the local government does enough to keep the area clean?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think they try, but... but sometimes they forget to clean the streets. The garbage bins are often full."
+   },
+   {
+    "role": "examiner",
+    "text": "What changes would you like to see?"
+   },
+   {
+    "role": "candidate",
+    "text": "I would like more recycling bins, and more trees planted. More trees would make the air better."
+   }
+  ]
+ },
+ "sp-place-14": {
+  "key": "sp-place-14",
+  "intended_band": 5.0,
+  "topic": "Reading Habits",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you enjoy reading books?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I like reading. I read sometimes in the evening, after dinner."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of books do you prefer?"
+   },
+   {
+    "role": "candidate",
+    "text": "I like novels, especially romance and mystery. I also read some history books."
+   },
+   {
+    "role": "examiner",
+    "text": "How often do you read?"
+   },
+   {
+    "role": "candidate",
+    "text": "I try to read at least one chapter each day, but sometimes I am busy and I read only on weekends."
+   },
+   {
+    "role": "examiner",
+    "text": "Where do you usually read?"
+   },
+   {
+    "role": "candidate",
+    "text": "I read at home, on my sofa, sometimes in the park if the weather is good."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think reading is important?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, reading helps me relax and also improves my English, I think."
+   }
+  ]
+ },
+ "sp-place-15": {
+  "key": "sp-place-15",
+  "intended_band": 5.0,
+  "topic": "Culinary Preferences",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you like cooking at home?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I… I like cooking at home because it is... it is cheaper and I can control the taste."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of food do you usually prepare?"
+   },
+   {
+    "role": "candidate",
+    "text": "I usually prepare Vietnamese food, like pho and... and spring rolls. I also sometimes try rice... rice with fish."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you prefer eating out or at home?"
+   },
+   {
+    "role": "candidate",
+    "text": "I prefer eating at home because I can... I can choose the ingredients and it is more comfortable."
+   },
+   {
+    "role": "examiner",
+    "text": "Is there any dish you would like to learn?"
+   },
+   {
+    "role": "candidate",
+    "text": "I would like to learn to make... make sushi, because it looks nice and healthy."
+   }
+  ]
+ },
+ "sp-place-16": {
+  "key": "sp-place-16",
+  "intended_band": 5.0,
+  "topic": "Leisure Technology",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you use technology for leisure?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I use my phone for... for watching videos and playing games."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of games do you enjoy?"
+   },
+   {
+    "role": "candidate",
+    "text": "I enjoy simple games, like puzzle games and... and racing games."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think technology changes how people relax?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think it does, because people... people spend more time on screens instead of... instead of reading books."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you have a favourite app?"
+   },
+   {
+    "role": "candidate",
+    "text": "My favourite app is... is a music streaming app, because I like listening music."
+   }
+  ]
+ },
+ "sp-place-17": {
+  "key": "sp-place-17",
+  "intended_band": 5.0,
+  "topic": "Gift Selection",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you like giving gifts?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I like giving gifts because it is... it is nice to make people happy."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of gifts do you usually buy?"
+   },
+   {
+    "role": "candidate",
+    "text": "I usually buy small gifts, like books or... or some souvenirs."
+   },
+   {
+    "role": "examiner",
+    "text": "How do you choose a gift?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think about the person, their... their interest and try to find something useful."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you ever make gifts yourself?"
+   },
+   {
+    "role": "candidate",
+    "text": "Sometimes I make simple gifts, like... like handmade cards."
+   }
+  ]
+ },
+ "sp-place-18": {
+  "key": "sp-place-18",
+  "intended_band": 5.5,
+  "topic": "Daily Routines",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What time do you usually get up?"
+   },
+   {
+    "role": "candidate",
+    "text": "I... I usually get up at six o'clock in the morning, but sometimes I... I stay up late last night and then I wake up later."
+   },
+   {
+    "role": "examiner",
+    "text": "What do you do after you get up?"
+   },
+   {
+    "role": "candidate",
+    "text": "After I get up, I brush my teeth, I take a shower and then I have a breakfast, usually coffee and toast."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you have a regular routine on weekends?"
+   },
+   {
+    "role": "candidate",
+    "text": "On weekend I try to have same routine, but I also go market and I meet my friends for coffee."
+   },
+   {
+    "role": "examiner",
+    "text": "How do you feel about your daily schedule?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think it is quite good because it helps me to be organized, but sometimes it make me feel tired."
+   }
+  ]
+ },
+ "sp-place-19": {
+  "key": "sp-place-19",
+  "intended_band": 5.5,
+  "topic": "Local Environment",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How would you describe the area where you live?"
+   },
+   {
+    "role": "candidate",
+    "text": "I live in a small district near the river, there are many trees and a park, but also a lot of traffic noise."
+   },
+   {
+    "role": "examiner",
+    "text": "What do you like most about it?"
+   },
+   {
+    "role": "candidate",
+    "text": "I like the park most because I can walk there and see the river, it is very peaceful and fresh."
+   },
+   {
+    "role": "examiner",
+    "text": "Are there any problems in your neighbourhood?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, sometimes the garbage not taken away on time, and the street lights are broken, which make it unsafe at night."
+   },
+   {
+    "role": "examiner",
+    "text": "How do you think the environment could be improved?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think the council should plant more trees, clean the river and fix the lights, also they could organise community clean-ups."
+   }
+  ]
+ },
+ "sp-place-20": {
+  "key": "sp-place-20",
+  "intended_band": 5.5,
+  "topic": "Reading Habits",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you enjoy reading?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I enjoy reading, especially novels, because they take me to another world."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of books do you prefer?"
+   },
+   {
+    "role": "candidate",
+    "text": "I prefer fiction, especially mystery and romance, but sometimes I read history books for study."
+   },
+   {
+    "role": "examiner",
+    "text": "How often do you read?"
+   },
+   {
+    "role": "candidate",
+    "text": "I try to read every day, maybe half an hour before I go to sleep, but sometimes I forget."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think reading is important?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think reading is very important because it improve my vocabulary and also help me to understand other cultures."
+   }
+  ]
+ },
+ "sp-place-21": {
+  "key": "sp-place-21",
+  "intended_band": 5.5,
+  "topic": "Culinary Preferences",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What kind of food do you like to eat?"
+   },
+   {
+    "role": "candidate",
+    "text": "I like, uh, spicy food, especially pho and some fried rice, because it taste good."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you enjoy cooking at home?"
+   },
+   {
+    "role": "candidate",
+    "text": "Sometimes I try, but I not very good, I often burn the oil."
+   },
+   {
+    "role": "examiner",
+    "text": "What is your favorite restaurant?"
+   },
+   {
+    "role": "candidate",
+    "text": "My favourite is a small place near my house, they sell grilled chicken, it is very delicious but the service is a little slow."
+   },
+   {
+    "role": "examiner",
+    "text": "Would you like to try food from other countries?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I want to try Italian pasta, although I think the taste will be very different from Vietnamese food."
+   }
+  ]
+ },
+ "sp-place-22": {
+  "key": "sp-place-22",
+  "intended_band": 5.5,
+  "topic": "Leisure Technology",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How often do you use technology for leisure?"
+   },
+   {
+    "role": "candidate",
+    "text": "I use my phone almost everyday, I watch videos and sometimes I play game."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of games do you prefer?"
+   },
+   {
+    "role": "candidate",
+    "text": "I like puzzle games, because they make me think, but sometimes they are too hard for me."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think technology has changed the way people relax?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, before people read books, now they watch series on tablet, it make them more comfortable."
+   },
+   {
+    "role": "examiner",
+    "text": "Is there any technology you avoid?"
+   },
+   {
+    "role": "candidate",
+    "text": "I try not to use social media too much, because it can be waste of time, but I still check it sometimes."
+   }
+  ]
+ },
+ "sp-place-23": {
+  "key": "sp-place-23",
+  "intended_band": 5.5,
+  "topic": "Gift Selection",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How do you choose a gift for someone?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think about what they like, for example if they love coffee I will buy a coffee mug, but I sometimes forget the details."
+   },
+   {
+    "role": "examiner",
+    "text": "What was the best gift you ever gave?"
+   },
+   {
+    "role": "candidate",
+    "text": "The best gift I gave was a handmade photo album for my sister, she was very happy because it was personal."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you prefer to buy gifts or make them yourself?"
+   },
+   {
+    "role": "candidate",
+    "text": "I prefer to make them, because it shows more effort, but I not good at crafts, so I often buy."
+   },
+   {
+    "role": "examiner",
+    "text": "How important is the price of a gift?"
+   },
+   {
+    "role": "candidate",
+    "text": "Price is not so important, I think the thought behind it is more important, however sometimes I worry about being too cheap."
+   },
+   {
+    "role": "examiner",
+    "text": "Will you give gifts during festivals?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, during Tet I always give red envelopes, because it is tradition and people expect it."
+   }
+  ]
+ },
+ "sp-place-24": {
+  "key": "sp-place-24",
+  "intended_band": 6.0,
+  "topic": "Daily Routines",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What time do you usually wake up?"
+   },
+   {
+    "role": "candidate",
+    "text": "I usually wake up at seven o'clock because I have a habit of early rising to enjoy the morning air. It is a very good way to start the day with energy, although sometimes I am lazy and sleep until eight."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you have a specific routine for breakfast?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I like to eat a heavy breakfast. I usually have fried eggs with a baguette and some coffee. I think that taking the first meal is important to give me the strength to work, so I never skip it even if I am in a rush."
+   },
+   {
+    "role": "examiner",
+    "text": "How do you usually spend your evenings?"
+   },
+   {
+    "role": "candidate",
+    "text": "In the evening, I like to relax at home. I might watch some television or read a book. Sometimes, if my friends are free, we go out to eat dinner together. I find that socializing helps me reduce the stress from my work day."
+   },
+   {
+    "role": "examiner",
+    "text": "Is your daily routine different on weekends?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, it is quite different. On weekends, I sleep in until nine or ten o'clock. I also like to do some housework, like cleaning the room or washing clothes, which I don't have time for during the week. It feels more comfortable to have a slower pace."
+   }
+  ]
+ },
+ "sp-place-25": {
+  "key": "sp-place-25",
+  "intended_band": 6.0,
+  "topic": "Local Environment",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Is there a park near where you live?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, there is a large park about ten minutes' walk from my apartment. It is a very popular place for local residents to go for a walk or exercise. The environment there is quite fresh and peaceful compared to the noisy streets outside."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you often visit that park?"
+   },
+   {
+    "role": "candidate",
+    "text": "I try to go there at least twice a week, usually on Sunday mornings. I like the feeling of breathing in the fresh air and seeing the greenery. However, sometimes the park is very crowded with people doing aerobics, so I prefer to go there earlier in the morning."
+   },
+   {
+    "role": "examiner",
+    "text": "What kinds of plants or animals can you see there?"
+   },
+   {
+    "role": "candidate",
+    "text": "There are many types of trees and flowers, but I am not very good at naming them. I often see squirrels running around and different kinds of birds singing in the trees. I think the biodiversity there is quite good for an urban area, which makes it a nice place to relax."
+   },
+   {
+    "role": "examiner",
+    "text": "Has the condition of the park changed recently?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I noticed that the city council has repaired the pathways and added more benches. They also planted more flowers along the walkways. I think these improvements make the park more attractive, but I hope they will install more trash bins to keep the area clean."
+   }
+  ]
+ },
+ "sp-place-26": {
+  "key": "sp-place-26",
+  "intended_band": 6.0,
+  "topic": "Reading Habits",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you enjoy reading books?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I enjoy reading books because it makes me relax and also it helps me to broaden my mind."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of books do you prefer?"
+   },
+   {
+    "role": "candidate",
+    "text": "I prefer novels, especially the ones that are full of adventure and romance, although sometimes I read some scientific magazines."
+   },
+   {
+    "role": "examiner",
+    "text": "How often do you read?"
+   },
+   {
+    "role": "candidate",
+    "text": "I try to read at least one hour each evening, sometimes more on the weekend when I have more free time."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think reading is important for young people?"
+   },
+   {
+    "role": "candidate",
+    "text": "Absolutely, I think it is very important because it can improve their vocabulary and also give them a better understanding of the world."
+   }
+  ]
+ },
+ "sp-place-27": {
+  "key": "sp-place-27",
+  "intended_band": 6.0,
+  "topic": "Culinary Preferences",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What type of food do you like the most?"
+   },
+   {
+    "role": "candidate",
+    "text": "I like Vietnamese street food the most, especially pho and banh mi, they are very tasty and aromatic."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you often cook at home?"
+   },
+   {
+    "role": "candidate",
+    "text": "I sometimes cook at home, but I prefer to eat out because the flavors are more authentic and I don't have much time."
+   },
+   {
+    "role": "examiner",
+    "text": "Is there a dish you dislike?"
+   },
+   {
+    "role": "candidate",
+    "text": "I am not a big fan of very spicy dishes, they make my stomach feel uneasy."
+   },
+   {
+    "role": "examiner",
+    "text": "How has your taste in food changed over the years?"
+   },
+   {
+    "role": "candidate",
+    "text": "When I was younger, I liked simple meals, but now I enjoy trying new cuisines and more complex flavors."
+   }
+  ]
+ },
+ "sp-place-28": {
+  "key": "sp-place-28",
+  "intended_band": 6.0,
+  "topic": "Leisure Technology",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you like spending time with technology in your free time?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I really do. I think it is a good way to relax after a long day. For example, I often watch online movies or play some video games because they help me escape from reality for a while."
+   },
+   {
+    "role": "examiner",
+    "text": "How has technology changed the way you relax?"
+   },
+   {
+    "role": "candidate",
+    "text": "Well, in the past, my family used to read books or just sit in the garden. But now, we are more connected to digital things. I find it convenient to control everything with my phone, even the lights in my house, which makes life easier but also a bit more complicated sometimes."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you prefer using new or old technology?"
+   },
+   {
+    "role": "candidate",
+    "text": "I prefer new technology because it is faster and has better features. Old devices are often slow and lack modern functions that I find essential for my daily routine, such as smart assistants."
+   },
+   {
+    "role": "examiner",
+    "text": "Is it important to have the latest gadgets?"
+   },
+   {
+    "role": "candidate",
+    "text": "Not really, I don't think so. Many people buy new things just to show off, which is a waste of money. I believe that as long as the device works well and meets your needs, there is no need to spend too much on the newest model."
+   }
+  ]
+ },
+ "sp-place-29": {
+  "key": "sp-place-29",
+  "intended_band": 6.0,
+  "topic": "Gift Selection",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you enjoy giving gifts to others?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I do. I think giving presents is a nice way to show affection and strengthen relationships with friends and family. It makes me feel happy when I see their faces light up when they open the box."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of gifts do you usually buy?"
+   },
+   {
+    "role": "candidate",
+    "text": "It depends on who the gift is for. For my friends, I often choose personalized items like mugs or notebooks with their names on them. For older relatives, I prefer practical things like health supplements or high-quality tea, because I think those are more useful."
+   },
+   {
+    "role": "examiner",
+    "text": "Is it difficult to choose a gift for people you do not know well?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, it can be quite challenging. I sometimes struggle to find something appropriate that is not too personal but still thoughtful. I often end up buying generic items like chocolates or flowers because they are safe choices that rarely offend anyone."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think expensive gifts are always better?"
+   },
+   {
+    "role": "candidate",
+    "text": "No, I don't agree with that. The value of a gift does not necessarily come from its price tag. A small, handmade gift that shows effort and care is often more meaningful than an expensive item bought without much thought."
+   }
+  ]
+ },
+ "sp-place-30": {
+  "key": "sp-place-30",
+  "intended_band": 6.5,
+  "topic": "Daily Routines",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What time do you usually get up?"
+   },
+   {
+    "role": "candidate",
+    "text": "I normally get up at six in the morning because I have to go to work early."
+   },
+   {
+    "role": "examiner",
+    "text": "What do you do after you get up?"
+   },
+   {
+    "role": "candidate",
+    "text": "First I wash my face, then I have a quick breakfast of rice and tea before I catch the bus."
+   },
+   {
+    "role": "examiner",
+    "text": "How do you spend your evenings?"
+   },
+   {
+    "role": "candidate",
+    "text": "In the evening I usually finish my tasks, then I relax by watching a drama or reading a book before I go to bed around ten."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you have any regular exercise?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I try to jog for thirty minutes in the park three times a week, although sometimes the weather makes it difficult."
+   }
+  ]
+ },
+ "sp-place-31": {
+  "key": "sp-place-31",
+  "intended_band": 6.5,
+  "topic": "Local Environment",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How would you describe the environment in your hometown?"
+   },
+   {
+    "role": "candidate",
+    "text": "My hometown is near a river, so there are many trees and a lot of fresh air, but lately the traffic is getting worse."
+   },
+   {
+    "role": "examiner",
+    "text": "What are some of the main environmental problems there?"
+   },
+   {
+    "role": "candidate",
+    "text": "The biggest problem is the air pollution from factories, and also the waste that people throw in the streets, which makes the river dirty."
+   },
+   {
+    "role": "examiner",
+    "text": "What do people do to improve the situation?"
+   },
+   {
+    "role": "candidate",
+    "text": "The local government has started a recycling program and they also plant more trees, but many residents still ignore the rules."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think the situation will get better?"
+   },
+   {
+    "role": "candidate",
+    "text": "I hope so, because younger people are more aware about climate, however it will take time and cooperation from everyone."
+   }
+  ]
+ },
+ "sp-place-32": {
+  "key": "sp-place-32",
+  "intended_band": 6.5,
+  "topic": "Reading Habits",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you enjoy reading books?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I really do, because it helps me to relax after a long day at work, but I usually only read novels that have a strong plot, so I don't spend too much time on poetry."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of books do you prefer to read?"
+   },
+   {
+    "role": "candidate",
+    "text": "I am mostly interested in mystery stories, as they keep me curious about what will happen next, although sometimes I find the endings a bit disappointing if they are not logical enough."
+   },
+   {
+    "role": "examiner",
+    "text": "How often do you read?"
+   },
+   {
+    "role": "candidate",
+    "text": "Probably three times a week, which is not very frequent, but I try to read for at least twenty minutes before I go to sleep to clear my mind from daily stressors."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you prefer reading physical books or electronic ones?"
+   },
+   {
+    "role": "candidate",
+    "text": "I prefer physical books, because I enjoy the smell of paper and the feel of the pages, whereas e-readers are more convenient for traveling since they are lightweight and can store many novels at once."
+   }
+  ]
+ },
+ "sp-place-33": {
+  "key": "sp-place-33",
+  "intended_band": 6.5,
+  "topic": "Culinary Preferences",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you like cooking?"
+   },
+   {
+    "role": "candidate",
+    "text": "I am quite fond of it, since preparing meals allows me to be creative, but I do not do it very often because I am usually too tired after work to stand in the kitchen for a long time."
+   },
+   {
+    "role": "examiner",
+    "text": "What is your favorite dish to cook?"
+   },
+   {
+    "role": "candidate",
+    "text": "It has to be chicken soup, as it is very comforting during cold weather, and the process of simmering the broth is quite meditative, even though it takes a lot of patience to get the flavor right."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you prefer sweet or savory food?"
+   },
+   {
+    "role": "candidate",
+    "text": "I generally lean towards savory tastes, because I find them more satisfying for lunch, but I do enjoy a small piece of chocolate after dinner to balance out the saltiness of the main course."
+   },
+   {
+    "role": "examiner",
+    "text": "How do you usually eat your meals?"
+   },
+   {
+    "role": "candidate",
+    "text": "I mostly eat with my family, which makes the time more social and pleasant, although on weekends I might eat alone while watching a movie if I am trying to finish a show I have been following for weeks."
+   }
+  ]
+ },
+ "sp-place-34": {
+  "key": "sp-place-34",
+  "intended_band": 6.5,
+  "topic": "Leisure Technology",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you often use technology in your free time?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I usually use my smartphone to watch videos and sometimes play games when I have some spare time."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of activities do you prefer online?"
+   },
+   {
+    "role": "candidate",
+    "text": "I like browsing social media, especially to see updates from friends, and also I enjoy listening to music streaming services."
+   },
+   {
+    "role": "examiner",
+    "text": "Has this changed the way you relax?"
+   },
+   {
+    "role": "candidate",
+    "text": "Definitely, before I used to read books more, but now I find digital content more convenient and quicker to access."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think technology will replace traditional hobbies?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think it might influence them, but I believe some people will still prefer hands‑on activities like painting or gardening because they give a different feeling."
+   }
+  ]
+ },
+ "sp-place-35": {
+  "key": "sp-place-35",
+  "intended_band": 6.5,
+  "topic": "Gift Selection",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How do you choose a gift for someone?"
+   },
+   {
+    "role": "candidate",
+    "text": "I usually think about what the person likes and then try to find something related, for example if they enjoy cooking I might buy a nice kitchen tool."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you ever buy gifts online?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I often use online shops because they have many options and sometimes cheaper prices than physical stores."
+   },
+   {
+    "role": "examiner",
+    "text": "What was the most memorable gift you gave?"
+   },
+   {
+    "role": "candidate",
+    "text": "The most memorable was a handmade photo album for my sister's birthday, because I spent a lot of time arranging the pictures and she was really touched."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think the price matters most?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think the thought behind the gift is more important than the cost, although a reasonable price can make it easier to give without worrying about budget."
+   }
+  ]
+ },
+ "sp-place-36": {
+  "key": "sp-place-36",
+  "intended_band": 7.0,
+  "topic": "Daily Routines",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What time do you usually get up?"
+   },
+   {
+    "role": "candidate",
+    "text": "I generally rise around six-thirty in the morning, because I like to have a quiet hour before the city awakens."
+   },
+   {
+    "role": "examiner",
+    "text": "What do you do after you get up?"
+   },
+   {
+    "role": "candidate",
+    "text": "After washing up, I prepare a modest breakfast—usually some rice porridge with a boiled egg—and then I head out to catch the bus to work."
+   },
+   {
+    "role": "examiner",
+    "text": "How do you commute to your workplace?"
+   },
+   {
+    "role": "candidate",
+    "text": "I take the municipal bus, which departs from a stop two blocks from my apartment; the ride lasts about twenty minutes, and I often read the news on my phone during that time."
+   },
+   {
+    "role": "examiner",
+    "text": "What is the most enjoyable part of your daily routine?"
+   },
+   {
+    "role": "candidate",
+    "text": "I find the short walk to the office the most pleasant, as the streets are lined with blossoming trees and the air feels fresh after the early morning drizzle."
+   }
+  ]
+ },
+ "sp-place-37": {
+  "key": "sp-place-37",
+  "intended_band": 7.0,
+  "topic": "Local Environment",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How would you describe the environment in your neighbourhood?"
+   },
+   {
+    "role": "candidate",
+    "text": "My neighbourhood is a blend of old wooden houses and newly built apartments, interspersed with small parks where elders gather for morning exercises."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of green spaces are available nearby?"
+   },
+   {
+    "role": "candidate",
+    "text": "There is a modest community garden beside the elementary school, featuring a variety of herbs, ornamental shrubs, and a few fruit trees that residents tend to collectively."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think the local environment has changed over the years?"
+   },
+   {
+    "role": "candidate",
+    "text": "Definitely; over the past decade, several traditional stalls have been replaced by modern cafés, and the once‑narrow lanes have been widened to accommodate increasing traffic."
+   },
+   {
+    "role": "examiner",
+    "text": "How does the environment affect your daily life?"
+   },
+   {
+    "role": "candidate",
+    "text": "The proximity to green areas encourages me to jog in the mornings, while the bustling streets provide convenient access to shops, so I rarely need to travel far for daily necessities."
+   }
+  ]
+ },
+ "sp-place-38": {
+  "key": "sp-place-38",
+  "intended_band": 7.0,
+  "topic": "Reading Habits",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you enjoy reading books?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I absolutely love reading; it transports me to different worlds and broadens my perspective."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of books do you prefer?"
+   },
+   {
+    "role": "candidate",
+    "text": "I tend to favour historical novels because they blend factual detail with compelling narratives, which I find both enlightening and entertaining."
+   },
+   {
+    "role": "examiner",
+    "text": "How often do you read?"
+   },
+   {
+    "role": "candidate",
+    "text": "I try to read at least an hour each evening, usually before bedtime, and on weekends I might spend a few extra hours immersed in a longer work."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think reading habits are changing nowadays?"
+   },
+   {
+    "role": "candidate",
+    "text": "Indeed, with the rise of digital platforms, many people now skim articles on tablets rather than delving into printed books, which alters the depth of comprehension."
+   }
+  ]
+ },
+ "sp-place-39": {
+  "key": "sp-place-39",
+  "intended_band": 7.0,
+  "topic": "Culinary Preferences",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What kind of food do you like the most?"
+   },
+   {
+    "role": "candidate",
+    "text": "I have a particular fondness for Vietnamese street food, especially phở, because its fragrant broth and fresh herbs create a harmonious balance of flavors."
+   },
+   {
+    "role": "examiner",
+    "text": "How often do you eat out?"
+   },
+   {
+    "role": "candidate",
+    "text": "I usually dine out two or three times a week, mainly for lunch, as it allows me to sample diverse cuisines without the hassle of cooking."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you enjoy cooking at home?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I relish the opportunity to experiment with ingredients, and I often prepare traditional dishes like bánh cuốn, which requires meticulous technique."
+   },
+   {
+    "role": "examiner",
+    "text": "Has your taste in food changed over the years?"
+   },
+   {
+    "role": "candidate",
+    "text": "Certainly, when I was younger I preferred milder flavours, but as I matured I started appreciating spicier and more complex dishes, such as those featuring fermented shrimp paste."
+   },
+   {
+    "role": "examiner",
+    "text": "What influences your food choices?"
+   },
+   {
+    "role": "candidate",
+    "text": "My selections are largely guided by health considerations, cultural heritage, and occasional recommendations from friends who introduce me to novel eateries."
+   }
+  ]
+ },
+ "sp-place-40": {
+  "key": "sp-place-40",
+  "intended_band": 7.0,
+  "topic": "Leisure Technology",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you often use technology in your leisure time?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I usually spend my free evenings scrolling through curated video platforms or experimenting with photo‑editing apps, which I find quite relaxing after a long day."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of activities do you prefer online?"
+   },
+   {
+    "role": "candidate",
+    "text": "I tend to gravitate towards interactive documentaries and language‑learning games because they combine entertainment with personal development."
+   },
+   {
+    "role": "examiner",
+    "text": "Has your use of technology changed over the years?"
+   },
+   {
+    "role": "candidate",
+    "text": "Definitely; when I was younger I mostly played simple mobile games, but now I use sophisticated streaming services and even virtual‑reality tours to explore distant cultures without leaving my apartment."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think technology improves your leisure experience?"
+   },
+   {
+    "role": "candidate",
+    "text": "I believe it does, as it provides instant access to a vast array of content, allowing me to customise my downtime according to my mood and interests."
+   }
+  ]
+ },
+ "sp-place-41": {
+  "key": "sp-place-41",
+  "intended_band": 7.0,
+  "topic": "Gift Selection",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How do you usually choose a gift for someone?"
+   },
+   {
+    "role": "candidate",
+    "text": "I start by considering the person’s hobbies and recent remarks, then I look for something that aligns with those interests but also has a touch of novelty."
+   },
+   {
+    "role": "examiner",
+    "text": "Can you give an example of a recent gift you gave?"
+   },
+   {
+    "role": "candidate",
+    "text": "Last month I bought a handcrafted leather journal for my colleague who loves sketching, because I knew she appreciated artisanal items and could use it for her designs."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you prefer giving practical or sentimental gifts?"
+   },
+   {
+    "role": "candidate",
+    "text": "I tend to blend both; a practical item that also carries emotional weight, like a personalized mug with a meaningful quote, feels more thoughtful than a purely utilitarian present."
+   },
+   {
+    "role": "examiner",
+    "text": "How important is the packaging of a gift?"
+   },
+   {
+    "role": "candidate",
+    "text": "Packaging matters a lot; an elegantly wrapped parcel creates anticipation and shows that I invested effort, which often enhances the recipient’s appreciation."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you ever buy gifts online?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, especially when the item is niche or custom‑made; online platforms allow me to compare options and read reviews, ensuring the gift meets my standards before I commit."
+   }
+  ]
+ },
+ "sp-place-42": {
+  "key": "sp-place-42",
+  "intended_band": 7.5,
+  "topic": "Daily Routines",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What time do you usually get up?"
+   },
+   {
+    "role": "candidate",
+    "text": "I normally get up around six o’clock, because I like to have a quiet hour before work."
+   },
+   {
+    "role": "examiner",
+    "text": "What do you do after getting up?"
+   },
+   {
+    "role": "candidate",
+    "text": "First I drink a glass of water, then I do a short stretch routine and prepare breakfast, usually some rice porridge with fruit."
+   },
+   {
+    "role": "examiner",
+    "text": "How do you travel to work?"
+   },
+   {
+    "role": "candidate",
+    "text": "I take the city bus, which takes about thirty minutes, although sometimes I ride my bicycle when the weather is nice."
+   },
+   {
+    "role": "examiner",
+    "text": "What do you usually do in the evening?"
+   },
+   {
+    "role": "candidate",
+    "text": "In the evening I finish any remaining tasks, then I have dinner with my family and we often watch a TV series before going to bed."
+   }
+  ]
+ },
+ "sp-place-43": {
+  "key": "sp-place-43",
+  "intended_band": 7.5,
+  "topic": "Local Environment",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How would you describe the environment in your neighbourhood?"
+   },
+   {
+    "role": "candidate",
+    "text": "My neighbourhood is quite green, with many trees lining the streets and a small park where children play."
+   },
+   {
+    "role": "examiner",
+    "text": "Are there any problems with the local environment?"
+   },
+   {
+    "role": "candidate",
+    "text": "One issue is the traffic noise during rush hour, and sometimes the air feels a bit hazy because of nearby construction."
+   },
+   {
+    "role": "examiner",
+    "text": "What do you think could be done to improve it?"
+   },
+   {
+    "role": "candidate",
+    "text": "The local council could increase the number of bike lanes and plant more shrubs to filter dust, which would make the area quieter and healthier."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you feel the community is involved in environmental issues?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, many residents join clean‑up groups on weekends and there’s a community garden that encourages sustainable practices."
+   }
+  ]
+ },
+ "sp-place-44": {
+  "key": "sp-place-44",
+  "intended_band": 7.5,
+  "topic": "Reading Habits",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you like reading books in your free time?"
+   },
+   {
+    "role": "candidate",
+    "text": "Absolutely. I actually find that I read more often during the week than I do on weekends because I usually have more structured time to sit down with a novel. On weekends, I tend to get distracted by social plans or just relaxing on the sofa without a specific purpose."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of books do you usually read?"
+   },
+   {
+    "role": "candidate",
+    "text": "I’m quite fond of literary fiction and biographies. I recently finished a biography of a famous architect, which was fascinating because it provided a behind-the-scenes look at how he approached complex design problems. It wasn’t just dry facts; it was very personal."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you prefer e-books or paper books?"
+   },
+   {
+    "role": "candidate",
+    "text": "I definitely have a preference for physical books. There is something tactile about turning pages that I miss with an e-reader. However, I will use an e-book if I am travelling, as it is much lighter and I don’t have to worry about carrying multiple volumes."
+   },
+   {
+    "role": "examiner",
+    "text": "How often do you buy new books?"
+   },
+   {
+    "role": "candidate",
+    "text": "Not very frequently. I usually try to exhaust my current supply from the library first. I only purchase a book when I find a specific title that is out of print or if I am particularly eager to start a new series immediately without waiting for a library slot."
+   }
+  ]
+ },
+ "sp-place-45": {
+  "key": "sp-place-45",
+  "intended_band": 7.5,
+  "topic": "Culinary Preferences",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you enjoy cooking at home?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I do. It’s a very therapeutic activity for me. After a long day at work, the process of chopping vegetables and mixing ingredients helps me decompress. I find that the result is always more hygienic and tailored to my taste compared to ordering out."
+   },
+   {
+    "role": "examiner",
+    "text": "What types of food do you like to prepare?"
+   },
+   {
+    "role": "candidate",
+    "text": "I mostly stick to Vietnamese cuisine, such as pho or spring rolls, because I want to replicate the authentic flavours from my grandmother’s recipes. Occasionally, I experiment with Italian pasta, but I haven’t quite mastered the technique for making fresh dough yet."
+   },
+   {
+    "role": "examiner",
+    "text": "Is it easy for you to cook?"
+   },
+   {
+    "role": "candidate",
+    "text": "It has become much easier over time. When I started, I often burnt things or got the seasoning wrong. Now, I have developed a better sense of timing and heat control. I still refer to online recipes for new dishes, but for my staples, I cook almost entirely from memory."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think people in your country eat healthier food now?"
+   },
+   {
+    "role": "candidate",
+    "text": "It’s a mixed bag. On one hand, there is a growing awareness about nutrition, and many people are opting for organic produce and less processed food. On the other hand, the convenience of fast food remains a significant issue, especially among younger generations who lead busy lives and often lack the time to prepare a full meal from scratch."
+   }
+  ]
+ },
+ "sp-place-46": {
+  "key": "sp-place-46",
+  "intended_band": 7.5,
+  "topic": "Leisure Technology",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you often use technology in your free time?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I usually spend my leisure time on my tablet, reading news articles or watching short videos because it helps me relax after a busy day."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of activities do you prefer online?"
+   },
+   {
+    "role": "candidate",
+    "text": "I tend to prefer educational content, such as language learning apps, but I also enjoy streaming documentaries and occasionally playing casual puzzle games to unwind."
+   },
+   {
+    "role": "examiner",
+    "text": "Has your use of technology changed over the years?"
+   },
+   {
+    "role": "candidate",
+    "text": "Definitely. When I was younger I mostly used a desktop computer for schoolwork, but now I rely on my smartphone and smartwatch for almost everything, from music to fitness tracking."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think technology improves your leisure experiences?"
+   },
+   {
+    "role": "candidate",
+    "text": "I believe it does, because it gives me instant access to a wide range of entertainment and information, which makes my free time more varied and engaging."
+   }
+  ]
+ },
+ "sp-place-47": {
+  "key": "sp-place-47",
+  "intended_band": 7.5,
+  "topic": "Gift Selection",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How do you choose a gift for someone?"
+   },
+   {
+    "role": "candidate",
+    "text": "I start by thinking about the person’s hobbies and recent interests, then I try to find something that matches those, like a cooking class voucher for a friend who loves recipes."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you ever buy gifts online?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I often browse online shops because they offer many options and reviews, which helps me decide if the item is suitable and of good quality."
+   },
+   {
+    "role": "examiner",
+    "text": "What was the most memorable gift you have given?"
+   },
+   {
+    "role": "candidate",
+    "text": "The most memorable was a handcrafted wooden photo frame I ordered for my sister’s birthday; she was thrilled because it displayed a family picture and reflected her love for natural materials."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think the price of a gift matters?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think the thought behind the gift matters more than its cost; a modest but thoughtful present can be more appreciated than an expensive, impersonal one."
+   }
+  ]
+ },
+ "sp-place-48": {
+  "key": "sp-place-48",
+  "intended_band": 8.0,
+  "topic": "Daily Routines",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What time do you usually get up?"
+   },
+   {
+    "role": "candidate",
+    "text": "I normally get up around six thirty in the morning."
+   },
+   {
+    "role": "examiner",
+    "text": "How do you spend your mornings?"
+   },
+   {
+    "role": "candidate",
+    "text": "First I drink a cup of coffee, then I read the news and prepare for work."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you prefer a routine or a flexible schedule?"
+   },
+   {
+    "role": "candidate",
+    "text": "I prefer a routine because it helps me stay organised and reduces stress."
+   },
+   {
+    "role": "examiner",
+    "text": "What do you do after work?"
+   },
+   {
+    "role": "candidate",
+    "text": "After work I usually go to the gym, then I cook dinner and relax with a book."
+   },
+   {
+    "role": "examiner",
+    "text": "How often do you exercise?"
+   },
+   {
+    "role": "candidate",
+    "text": "I try to exercise at least four times a week, mostly in the evenings."
+   }
+  ]
+ },
+ "sp-place-49": {
+  "key": "sp-place-49",
+  "intended_band": 8.0,
+  "topic": "Local Environment",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How would you describe the environment in your hometown?"
+   },
+   {
+    "role": "candidate",
+    "text": "My hometown is surrounded by hills and a river, so it feels quite green and fresh."
+   },
+   {
+    "role": "examiner",
+    "text": "What are the main environmental challenges there?"
+   },
+   {
+    "role": "candidate",
+    "text": "The biggest challenge is traffic congestion, which leads to air pollution during rush hour."
+   },
+   {
+    "role": "examiner",
+    "text": "Are there any initiatives to improve the environment?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, the local council has introduced bike lanes and planted more trees along main streets."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think residents are supportive of these changes?"
+   },
+   {
+    "role": "candidate",
+    "text": "Most people are supportive because they see the benefits for health and quality of life."
+   },
+   {
+    "role": "examiner",
+    "text": "How does the climate affect daily life?"
+   },
+   {
+    "role": "candidate",
+    "text": "The tropical climate means it’s hot and humid most of the year, so people often schedule outdoor activities in the early morning."
+   }
+  ]
+ },
+ "sp-place-50": {
+  "key": "sp-place-50",
+  "intended_band": 8.0,
+  "topic": "Reading Habits",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you enjoy reading books?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I really enjoy reading books, especially novels and biographies."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of books do you read most often?"
+   },
+   {
+    "role": "candidate",
+    "text": "I tend to read contemporary fiction because the stories feel relevant to everyday life, but I also pick up a few history books when I have spare time."
+   },
+   {
+    "role": "examiner",
+    "text": "How often do you read?"
+   },
+   {
+    "role": "candidate",
+    "text": "I try to read at least one chapter every evening before I go to sleep, so that’s roughly five to six days a week."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you prefer reading printed books or e‑books?"
+   },
+   {
+    "role": "candidate",
+    "text": "I prefer printed books; I like the feeling of turning the pages and the smell of paper, although e‑books are convenient for travelling."
+   }
+  ]
+ },
+ "sp-place-51": {
+  "key": "sp-place-51",
+  "intended_band": 8.0,
+  "topic": "Culinary Preferences",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "What type of food do you like the most?"
+   },
+   {
+    "role": "candidate",
+    "text": "I love Vietnamese cuisine the most, especially dishes like phở and bánh mì because they combine fresh herbs, subtle spices and a balanced broth."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you often cook at home?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I cook at home several times a week; I enjoy experimenting with different sauces and fresh vegetables."
+   },
+   {
+    "role": "examiner",
+    "text": "What is a typical meal in your family?"
+   },
+   {
+    "role": "candidate",
+    "text": "A typical dinner includes steamed rice, a stir‑fried vegetable dish, and a protein such as grilled fish or tofu, followed by a small bowl of soup."
+   },
+   {
+    "role": "examiner",
+    "text": "Is there any foreign cuisine you like?"
+   },
+   {
+    "role": "candidate",
+    "text": "I’m quite fond of Japanese food, especially sushi and ramen, because the flavors are clean and the presentation is elegant."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think your eating habits will change in the future?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think I’ll try to incorporate more plant‑based meals as I become more health‑conscious, but I’ll still keep my favourite traditional dishes."
+   }
+  ]
+ },
+ "sp-place-52": {
+  "key": "sp-place-52",
+  "intended_band": 8.0,
+  "topic": "Leisure Technology",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "Do you often use technology for leisure?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I usually watch movies or play games on my tablet in the evenings."
+   },
+   {
+    "role": "examiner",
+    "text": "What kind of games do you prefer?"
+   },
+   {
+    "role": "candidate",
+    "text": "I like puzzle games because they are challenging but not too stressful."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you think technology has changed the way people relax?"
+   },
+   {
+    "role": "candidate",
+    "text": "Definitely, people now can stream music or read e‑books anywhere, which was impossible a few decades ago."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you ever take a break from screens?"
+   },
+   {
+    "role": "candidate",
+    "text": "I try to go for a walk or meet friends face‑to‑face at least once a week."
+   }
+  ]
+ },
+ "sp-place-53": {
+  "key": "sp-place-53",
+  "intended_band": 8.0,
+  "topic": "Gift Selection",
+  "turns": [
+   {
+    "role": "examiner",
+    "text": "How do you choose a gift for someone?"
+   },
+   {
+    "role": "candidate",
+    "text": "I think about the person’s hobbies and try to find something useful that matches their interests."
+   },
+   {
+    "role": "examiner",
+    "text": "Can you give an example of a recent gift you gave?"
+   },
+   {
+    "role": "candidate",
+    "text": "Last month I gave my sister a high‑quality sketchbook because she loves drawing."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you prefer giving practical or sentimental gifts?"
+   },
+   {
+    "role": "candidate",
+    "text": "I usually blend both; a practical item that also has a personal touch feels most meaningful."
+   },
+   {
+    "role": "examiner",
+    "text": "How important is the presentation of a gift?"
+   },
+   {
+    "role": "candidate",
+    "text": "Very important – a nicely wrapped gift shows effort and makes the moment more special."
+   },
+   {
+    "role": "examiner",
+    "text": "Do you ever buy gifts online?"
+   },
+   {
+    "role": "candidate",
+    "text": "Yes, I often order online because it offers more variety and I can compare prices easily."
+   }
+  ]
+ }
+}
